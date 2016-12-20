@@ -1,0 +1,19 @@
+button {
+  font-size: 200%;
+}
+
+
+div {
+  border-style: solid;
+  border-width: thin;
+  border-color: black;
+  padding: 2%;
+  margin: 0% 30% 0% 30%;
+}
+
+#title {
+  font-size: 200%;
+  padding: 0%;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}

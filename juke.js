@@ -5,8 +5,10 @@ songlist = [["Megalovania", "megalovania"],
 var current_item = 0;
 
 function change_track(song_info) {
+    audio.pause();
     $("#title").text(song_info[0]);
     $("#songsource").attr("src", "song/" + song_info[1] + ".mp3");
+    audio.load();
 };
 
 $("#button2").on("click", function() {
