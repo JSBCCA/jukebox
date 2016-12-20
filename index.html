@@ -2,22 +2,22 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>test juke</title>
+    <link rel='shortcut icon' href='dog.png'/>
+    <title>test undertale juke</title>
   </head>
   <body>
-    <!-- autoplay loop -->
     <!-- <source src="song/???.ogg" type="audio/ogg"/> -->
     <div>
-      <p>Megalovania</p>
+      <p id="title">Song Title</p>
       <audio controls>
-        <source src="song/megalovania.mp3" type="audio/mpeg"/>
+        <source id="songsource" src="song/songname.mp3" type="audio/mpeg"/>
       </audio>
     </div>
     <div>
-      <p>Spider Dance</p>
-      <audio controls>
-        <source src="song/spider_dance.mp3" type="audio/mpeg"/>
-      </audio>
+      <button id="button1">Back</button>
+      <button id="button2">Next</button>
     </div>
+    <script src="jquery.js"></script>
+    <script src="juke.js"></script>
   </body>
 </html>
