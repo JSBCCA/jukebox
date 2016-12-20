@@ -1,6 +1,10 @@
 songlist = [["Megalovania", "megalovania"],
             ["Spider Dance", "spider_dance"],
-            ["Death by Glamour", "death_by_glamour"]]
+            ["Death by Glamour", "death_by_glamour"],
+            ["Hopes and Dreams", "hopes_and_dreams"],
+            ["Bergentrückung/ASGORE", "asgore"],
+            ["Battle Against a True Hero", "battle_against"],
+            ["Undertale", "undertale"]]
 
 var current_item = 0;
 
