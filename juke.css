@@ -1,7 +1,15 @@
+body {
+  background: url("napsta_space.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 button {
   font-size: 200%;
 }
-
 
 div {
   border-style: solid;
@@ -9,6 +17,7 @@ div {
   border-color: black;
   padding: 2%;
   margin: 0% 30% 0% 30%;
+  background-color: white;
 }
 
 #title {
@@ -16,9 +25,18 @@ div {
   padding: 0%;
   margin-top: 0%;
   margin-bottom: 0%;
+  background-color: white;
 }
 
 audio {
   display: block;
   width: 100%;
+}
+
+#play {
+
+}
+
+#pause {
+
 }
