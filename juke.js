@@ -26,3 +26,4 @@ $("#button1").on("click", function() {
     change_track(songlist[current_item]);
 });
 
+// play and pause
