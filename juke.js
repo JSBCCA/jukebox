@@ -1,13 +1,13 @@
-songlist = [["Megalovania", "megalovania"],
+songlist = [["Undertale", "undertale"],
+            ["Heartache", "heartache"],
+            ["sans.", "sans"],
             ["Spider Dance", "spider_dance"],
             ["Death by Glamour", "death_by_glamour"],
-            ["Hopes and Dreams", "hopes_and_dreams"],
             ["Bergentrückung / ASGORE", "asgore"],
-            ["Battle Against a True Hero", "battle_against"],
-            ["Undertale", "undertale"],
+            ["Hopes and Dreams", "hopes_and_dreams"],
             ["His Theme", "his_theme"],
-            ["sans.", "sans"],
-            ["Heartache", "heartache"]]
+            ["Battle Against a True Hero", "battle_against"],
+            ["Megalovania", "megalovania"]]
 
 var current_item = 0;
 
