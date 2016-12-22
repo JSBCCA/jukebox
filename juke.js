@@ -4,7 +4,10 @@ songlist = [["Megalovania", "megalovania"],
             ["Hopes and Dreams", "hopes_and_dreams"],
             ["Bergentrückung / ASGORE", "asgore"],
             ["Battle Against a True Hero", "battle_against"],
-            ["Undertale", "undertale"]]
+            ["Undertale", "undertale"],
+            ["His Theme", "his_theme"],
+            ["sans.", "sans"],
+            ["Heartache", "heartache"]]
 
 var current_item = 0;
 
