@@ -10,7 +10,7 @@ songlist = [["Undertale", "undertale", "Undertale"],
             ["Megalovania", "megalovania", "Undertale"],
             ["Song of Storms", "storms", "Ocarina of Time"],
             ["Jingle Jangle Jingle", "jingle", "Fallout New Vegas"],
-            ["Butcher Pete", "butcher_pete", "Fallout 3"]
+            ["Butcher Pete", "butcher_pete", "Fallout 3"],
             ["Apocalypsis Aquarius", "aquarius", "Final Fantasy 15"],
             ["Somnus", "somnus", "Final Fantasy 15"],
             ["Main Theme", "batman", "Batman Arkham City"]]
