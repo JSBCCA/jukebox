@@ -9,12 +9,25 @@ songlist = [["Undertale", "undertale", "Undertale"],
             ["Battle Against a True Hero", "battle_against", "Undertale"],
             ["Megalovania", "megalovania", "Undertale"],
             ["Song of Storms", "storms", "Ocarina of Time"],
+            ["Gerudo Valley", "gerudo", "Ocarina of Time"],
+            ["Hyrule Field", "hyrule_field", "Twilight Princess"],
+            ["Midna's Lament", "midna_lament", "Twilight Princess"],
             ["Jingle Jangle Jingle", "jingle", "Fallout New Vegas"],
             ["Butcher Pete", "butcher_pete", "Fallout 3"],
+            ["Hot Damned", "meatboy", "Super Meat Boy"],
             ["Apocalypsis Aquarius", "aquarius", "Final Fantasy 15"],
             ["Somnus", "somnus", "Final Fantasy 15"],
             ["Main Theme", "batman", "Batman Arkham City"]]
-            // song of healing, gerudo valley
+            // opening, song of healing
+            // final fantasy 7 main theme, one winged angel
+            // kirby zero two
+            // mega man 2 dr. wily's castle
+            // wind waker great sea, dragon roost?
+            // open your heart, live and learn, perfect dark gaia
+            // gusty garden galaxy
+            // kingdom hearts simple and clean, sanctuary, ray of hope
+            // cave story final battle
+
 
 var current_item = 0;
 
