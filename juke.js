@@ -1,18 +1,20 @@
-songlist = [["Undertale", "undertale", "Undertale:"],
-            ["Heartache", "heartache", "Undertale:"],
-            ["sans.", "sans", "Undertale:"],
-            ["Spider Dance", "spider_dance", "Undertale:"],
-            ["Death by Glamour", "death_by_glamour", "Undertale:"],
-            ["Bergentrückung / ASGORE", "asgore", "Undertale:"],
-            ["Hopes and Dreams", "hopes_and_dreams", "Undertale:"],
-            ["His Theme", "his_theme", "Undertale:"],
-            ["Battle Against a True Hero", "battle_against", "Undertale:"],
-            ["Megalovania", "megalovania", "Undertale:"],
+songlist = [["Undertale", "undertale", "Undertale"],
+            ["Heartache", "heartache", "Undertale"],
+            ["sans.", "sans", "Undertale"],
+            ["Spider Dance", "spider_dance", "Undertale"],
+            ["Death by Glamour", "death_by_glamour", "Undertale"],
+            ["Bergentrückung / ASGORE", "asgore", "Undertale"],
+            ["Hopes and Dreams", "hopes_and_dreams", "Undertale"],
+            ["His Theme", "his_theme", "Undertale"],
+            ["Battle Against a True Hero", "battle_against", "Undertale"],
+            ["Megalovania", "megalovania", "Undertale"],
+            ["Song of Storms", "storms", "Ocarina of Time"],
             ["Jingle Jangle Jingle", "jingle", "Fallout New Vegas"],
-            ["Apocalypsis Aquarius", "aquarius", "Final Fantasy 15:"],
-            ["Somnus", "somnus", "Final Fantasy 15:"]]
-            // song of healing, song of storms, gerudo valley
-            // butcher pete part 1 fallout 3
+            ["Butcher Pete", "butcher_pete", "Fallout 3"]
+            ["Apocalypsis Aquarius", "aquarius", "Final Fantasy 15"],
+            ["Somnus", "somnus", "Final Fantasy 15"],
+            ["Main Theme", "batman", "Batman Arkham City"]]
+            // song of healing, gerudo valley
 
 var current_item = 0;
 
