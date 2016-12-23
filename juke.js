@@ -22,6 +22,7 @@ songlist = [["Gusty Garden Galaxy", "gusty", "Super Mario Galaxy"],
             ["Megalovania", "megalovania", "Undertale"],
             ["Hot Damned", "meatboy", "Super Meat Boy"],
             ["Last Battle", "cave_story", "Cave Story"],
+            ["Hexagon", "hexagon", "Super Hexagon"],
             ["Main Theme", "batman", "Batman Arkham City"]]
             // ocarina opening
             // final fantasy 7 main theme, one winged angel
