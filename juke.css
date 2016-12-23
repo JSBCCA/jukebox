@@ -20,12 +20,22 @@ div {
   background-color: white;
 }
 
-#title {
+#music {
   font-size: 200%;
   padding: 0%;
   margin-top: 0%;
   margin-bottom: 0%;
   background-color: white;
+}
+
+#title {
+  border-style: solid;
+  border-width: thin;
+  border-color: black;
+  font-size: 200%;
+  padding: 0%;
+  margin-top: 0%;
+  margin-bottom: 4%;
 }
 
 audio {

@@ -1,19 +1,22 @@
-songlist = [["Undertale", "undertale"],
-            ["Heartache", "heartache"],
-            ["sans.", "sans"],
-            ["Spider Dance", "spider_dance"],
-            ["Death by Glamour", "death_by_glamour"],
-            ["Bergentrückung / ASGORE", "asgore"],
-            ["Hopes and Dreams", "hopes_and_dreams"],
-            ["His Theme", "his_theme"],
-            ["Battle Against a True Hero", "battle_against"],
-            ["Megalovania", "megalovania"]]
+songlist = [["Undertale", "undertale", "Undertale:"],
+            ["Heartache", "heartache", "Undertale:"],
+            ["sans.", "sans", "Undertale:"],
+            ["Spider Dance", "spider_dance", "Undertale:"],
+            ["Death by Glamour", "death_by_glamour", "Undertale:"],
+            ["Bergentrückung / ASGORE", "asgore", "Undertale:"],
+            ["Hopes and Dreams", "hopes_and_dreams", "Undertale:"],
+            ["His Theme", "his_theme", "Undertale:"],
+            ["Battle Against a True Hero", "battle_against", "Undertale:"],
+            ["Megalovania", "megalovania", "Undertale:"],
+            ["Apocalypsis Aquarius", "aquarius", "Final Fantasy 15:"],
+            ["Somnus", "somnus", "Final Fantasy 15:"]]
 
 var current_item = 0;
 
 function change_track(song_info) {
     audio.pause();
-    $("#title").text(song_info[0]);
+    $("#title").text(song_info[2]);
+    $("#music").text(song_info[0]);
     $("#songsource").attr("src", "song/" + song_info[1] + ".mp3");
     audio.load();
 };
