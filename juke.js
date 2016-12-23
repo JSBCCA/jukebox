@@ -8,6 +8,7 @@ songlist = [["Undertale", "undertale", "Undertale:"],
             ["His Theme", "his_theme", "Undertale:"],
             ["Battle Against a True Hero", "battle_against", "Undertale:"],
             ["Megalovania", "megalovania", "Undertale:"],
+            ["Jingle Jangle Jingle", "jingle", "Fallout New Vegas"],
             ["Apocalypsis Aquarius", "aquarius", "Final Fantasy 15:"],
             ["Somnus", "somnus", "Final Fantasy 15:"]]
 
