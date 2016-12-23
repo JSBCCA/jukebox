@@ -7,7 +7,11 @@ songlist = [["Gusty Garden Galaxy", "gusty", "Super Mario Galaxy"],
             ["Halo Main Theme", "halo", "Halo"],
             ["Jingle Jangle Jingle", "jingle", "Fallout New Vegas"],
             ["Butcher Pete", "butcher_pete", "Fallout 3"],
+            ["Simple and Clean", "simple", "Kingdom Hearts"],
+            ["Guardando nel Buio", "ansem", "Kingdom Hearts"],
+            ["Sanctuary", "sanctuary", "Kingdom Hearts 2"],
             ["Sacred Moon", "sacred_moon", "Kingdom Hearts 2"],
+            ["Simple and Clean (Ray of Hope)", "rayofhope", "Kingdom Hearts 0.2"],
             ["Apocalypsis Aquarius", "aquarius", "Final Fantasy 15"],
             ["Somnus", "somnus", "Final Fantasy 15"],
             ["Undertale", "undertale", "Undertale"],
@@ -30,7 +34,7 @@ songlist = [["Gusty Garden Galaxy", "gusty", "Super Mario Galaxy"],
             // mega man 2 dr. wily's castle
             // wind waker great sea, dragon roost
             // open your heart, live and learn, perfect dark gaia
-            // kingdom hearts simple and clean, sanctuary, ray of hope
+            // roxas theme?
 
 
 var current_item = 0;
