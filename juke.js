@@ -28,6 +28,11 @@ songlist = [["Gusty Garden Galaxy", "gusty", "Super Mario Galaxy"],
             ["Last Battle", "cave_story", "Cave Story"],
             ["Hexagon", "hexagon", "Super Hexagon"],
             ["Main Theme", "batman", "Batman Arkham City"]]
+            // play while looking through songs
+            // more songs
+            // look though games
+
+
             // ocarina opening
             // final fantasy 7 main theme, one winged angel
             // kirby zero two
@@ -35,6 +40,7 @@ songlist = [["Gusty Garden Galaxy", "gusty", "Super Mario Galaxy"],
             // wind waker great sea, dragon roost
             // open your heart, live and learn, perfect dark gaia
             // roxas theme?
+            // zeldas lullaby
 
 
 var current_item = 0;
