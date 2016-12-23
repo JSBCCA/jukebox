@@ -1,4 +1,15 @@
-songlist = [["Undertale", "undertale", "Undertale"],
+songlist = [["Gusty Garden Galaxy", "gusty", "Super Mario Galaxy"],
+            ["Song of Storms", "storms", "Ocarina of Time"],
+            ["Gerudo Valley", "gerudo", "Ocarina of Time"],
+            ["Song of Healing", "healing", "Majora's Mask"],
+            ["Hyrule Field", "hyrule_field", "Twilight Princess"],
+            ["Midna's Lament", "midna_lament", "Twilight Princess"],
+            ["Jingle Jangle Jingle", "jingle", "Fallout New Vegas"],
+            ["Butcher Pete", "butcher_pete", "Fallout 3"],
+            ["Sacred Moon", "sacred_moon", "Kingdom Hearts 2"],
+            ["Apocalypsis Aquarius", "aquarius", "Final Fantasy 15"],
+            ["Somnus", "somnus", "Final Fantasy 15"],
+            ["Undertale", "undertale", "Undertale"],
             ["Heartache", "heartache", "Undertale"],
             ["sans.", "sans", "Undertale"],
             ["Spider Dance", "spider_dance", "Undertale"],
@@ -8,25 +19,16 @@ songlist = [["Undertale", "undertale", "Undertale"],
             ["His Theme", "his_theme", "Undertale"],
             ["Battle Against a True Hero", "battle_against", "Undertale"],
             ["Megalovania", "megalovania", "Undertale"],
-            ["Song of Storms", "storms", "Ocarina of Time"],
-            ["Gerudo Valley", "gerudo", "Ocarina of Time"],
-            ["Hyrule Field", "hyrule_field", "Twilight Princess"],
-            ["Midna's Lament", "midna_lament", "Twilight Princess"],
-            ["Jingle Jangle Jingle", "jingle", "Fallout New Vegas"],
-            ["Butcher Pete", "butcher_pete", "Fallout 3"],
             ["Hot Damned", "meatboy", "Super Meat Boy"],
-            ["Apocalypsis Aquarius", "aquarius", "Final Fantasy 15"],
-            ["Somnus", "somnus", "Final Fantasy 15"],
+            ["Last Battle", "cave_story", "Cave Story"],
             ["Main Theme", "batman", "Batman Arkham City"]]
-            // opening, song of healing
+            // ocarina opening
             // final fantasy 7 main theme, one winged angel
             // kirby zero two
             // mega man 2 dr. wily's castle
-            // wind waker great sea, dragon roost?
+            // wind waker great sea, dragon roost
             // open your heart, live and learn, perfect dark gaia
-            // gusty garden galaxy
             // kingdom hearts simple and clean, sanctuary, ray of hope
-            // cave story final battle
 
 
 var current_item = 0;
