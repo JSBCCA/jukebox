@@ -11,6 +11,8 @@ songlist = [["Undertale", "undertale", "Undertale:"],
             ["Jingle Jangle Jingle", "jingle", "Fallout New Vegas"],
             ["Apocalypsis Aquarius", "aquarius", "Final Fantasy 15:"],
             ["Somnus", "somnus", "Final Fantasy 15:"]]
+            // song of healing, song of storms, gerudo valley
+            // butcher pete part 1 fallout 3
 
 var current_item = 0;
 
