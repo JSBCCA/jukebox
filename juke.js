@@ -1,6 +1,7 @@
 songlist = [["Gusty Garden Galaxy", "gusty", "Super Mario Galaxy"],
             ["Underground Theme", "underground", "Super Mario Bros."],
             ["Title Theme", "title", "Zelda: Ocarina of Time"],
+            ["Zelda's Lullaby", "lullaby", "Zelda: Ocarina of Time"],
             ["Song of Storms", "storms", "Zelda: Ocarina of Time"],
             ["Gerudo Valley", "gerudo", "Zelda: Ocarina of Time"],
             ["Song of Healing", "healing", "Zelda: Majora's Mask"],
@@ -16,9 +17,10 @@ songlist = [["Gusty Garden Galaxy", "gusty", "Super Mario Galaxy"],
             ["Roxas' Theme", "roxas", "Kingdom Hearts 2"],
             ["Sacred Moon", "sacred_moon", "Kingdom Hearts 2"],
             ["Ray of Hope Mix", "rayofhope", "Kingdom Hearts 0.2"],
-            ["One Winged Angel", "onewinged", "Final Fantasy 7"],
-            ["Apocalypsis Aquarius", "aquarius", "Final Fantasy 15"],
-            ["Somnus", "somnus", "Final Fantasy 15"],
+            ["Opening", "ff7opening", "Final Fantasy VII"],
+            ["One Winged Angel", "onewinged", "Final Fantasy VII"],
+            ["Apocalypsis Aquarius", "aquarius", "Final Fantasy XV"],
+            ["Somnus", "somnus", "Final Fantasy XV"],
             ["Halo Main Theme", "halo", "Halo"],
             ["Jingle Jangle Jingle", "jingle", "Fallout New Vegas"],
             ["Butcher Pete", "butcher_pete", "Fallout 3"],
@@ -39,14 +41,18 @@ songlist = [["Gusty Garden Galaxy", "gusty", "Super Mario Galaxy"],
             // play while looking through songs
             // search by game
 
-            // zeldas lullaby
-            // final fantasy  opening
+            // fire emblem oceans gray waves
+            // fe awakening final boss
+            // ballad of the goddess
+            // 13th struggle
+            // xion's theme
+            // bonetrousle
             // doomsday zone
             // open your heart
             // live and learn
             // solaris theme
             // perfect dark gaia
-            // dbz game series
+            // dbz
 
 
 var current_item = 0;
