@@ -1,9 +1,11 @@
 songlist = [["Gusty Garden Galaxy", "gusty", "Super Mario Galaxy"],
+            ["Underground Theme", "underground", "Super Mario Bros."],
             ["Title Theme", "title", "Ocarina of Time"],
             ["Song of Storms", "storms", "Ocarina of Time"],
             ["Gerudo Valley", "gerudo", "Ocarina of Time"],
             ["Song of Healing", "healing", "Majora's Mask"],
             ["The Great Sea", "greatsea", "The Wind Waker"],
+            ["Dragon Roost Island", "dragonroost", "The Wind Waker"],
             ["Hyrule Field", "hyrule_field", "Twilight Princess"],
             ["Midna's Lament", "midna_lament", "Twilight Princess"],
             ["Zero Two", "zerotwo", "Kirby 64: The Crystal Shards"],
@@ -37,7 +39,6 @@ songlist = [["Gusty Garden Galaxy", "gusty", "Super Mario Galaxy"],
             // play while looking through songs
             // search by game
 
-            // dragon roost
             // open your heart
             // live and learn
             // perfect dark gaia
