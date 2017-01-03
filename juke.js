@@ -39,19 +39,33 @@ songlist = [["Gusty Garden Galaxy", "gusty", "Super Mario Galaxy"],
             ["Hexagon", "hexagon", "Super Hexagon"],
             ["Main Theme", "batman", "Batman Arkham City"]]
             // play while looking through songs
-            // search by game
+            // search by game using drop-down; takes you to first song of that game
+
+            // dark bowser
+            // rainbow road 64
 
             // fire emblem oceans gray waves
             // fe awakening final boss
+
             // ballad of the goddess
+            // dark world
+
             // 13th struggle
             // xion's theme
+
             // bonetrousle
+            // flowey theme
+            // save the world
+            // snowdin
+            // core
+
             // doomsday zone
             // open your heart
+            // escape from the city
             // live and learn
             // solaris theme
             // perfect dark gaia
+
             // dbz
 
 
