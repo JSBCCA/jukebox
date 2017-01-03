@@ -1,13 +1,13 @@
 songlist = [["Gusty Garden Galaxy", "gusty", "Super Mario Galaxy"],
             ["Underground Theme", "underground", "Super Mario Bros."],
-            ["Title Theme", "title", "Ocarina of Time"],
-            ["Song of Storms", "storms", "Ocarina of Time"],
-            ["Gerudo Valley", "gerudo", "Ocarina of Time"],
-            ["Song of Healing", "healing", "Majora's Mask"],
-            ["The Great Sea", "greatsea", "The Wind Waker"],
-            ["Dragon Roost Island", "dragonroost", "The Wind Waker"],
-            ["Hyrule Field", "hyrule_field", "Twilight Princess"],
-            ["Midna's Lament", "midna_lament", "Twilight Princess"],
+            ["Title Theme", "title", "Zelda: Ocarina of Time"],
+            ["Song of Storms", "storms", "Zelda: Ocarina of Time"],
+            ["Gerudo Valley", "gerudo", "Zelda: Ocarina of Time"],
+            ["Song of Healing", "healing", "Zelda: Majora's Mask"],
+            ["The Great Sea", "greatsea", "Zelda: The Wind Waker"],
+            ["Dragon Roost Island", "dragonroost", "Zelda: The Wind Waker"],
+            ["Hyrule Field", "hyrule_field", "Zelda: Twilight Princess"],
+            ["Midna's Lament", "midna_lament", "Zelda: Twilight Princess"],
             ["Zero Two", "zerotwo", "Kirby 64: The Crystal Shards"],
             ["Dr. Wily's Castle: Stage 1", "wily", "Mega Man 2"],
             ["Simple and Clean", "simple", "Kingdom Hearts"],
@@ -39,10 +39,14 @@ songlist = [["Gusty Garden Galaxy", "gusty", "Super Mario Galaxy"],
             // play while looking through songs
             // search by game
 
+            // zeldas lullaby
+            // final fantasy  opening
+            // doomsday zone
             // open your heart
             // live and learn
+            // solaris theme
             // perfect dark gaia
-            // zeldas lullaby
+            // dbz game series
 
 
 var current_item = 0;
