@@ -56,12 +56,10 @@ songlist = [["Underground Theme", "underground", "Super Mario Bros."],
             ["Hexagon", "hexagon", "Super Hexagon"],
             ["Main Theme", "batman", "Batman Arkham City"],
             ["Opening", "budokai", "DBZ: Budokai 3"]]
-            // bonetrousle
-            // flowey theme
-            // save the world
-            // snowdin
-            // another medium
-            // core
+
+            // mario rpg mushroom forest
+
+            // xenoblade theme
 
             // casino night zone
             // open your heart
@@ -71,6 +69,15 @@ songlist = [["Underground Theme", "underground", "Super Mario Bros."],
             // solaris theme
             // perfect dark gaia
             // knight of the wind
+
+            // bonetrousle
+            // flowey theme
+            // undyne theme
+            // save the world
+            // snowdin
+            // another medium
+            // core
+
 
 
 var current_item = 0;
