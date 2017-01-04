@@ -1,6 +1,8 @@
 songlist = [["Underground Theme", "underground", "Super Mario Bros."],
             ["Rainbow Road", "rainbow", "Mario Kart 64"],
             ["Gusty Garden Galaxy", "gusty", "Super Mario Galaxy"],
+            ["Grand Finale", "grand", "M&L: Bowser's Inside Story"],
+            ["Adventure's End", "end", "M&L: Dream Team"],
             ["The Dark World", "dark_world", "Zelda: A Link to the Past"],
             ["Title Theme", "title", "Zelda: Ocarina of Time"],
             ["Zelda's Lullaby", "lullaby", "Zelda: Ocarina of Time"],
@@ -14,6 +16,8 @@ songlist = [["Underground Theme", "underground", "Super Mario Bros."],
             ["Ballad of the Goddess", "ballad", "Zelda: Skyward Sword"],
             ["Zero Two", "zerotwo", "Kirby 64: The Crystal Shards"],
             ["C-R-O-W-N-E-D", "crowned", "Kirby's Return to Dreamland"],
+            ["Id (Purpose)", "purpose", "Fire Emblem Awakening"],
+            ["Lost in Thoughts All Alone", "lost_thoughts", "Fire Emblem Fates"],
             ["Dr. Wily's Castle: Stage 1", "wily", "Mega Man 2"],
             ["Concept of Love", "concept", "Jet Set Radio Future"],
             ["Simple and Clean", "simple", "Kingdom Hearts"],
@@ -48,12 +52,7 @@ songlist = [["Underground Theme", "underground", "Super Mario Bros."],
             ["Main Theme", "batman", "Batman Arkham City"]]
             // play while looking through songs
             // search by game using drop-down; takes you to first song of that game
-
-            // dark bowser
-
-            // fire emblem oceans gray waves
-            // fe awakening final boss
-
+            
             // magnus's theme
             // dark pit theme
 
@@ -73,8 +72,6 @@ songlist = [["Underground Theme", "underground", "Super Mario Bros."],
             // solaris theme
             // perfect dark gaia
             // knight of the wind
-
-            // something from metal gear maybe?
 
             // dbz
 
