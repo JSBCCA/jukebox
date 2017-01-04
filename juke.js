@@ -78,8 +78,12 @@ var placehold = null;
 
 // changing track
 function change_track(song_info) {
-    $("#title").text(song_info[2]);
-    $("#music").text(song_info[0]);
+  $("#title").text(song_info[2]);
+  $("#music").text(song_info[0]);
+  if (audio.duration === 0 || audio.paused) {
+    $("#songsource").attr("src", "song/" + song_info[1] + ".mp3");
+    audio.load();
+  };
 };
 
 // changing pause to play
@@ -140,10 +144,6 @@ $("#play").on("click", function() {
       $("#songsource").attr("src", "song/" + songlist[current_item][1] + ".mp3");
       audio.load();
     }
-    else {
-      $("#songsource").attr("src", "song/" + songlist[current_item][1] + ".mp3");
-      audio.load();
-    };
     placehold = current_item;
     audio.play();
     $('#play').css('display', 'none');
