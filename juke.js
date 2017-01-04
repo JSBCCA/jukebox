@@ -1,5 +1,6 @@
-songlist = [["Gusty Garden Galaxy", "gusty", "Super Mario Galaxy"],
-            ["Underground Theme", "underground", "Super Mario Bros."],
+songlist = [["Underground Theme", "underground", "Super Mario Bros."],
+            ["Rainbow Road", "rainbow", "Mario Kart 64"],
+            ["Gusty Garden Galaxy", "gusty", "Super Mario Galaxy"],
             ["The Dark World", "dark_world", "Zelda: A Link to the Past"],
             ["Title Theme", "title", "Zelda: Ocarina of Time"],
             ["Zelda's Lullaby", "lullaby", "Zelda: Ocarina of Time"],
@@ -14,6 +15,7 @@ songlist = [["Gusty Garden Galaxy", "gusty", "Super Mario Galaxy"],
             ["Zero Two", "zerotwo", "Kirby 64: The Crystal Shards"],
             ["C-R-O-W-N-E-D", "crowned", "Kirby's Return to Dreamland"],
             ["Dr. Wily's Castle: Stage 1", "wily", "Mega Man 2"],
+            ["Concept of Love", "concept", "Jet Set Radio Future"],
             ["Simple and Clean", "simple", "Kingdom Hearts"],
             ["Guardando nel Buio", "ansem", "Kingdom Hearts"],
             ["Sanctuary", "sanctuary", "Kingdom Hearts 2"],
@@ -48,7 +50,6 @@ songlist = [["Gusty Garden Galaxy", "gusty", "Super Mario Galaxy"],
             // search by game using drop-down; takes you to first song of that game
 
             // dark bowser
-            // rainbow road 64
 
             // fire emblem oceans gray waves
             // fe awakening final boss
@@ -72,8 +73,6 @@ songlist = [["Gusty Garden Galaxy", "gusty", "Super Mario Galaxy"],
             // solaris theme
             // perfect dark gaia
             // knight of the wind
-
-            // concept of love
 
             // something from metal gear maybe?
 
