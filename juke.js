@@ -1,4 +1,5 @@
 songlist = [["Underground Theme", "underground", "Super Mario Bros."],
+            ["Beware the Forest Mushrooms", "forest", "Super Mario RPG"],
             ["Rainbow Road", "rainbow", "Mario Kart 64"],
             ["Gusty Garden Galaxy", "gusty", "Super Mario Galaxy"],
             ["Grand Finale", "grand", "M&L: Bowser's Inside Story"],
@@ -20,6 +21,7 @@ songlist = [["Underground Theme", "underground", "Super Mario Bros."],
             ["Dark Pit's Theme", "dark_pit", "Kid Icarus Uprising"],
             ["Id (Purpose)", "purpose", "Fire Emblem Awakening"],
             ["Lost in Thoughts All Alone", "lost_thoughts", "Fire Emblem Fates"],
+            ["Gaur Plains", "gaur", "Xenoblade Chronicles"],
             ["Dr. Wily's Castle: Stage 1", "wily", "Mega Man 2"],
             ["Doomsday Zone", "doomsday", "Sonic 3 & Knuckles"],
             ["Concept of Love", "concept", "Jet Set Radio Future"],
@@ -56,10 +58,6 @@ songlist = [["Underground Theme", "underground", "Super Mario Bros."],
             ["Hexagon", "hexagon", "Super Hexagon"],
             ["Main Theme", "batman", "Batman Arkham City"],
             ["Opening", "budokai", "DBZ: Budokai 3"]]
-
-            // mario rpg mushroom forest
-
-            // xenoblade theme
 
             // casino night zone
             // open your heart
