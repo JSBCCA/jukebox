@@ -16,14 +16,17 @@ songlist = [["Underground Theme", "underground", "Super Mario Bros."],
             ["Ballad of the Goddess", "ballad", "Zelda: Skyward Sword"],
             ["Zero Two", "zerotwo", "Kirby 64: The Crystal Shards"],
             ["C-R-O-W-N-E-D", "crowned", "Kirby's Return to Dreamland"],
+            ["Magnus's Theme", "magnus", "Kid Icarus Uprising"],
+            ["Dark Pit's Theme", "dark_pit", "Kid Icarus Uprising"],
             ["Id (Purpose)", "purpose", "Fire Emblem Awakening"],
             ["Lost in Thoughts All Alone", "lost_thoughts", "Fire Emblem Fates"],
             ["Dr. Wily's Castle: Stage 1", "wily", "Mega Man 2"],
+            ["Doomsday Zone", "doomsday", "Sonic 3 & Knuckles"],
             ["Concept of Love", "concept", "Jet Set Radio Future"],
             ["Simple and Clean", "simple", "Kingdom Hearts"],
             ["Guardando nel Buio", "ansem", "Kingdom Hearts"],
             ["Sanctuary", "sanctuary", "Kingdom Hearts 2"],
-            ["Roxas' Theme", "roxas", "Kingdom Hearts 2"],
+            ["Roxas's Theme", "roxas", "Kingdom Hearts 2"],
             ["The 13th Struggle", "struggle", "Kingdom Hearts 2"],
             ["Sacred Moon", "sacred_moon", "Kingdom Hearts 2"],
             ["Xion's Theme", "xion", "Kingdom Hearts 358/2 Days"],
@@ -51,10 +54,8 @@ songlist = [["Underground Theme", "underground", "Super Mario Bros."],
             ["Hot Damned", "meatboy", "Super Meat Boy"],
             ["Last Battle", "cave_story", "Cave Story"],
             ["Hexagon", "hexagon", "Super Hexagon"],
-            ["Main Theme", "batman", "Batman Arkham City"]]
-            // magnus's theme
-            // dark pit theme
-
+            ["Main Theme", "batman", "Batman Arkham City"],
+            ["Opening", "budokai", "DBZ: Budokai 3"]]
             // bonetrousle
             // flowey theme
             // save the world
@@ -63,7 +64,6 @@ songlist = [["Underground Theme", "underground", "Super Mario Bros."],
             // core
 
             // casino night zone
-            // doomsday zone
             // open your heart
             // escape from the city
             // live and learn
@@ -71,8 +71,6 @@ songlist = [["Underground Theme", "underground", "Super Mario Bros."],
             // solaris theme
             // perfect dark gaia
             // knight of the wind
-
-            // dbz
 
 
 var current_item = 0;
