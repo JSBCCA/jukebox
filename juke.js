@@ -50,8 +50,6 @@ songlist = [["Underground Theme", "underground", "Super Mario Bros."],
             ["Last Battle", "cave_story", "Cave Story"],
             ["Hexagon", "hexagon", "Super Hexagon"],
             ["Main Theme", "batman", "Batman Arkham City"]]
-            // play while looking through songs
-
             // magnus's theme
             // dark pit theme
 
@@ -72,22 +70,18 @@ songlist = [["Underground Theme", "underground", "Super Mario Bros."],
             // perfect dark gaia
             // knight of the wind
 
-            // song from metal gear?
-
+            // mad world gears of war vers.
             // UN owen was her
-
             // dbz
 
 
 var current_item = 0;
+var placehold = 0;
 
 // changing track
 function change_track(song_info) {
-    audio.pause();
     $("#title").text(song_info[2]);
     $("#music").text(song_info[0]);
-    $("#songsource").attr("src", "song/" + song_info[1] + ".mp3");
-    audio.load();
 };
 
 // changing pause to play
@@ -103,6 +97,7 @@ $("#buttonright").on("click", function() {
     pauseplay();
 });
 
+// moving right between games
 $("#buttonright2").on("click", function() {
     game = songlist[current_item][2];
     current_item = (current_item + 1) % songlist.length;
@@ -121,6 +116,7 @@ $("#buttonleft").on("click", function() {
     pauseplay();
 });
 
+// moving left between games
 $("#buttonleft2").on("click", function() {
     game = songlist[current_item][2];
     current_item = (current_item - 1);
@@ -133,77 +129,27 @@ $("#buttonleft2").on("click", function() {
     pauseplay();
 });
 
-// playing and pausing
+// playing
 $("#play").on("click", function() {
-    // if (audio.duration > 0 && !audio.paused) {
-    //   audio.pause();
-    //   audio.load();
-    // };
+    if (audio.duration > 0 && !audio.paused) {
+      audio.pause();
+      $("#songsource").attr("src", "song/" + songlist[current_item][1] + ".mp3");
+      audio.load();
+    }
+    else {
+      placehold = current_item;
+      $("#songsource").attr("src", "song/" + songlist[current_item][1] + ".mp3");
+      audio.load();
+    };
     audio.play();
     $('#play').css('display', 'none');
     $('#pause').css('display', 'inline-block');
 });
 
-// if (myAudio.duration > 0 && !myAudio.paused) {
-
+// pausing
 $("#pause").on("click", function() {
     audio.pause();
     pauseplay();
 });
 
-
-
-//
-// var current_item = 0;
-// var placehold = 0;
-//
-// function change_track(song_info) {
-//     // audio.pause();
-//     $("#title").text(song_info[2]);
-//     $("#music").text(song_info[0]);
-//     $("#songsource").attr("src", "song/" + song_info[1] + ".mp3");
-//     // audio.load();
-// };
-//
-// function pauseplay() {
-//   $('#pause').css('display', 'none');
-//   $('#play').css('display', 'inline-block');
-// };
-//
-// $("#button2").on("click", function() {
-//     if ($('pause').css('display') == 'inline-block') {placehold = current_item;};
-//     current_item = (current_item + 1) % songlist.length;
-//     change_track(songlist[current_item]);
-//     pauseplay();
-//     if (current_item == placehold) {
-//       $('#play').css('display', 'none');
-//       $('#pause').css('display', 'inline-block')
-//     ;}
-// });
-//
-// $("#button1").on("click", function() {
-//     if ($('pause').css('display') == 'inline-block') {placehold = current_item;};
-//     current_item = (current_item - 1);
-//     if (current_item < 0) {current_item = songlist.length - 1;};
-//     change_track(songlist[current_item]);
-//     pauseplay();
-//     if (current_item == placehold) {
-//       $('#play').css('display', 'none');
-//       $('#pause').css('display', 'inline-block')
-//     ;}
-// });
-//
-// $("#play").on("click", function() {
-//     if (audio.duration > 0 && !audio.paused) {
-//       audio.pause();
-//       audio.load();
-//     };
-//     audio.play();
-//     $('#play').css('display', 'none');
-//     $('#pause').css('display', 'inline-block');
-// });
-//
-// $("#pause").on("click", function() {
-//     audio.pause();
-//     pauseplay();
-// });
+// play while looking through songs
