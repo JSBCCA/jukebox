@@ -33,8 +33,10 @@ songlist = [["Underground Theme", "underground", "Super Mario Bros."],
             ["Apocalypsis Aquarius", "aquarius", "Final Fantasy XV"],
             ["Somnus", "somnus", "Final Fantasy XV"],
             ["Halo Main Theme", "halo", "Halo"],
+            ["Mad World (Instrumental)", "madworld", "Gears of War 3"],
             ["Jingle Jangle Jingle", "jingle", "Fallout New Vegas"],
             ["Butcher Pete", "butcher_pete", "Fallout 3"],
+            ["UN Owen Was Her?", "un_owen", "Touhou"],
             ["Still Alive", "still_alive", "Portal"],
             ["Undertale", "undertale", "Undertale"],
             ["Heartache", "heartache", "Undertale"],
@@ -70,13 +72,11 @@ songlist = [["Underground Theme", "underground", "Super Mario Bros."],
             // perfect dark gaia
             // knight of the wind
 
-            // mad world gears of war vers.
-            // UN owen was her
             // dbz
 
 
 var current_item = 0;
-var placehold = 0;
+var placehold = null;
 
 // changing track
 function change_track(song_info) {
@@ -86,8 +86,14 @@ function change_track(song_info) {
 
 // changing pause to play
 function pauseplay() {
-  $('#pause').css('display', 'none');
-  $('#play').css('display', 'inline-block');
+  if (audio.duration > 0 && current_item === placehold && !audio.paused) {
+    $('#pause').css('display', 'inline-block');
+    $('#play').css('display', 'none');
+  }
+  else {
+    $('#pause').css('display', 'none');
+    $('#play').css('display', 'inline-block');
+  };
 };
 
 // moving right
@@ -137,10 +143,10 @@ $("#play").on("click", function() {
       audio.load();
     }
     else {
-      placehold = current_item;
       $("#songsource").attr("src", "song/" + songlist[current_item][1] + ".mp3");
       audio.load();
     };
+    placehold = current_item;
     audio.play();
     $('#play').css('display', 'none');
     $('#pause').css('display', 'inline-block');
@@ -151,5 +157,3 @@ $("#pause").on("click", function() {
     audio.pause();
     pauseplay();
 });
-
-// play while looking through songs
