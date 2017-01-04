@@ -1,5 +1,6 @@
 songlist = [["Gusty Garden Galaxy", "gusty", "Super Mario Galaxy"],
             ["Underground Theme", "underground", "Super Mario Bros."],
+            ["The Dark World", "dark_world", "Zelda: A Link to the Past"],
             ["Title Theme", "title", "Zelda: Ocarina of Time"],
             ["Zelda's Lullaby", "lullaby", "Zelda: Ocarina of Time"],
             ["Song of Storms", "storms", "Zelda: Ocarina of Time"],
@@ -9,13 +10,17 @@ songlist = [["Gusty Garden Galaxy", "gusty", "Super Mario Galaxy"],
             ["Dragon Roost Island", "dragonroost", "Zelda: The Wind Waker"],
             ["Hyrule Field", "hyrule_field", "Zelda: Twilight Princess"],
             ["Midna's Lament", "midna_lament", "Zelda: Twilight Princess"],
+            ["Ballad of the Goddess", "ballad", "Zelda: Skyward Sword"],
             ["Zero Two", "zerotwo", "Kirby 64: The Crystal Shards"],
+            ["C-R-O-W-N-E-D", "crowned", "Kirby's Return to Dreamland"],
             ["Dr. Wily's Castle: Stage 1", "wily", "Mega Man 2"],
             ["Simple and Clean", "simple", "Kingdom Hearts"],
             ["Guardando nel Buio", "ansem", "Kingdom Hearts"],
             ["Sanctuary", "sanctuary", "Kingdom Hearts 2"],
             ["Roxas' Theme", "roxas", "Kingdom Hearts 2"],
+            ["The 13th Struggle", "struggle", "Kingdom Hearts 2"],
             ["Sacred Moon", "sacred_moon", "Kingdom Hearts 2"],
+            ["Xion's Theme", "xion", "Kingdom Hearts 358/2 Days"],
             ["Ray of Hope Mix", "rayofhope", "Kingdom Hearts 0.2"],
             ["Opening", "ff7opening", "Final Fantasy VII"],
             ["One Winged Angel", "onewinged", "Final Fantasy VII"],
@@ -24,6 +29,7 @@ songlist = [["Gusty Garden Galaxy", "gusty", "Super Mario Galaxy"],
             ["Halo Main Theme", "halo", "Halo"],
             ["Jingle Jangle Jingle", "jingle", "Fallout New Vegas"],
             ["Butcher Pete", "butcher_pete", "Fallout 3"],
+            ["Still Alive", "still_alive", "Portal"],
             ["Undertale", "undertale", "Undertale"],
             ["Heartache", "heartache", "Undertale"],
             ["sans.", "sans", "Undertale"],
@@ -47,24 +53,29 @@ songlist = [["Gusty Garden Galaxy", "gusty", "Super Mario Galaxy"],
             // fire emblem oceans gray waves
             // fe awakening final boss
 
-            // ballad of the goddess
-            // dark world
-
-            // 13th struggle
-            // xion's theme
+            // magnus's theme
+            // dark pit theme
 
             // bonetrousle
             // flowey theme
             // save the world
             // snowdin
+            // another medium
             // core
 
+            // casino night zone
             // doomsday zone
             // open your heart
             // escape from the city
             // live and learn
+            // never turn back
             // solaris theme
             // perfect dark gaia
+            // knight of the wind
+
+            // concept of love
+
+            // something from metal gear maybe?
 
             // dbz
 
