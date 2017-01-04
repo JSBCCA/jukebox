@@ -51,8 +51,7 @@ songlist = [["Underground Theme", "underground", "Super Mario Bros."],
             ["Hexagon", "hexagon", "Super Hexagon"],
             ["Main Theme", "batman", "Batman Arkham City"]]
             // play while looking through songs
-            // search by game using drop-down; takes you to first song of that game
-            
+
             // magnus's theme
             // dark pit theme
 
@@ -73,11 +72,16 @@ songlist = [["Underground Theme", "underground", "Super Mario Bros."],
             // perfect dark gaia
             // knight of the wind
 
+            // song from metal gear?
+
+            // UN owen was her
+
             // dbz
 
 
 var current_item = 0;
 
+// changing track
 function change_track(song_info) {
     audio.pause();
     $("#title").text(song_info[2]);
@@ -86,24 +90,50 @@ function change_track(song_info) {
     audio.load();
 };
 
+// changing pause to play
 function pauseplay() {
   $('#pause').css('display', 'none');
   $('#play').css('display', 'inline-block');
 };
 
-$("#button2").on("click", function() {
+// moving right
+$("#buttonright").on("click", function() {
     current_item = (current_item + 1) % songlist.length;
     change_track(songlist[current_item]);
     pauseplay();
 });
 
-$("#button1").on("click", function() {
+$("#buttonright2").on("click", function() {
+    game = songlist[current_item][2];
+    current_item = (current_item + 1) % songlist.length;
+    while (songlist[current_item][2] === game) {
+      current_item = (current_item + 1) % songlist.length;
+    };
+    change_track(songlist[current_item]);
+    pauseplay();
+});
+
+// moving left
+$("#buttonleft").on("click", function() {
     current_item = (current_item - 1);
     if (current_item < 0) {current_item = songlist.length - 1;};
     change_track(songlist[current_item]);
     pauseplay();
 });
 
+$("#buttonleft2").on("click", function() {
+    game = songlist[current_item][2];
+    current_item = (current_item - 1);
+    if (current_item < 0) {current_item = songlist.length - 1;};
+    while (songlist[current_item][2] === game) {
+      current_item = (current_item - 1);
+      if (current_item < 0) {current_item = songlist.length - 1;};
+    };
+    change_track(songlist[current_item]);
+    pauseplay();
+});
+
+// playing and pausing
 $("#play").on("click", function() {
     // if (audio.duration > 0 && !audio.paused) {
     //   audio.pause();
