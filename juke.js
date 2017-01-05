@@ -30,6 +30,7 @@ songlist = [["Underground Theme", "underground", "Super Mario Bros."],
             ["Escape from the City", "escape", "Sonic Adventure 2"],
             ["Live and Learn", "liveandlearn", "Sonic Adventure 2"],
             ["Solaris Phase 2", "solaris", "Sonic the Hedgehog (2006)"],
+            ["Perfect Dark Gaia Phase 2", "dark_gaia", "Sonic Unleashed"],
             ["Concept of Love", "concept", "Jet Set Radio Future"],
             ["Simple and Clean", "simple", "Kingdom Hearts"],
             ["Guardando nel Buio", "ansem", "Kingdom Hearts"],
@@ -53,6 +54,7 @@ songlist = [["Underground Theme", "underground", "Super Mario Bros."],
             ["Heartache", "heartache", "Undertale"],
             ["sans.", "sans", "Undertale"],
             ["Bonetrousle", "bonetrousle", "Undertale"],
+            ["Another Medium", "medium", "Undertale"],
             ["Spider Dance", "spider_dance", "Undertale"],
             ["The Core", "core", "Undertale"],
             ["Death by Glamour", "death_by_glamour", "Undertale"],
@@ -69,12 +71,10 @@ songlist = [["Underground Theme", "underground", "Super Mario Bros."],
 
             // chemical plant
             // never turn back
-            // perfect dark gaia
             // knight of the wind
 
             // save the world
             // snowdin
-            // another medium
 
             // maybe: bayonetta? emerald hill zone?
 
