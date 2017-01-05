@@ -22,8 +22,10 @@ songlist = [["Underground Theme", "underground", "Super Mario Bros."],
             ["Dark Pit's Theme", "dark_pit", "Kid Icarus Uprising"],
             ["Id (Purpose)", "purpose", "Fire Emblem Awakening"],
             ["Lost in Thoughts All Alone", "lost_thoughts", "Fire Emblem Fates"],
+            ["Midday Majesty", "midday", "Chibi-Robo!"],
             ["Gaur Plains", "gaur", "Xenoblade Chronicles"],
             ["Dr. Wily's Castle: Stage 1", "wily", "Mega Man 2"],
+            ["Emerald Hill Zone", "emerald", "Sonic the Hedgehog 2"],
             ["Chemical Plant Zone", "chemical", "Sonic the Hedgehog 2"],
             ["Casino Night Zone (1P)", "casino", "Sonic the Hedgehog 2"],
             ["Doomsday Zone", "doomsday", "Sonic 3 & Knuckles"],
@@ -77,10 +79,9 @@ songlist = [["Underground Theme", "underground", "Super Mario Bros."],
             ["Main Theme", "batman", "Batman Arkham City"],
             ["Opening", "budokai", "DBZ: Budokai 3"]]
 
-            // bayonetta?
-            // emerald hill zone?
-            // other dbz theme?
-            // mario 1-1?
+            // bayonetta
+            // other dbz theme
+            // mario 1-1
             // flowey's theme
             // skyloft
 
