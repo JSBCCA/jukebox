@@ -173,14 +173,17 @@ $('#loop_switch').on("click", function() {
   }
 });
 
-// if loop is off
+// if loop is off and audio just ended
 $('audio').on("ended", function() {
   if (audio.loop === false) {
     audio.duration = 0;
-    current_item = (current_item + 1) % songlist.length;
-    change_track(songlist[current_item]);
-    placehold = current_item;
+    placehold = (placehold + 1) % songlist.length;
+    change_track(songlist[placehold]);
     audio.play();
   };
 });
 
+// if loop is on and your on the audio that is playing
+$('audio').on("playing", function() {
+  pauseplay();
+});
