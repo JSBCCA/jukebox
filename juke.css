@@ -67,6 +67,10 @@ audio {
   padding: 1% 0% 1% 0%;
 }
 
+#loop_div {
+  padding: 1% 0% 1% 0%;
+}
+
 @media screen and (max-device-width: 1060px) {
   #outerdiv {
     margin: 0% 22% 0% 22%;

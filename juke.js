@@ -78,8 +78,6 @@ songlist = [["Underground Theme", "underground", "Super Mario Bros."],
 
             // maybe: bayonetta? emerald hill zone?
 
-
-
 var current_item = 0;
 var placehold = null;
 
@@ -163,7 +161,25 @@ $("#pause").on("click", function() {
     pauseplay();
 });
 
-// $('audio').on("ended", function(){
-//      myAudio.currentTime = 0;
-//      console.log("ended");
-// });
+// loop switch
+$('#loop_switch').on("click", function() {
+  if (audio.loop === true) {
+    audio.loop = false;
+    $('#loop_switch').text("Loop Song: Off");
+  }
+  else if (audio.loop === false) {
+    audio.loop = true;
+    $('#loop_switch').text("Loop Song: On");
+  }
+});
+
+// if loop is off
+$('audio').on("ended", function() {
+  if (audio.loop === false) {
+    audio.duration = 0;
+    pauseplay();
+    current_item = (current_item + 1) % songlist.length;
+    change_track(songlist[current_item]);
+  };
+});
+
