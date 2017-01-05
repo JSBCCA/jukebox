@@ -162,3 +162,8 @@ $("#pause").on("click", function() {
     audio.pause();
     pauseplay();
 });
+
+// $('audio').on("ended", function(){
+//      myAudio.currentTime = 0;
+//      console.log("ended");
+// });
