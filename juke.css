@@ -52,9 +52,23 @@ audio {
   display: none;
 }
 
-#diffpadd {
-  padding-top: 2%;
-  padding-bottom: 2%;
+#innerdiv {
+  padding-top: 0%;
+  padding-bottom: 0%;
   padding-left: 0%;
   padding-right: 0%;
+  margin: 0% 0% 0% 0%;
+  border-style: hidden;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+#outerdiv {
+  margin: 0% 30% 0% 30%;
+  padding: 1% 0% 1% 0%;
+}
+
+@media screen and (max-device-width: 1060px) {
+  #outerdiv {
+    margin: 0% 22% 0% 22%;
+  }
 }
