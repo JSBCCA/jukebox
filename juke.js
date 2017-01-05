@@ -24,13 +24,16 @@ songlist = [["Underground Theme", "underground", "Super Mario Bros."],
             ["Lost in Thoughts All Alone", "lost_thoughts", "Fire Emblem Fates"],
             ["Gaur Plains", "gaur", "Xenoblade Chronicles"],
             ["Dr. Wily's Castle: Stage 1", "wily", "Mega Man 2"],
+            ["Chemical Plant Zone", "chemical", "Sonic the Hedgehog 2"],
             ["Casino Night Zone (1P)", "casino", "Sonic the Hedgehog 2"],
             ["Doomsday Zone", "doomsday", "Sonic 3 & Knuckles"],
             ["Open Your Heart", "perfect_chaos", "Sonic Adventure"],
             ["Escape from the City", "escape", "Sonic Adventure 2"],
             ["Live and Learn", "liveandlearn", "Sonic Adventure 2"],
+            ["Never Turn Back", "never_turn", "Shadow the Hedgehog"],
             ["Solaris Phase 2", "solaris", "Sonic the Hedgehog (2006)"],
             ["Perfect Dark Gaia Phase 2", "dark_gaia", "Sonic Unleashed"],
+            ["Knight of the Wind", "wind", "Sonic and the Black Knight"],
             ["Concept of Love", "concept", "Jet Set Radio Future"],
             ["Simple and Clean", "simple", "Kingdom Hearts"],
             ["Guardando nel Buio", "ansem", "Kingdom Hearts"],
@@ -49,10 +52,12 @@ songlist = [["Underground Theme", "underground", "Super Mario Bros."],
             ["Jingle Jangle Jingle", "jingle", "Fallout New Vegas"],
             ["Butcher Pete", "butcher_pete", "Fallout 3"],
             ["UN Owen Was Her?", "un_owen", "Touhou"],
+            ["Necrofantasia", "necrof", "Touhou"],
             ["Still Alive", "still_alive", "Portal"],
             ["Undertale", "undertale", "Undertale"],
             ["Heartache", "heartache", "Undertale"],
             ["sans.", "sans", "Undertale"],
+            ["Snowdin Town", "snowdin", "Undertale"],
             ["Bonetrousle", "bonetrousle", "Undertale"],
             ["Another Medium", "medium", "Undertale"],
             ["Spider Dance", "spider_dance", "Undertale"],
@@ -60,6 +65,7 @@ songlist = [["Underground Theme", "underground", "Super Mario Bros."],
             ["Death by Glamour", "death_by_glamour", "Undertale"],
             ["Bergentrückung / ASGORE", "asgore", "Undertale"],
             ["Hopes and Dreams", "hopes_and_dreams", "Undertale"],
+            ["SAVE the World", "save_world", "Undertale"],
             ["His Theme", "his_theme", "Undertale"],
             ["Battle Against a True Hero", "battle_against", "Undertale"],
             ["Megalovania", "megalovania", "Undertale"],
@@ -70,18 +76,13 @@ songlist = [["Underground Theme", "underground", "Super Mario Bros."],
             ["Opening", "budokai", "DBZ: Budokai 3"]]
 
             // planned:
-            // chemical plant
-            // never turn back
-            // knight of the wind
-            // save the world
-            // snowdin
-            // necrofantasia
 
             // maybe:
             // bayonetta?
             // emerald hill zone?
             // other dbz theme?
             // mario 1-1?
+            // flowey's theme
 
 var current_item = 0;
 var placehold = null;
