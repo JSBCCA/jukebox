@@ -15,6 +15,7 @@ songlist = [["Underground Theme", "underground", "Super Mario Bros."],
             ["Hyrule Field", "hyrule_field", "Zelda: Twilight Princess"],
             ["Midna's Lament", "midna_lament", "Zelda: Twilight Princess"],
             ["Ballad of the Goddess", "ballad", "Zelda: Skyward Sword"],
+            ["Fi's Theme", "fi", "Zelda: Skyward Sword"],
             ["Zero Two", "zerotwo", "Kirby 64: The Crystal Shards"],
             ["C-R-O-W-N-E-D", "crowned", "Kirby's Return to Dreamland"],
             ["Magnus's Theme", "magnus", "Kid Icarus Uprising"],
@@ -23,7 +24,12 @@ songlist = [["Underground Theme", "underground", "Super Mario Bros."],
             ["Lost in Thoughts All Alone", "lost_thoughts", "Fire Emblem Fates"],
             ["Gaur Plains", "gaur", "Xenoblade Chronicles"],
             ["Dr. Wily's Castle: Stage 1", "wily", "Mega Man 2"],
+            ["Casino Night Zone (1P)", "casino", "Sonic the Hedgehog 2"],
             ["Doomsday Zone", "doomsday", "Sonic 3 & Knuckles"],
+            ["Open Your Heart", "perfect_chaos", "Sonic Adventure"],
+            ["Escape from the City", "escape", "Sonic Adventure 2"],
+            ["Live and Learn", "liveandlearn", "Sonic Adventure 2"],
+            ["Solaris Phase 2", "solaris", "Sonic the Hedgehog (2006)"],
             ["Concept of Love", "concept", "Jet Set Radio Future"],
             ["Simple and Clean", "simple", "Kingdom Hearts"],
             ["Guardando nel Buio", "ansem", "Kingdom Hearts"],
@@ -46,7 +52,9 @@ songlist = [["Underground Theme", "underground", "Super Mario Bros."],
             ["Undertale", "undertale", "Undertale"],
             ["Heartache", "heartache", "Undertale"],
             ["sans.", "sans", "Undertale"],
+            ["Bonetrousle", "bonetrousle", "Undertale"],
             ["Spider Dance", "spider_dance", "Undertale"],
+            ["The Core", "core", "Undertale"],
             ["Death by Glamour", "death_by_glamour", "Undertale"],
             ["Bergentrückung / ASGORE", "asgore", "Undertale"],
             ["Hopes and Dreams", "hopes_and_dreams", "Undertale"],
@@ -59,22 +67,16 @@ songlist = [["Underground Theme", "underground", "Super Mario Bros."],
             ["Main Theme", "batman", "Batman Arkham City"],
             ["Opening", "budokai", "DBZ: Budokai 3"]]
 
-            // casino night zone
-            // open your heart
-            // escape from the city
-            // live and learn
+            // chemical plant
             // never turn back
-            // solaris theme
             // perfect dark gaia
             // knight of the wind
 
-            // bonetrousle
-            // flowey theme
-            // undyne theme
             // save the world
             // snowdin
             // another medium
-            // core
+
+            // maybe: bayonetta? emerald hill zone?
 
 
 
