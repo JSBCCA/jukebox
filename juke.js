@@ -76,7 +76,9 @@ songlist = [["Underground Theme", "underground", "Super Mario Bros."],
             // save the world
             // snowdin
 
-            // maybe: bayonetta? emerald hill zone?
+            // necrofantasia
+
+            // maybe: bayonetta? emerald hill zone? other dbz theme? mario 1-1?
 
 var current_item = 0;
 var placehold = null;
