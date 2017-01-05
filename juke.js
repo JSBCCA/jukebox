@@ -177,9 +177,10 @@ $('#loop_switch').on("click", function() {
 $('audio').on("ended", function() {
   if (audio.loop === false) {
     audio.duration = 0;
-    pauseplay();
     current_item = (current_item + 1) % songlist.length;
     change_track(songlist[current_item]);
+    placehold = current_item;
+    audio.play();
   };
 });
 
