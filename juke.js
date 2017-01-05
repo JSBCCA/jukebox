@@ -69,16 +69,19 @@ songlist = [["Underground Theme", "underground", "Super Mario Bros."],
             ["Main Theme", "batman", "Batman Arkham City"],
             ["Opening", "budokai", "DBZ: Budokai 3"]]
 
+            // planned:
             // chemical plant
             // never turn back
             // knight of the wind
-
             // save the world
             // snowdin
-
             // necrofantasia
 
-            // maybe: bayonetta? emerald hill zone? other dbz theme? mario 1-1?
+            // maybe:
+            // bayonetta?
+            // emerald hill zone?
+            // other dbz theme?
+            // mario 1-1?
 
 var current_item = 0;
 var placehold = null;
@@ -185,7 +188,7 @@ $('audio').on("ended", function() {
   };
 });
 
-// if loop is on and your on the audio that is playing
+// if loop is on and you're on the audio that is playing
 $('audio').on("playing", function() {
   pauseplay();
 });
