@@ -185,6 +185,7 @@ $('audio').on("ended", function() {
     placehold = (placehold + 1) % songlist.length;
     change_track(songlist[placehold]);
     audio.play();
+    pauseplay();
   };
 });
 
