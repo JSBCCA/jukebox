@@ -182,6 +182,7 @@ $('#loop_switch').on("click", function() {
 $('audio').on("ended", function() {
   if (audio.loop === false) {
     audio.duration = 0;
+    current_item = (current_item + 1) % songlist.length;
     placehold = (placehold + 1) % songlist.length;
     change_track(songlist[placehold]);
     audio.play();
