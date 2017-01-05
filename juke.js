@@ -42,6 +42,8 @@ songlist = [["Underground Theme", "underground", "Super Mario Bros."],
             ["The 13th Struggle", "struggle", "Kingdom Hearts 2"],
             ["Sacred Moon", "sacred_moon", "Kingdom Hearts 2"],
             ["Xion's Theme", "xion", "Kingdom Hearts 358/2 Days"],
+            ["Aqua's Theme", "aqua", "Kingdom Hearts Birth by Sleep"],
+            ["L'Impeto Oscuro", "young_x", "Kingdom Hearts 3D"],
             ["Ray of Hope Mix", "rayofhope", "Kingdom Hearts 0.2"],
             ["Opening", "ff7opening", "Final Fantasy VII"],
             ["One Winged Angel", "onewinged", "Final Fantasy VII"],
@@ -75,14 +77,12 @@ songlist = [["Underground Theme", "underground", "Super Mario Bros."],
             ["Main Theme", "batman", "Batman Arkham City"],
             ["Opening", "budokai", "DBZ: Budokai 3"]]
 
-            // planned:
-
-            // maybe:
             // bayonetta?
             // emerald hill zone?
             // other dbz theme?
             // mario 1-1?
             // flowey's theme
+            // skyloft
 
 var current_item = 0;
 var placehold = null;
