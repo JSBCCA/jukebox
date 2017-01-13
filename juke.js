@@ -1,4 +1,5 @@
-songlist = [["Underground Theme", "underground", "Super Mario Bros."],
+songlist = [["Main Theme", "mario_theme", "Super Mario Bros."],
+            ["Underground Theme", "underground", "Super Mario Bros."],
             ["Beware the Forest Mushrooms", "forest", "Super Mario RPG"],
             ["Rainbow Road", "rainbow", "Mario Kart 64"],
             ["Gusty Garden Galaxy", "gusty", "Super Mario Galaxy"],
@@ -15,11 +16,13 @@ songlist = [["Underground Theme", "underground", "Super Mario Bros."],
             ["Hyrule Field", "hyrule_field", "Zelda: Twilight Princess"],
             ["Midna's Lament", "midna_lament", "Zelda: Twilight Princess"],
             ["Ballad of the Goddess", "ballad", "Zelda: Skyward Sword"],
+            ["Skyloft", "skyloft", "Zelda: Skyward Sword"],
             ["Fi's Theme", "fi", "Zelda: Skyward Sword"],
             ["Zero Two", "zerotwo", "Kirby 64: The Crystal Shards"],
             ["C-R-O-W-N-E-D", "crowned", "Kirby's Return to Dreamland"],
             ["Magnus's Theme", "magnus", "Kid Icarus Uprising"],
             ["Dark Pit's Theme", "dark_pit", "Kid Icarus Uprising"],
+            ["Lightning Battle", "lightning", "Kid Icarus Uprising"],
             ["Id (Purpose)", "purpose", "Fire Emblem Awakening"],
             ["Lost in Thoughts All Alone", "lost_thoughts", "Fire Emblem Fates"],
             ["Midday Majesty", "midday", "Chibi-Robo!"],
@@ -58,6 +61,7 @@ songlist = [["Underground Theme", "underground", "Super Mario Bros."],
             ["UN Owen Was Her?", "un_owen", "Touhou"],
             ["Necrofantasia", "necrof", "Touhou"],
             ["Still Alive", "still_alive", "Portal"],
+            ["Your Best Friend", "best_friend", "Undertale"],
             ["Undertale", "undertale", "Undertale"],
             ["Heartache", "heartache", "Undertale"],
             ["sans.", "sans", "Undertale"],
@@ -77,13 +81,10 @@ songlist = [["Underground Theme", "underground", "Super Mario Bros."],
             ["Last Battle", "cave_story", "Cave Story"],
             ["Hexagon", "hexagon", "Super Hexagon"],
             ["Main Theme", "batman", "Batman Arkham City"],
-            ["Opening", "budokai", "DBZ: Budokai 3"]]
+            ["Opening", "budokai", "DBZ: Budokai 3"],
+            ["Super Survivor (Instrumental)", "super_survivor", "DBZ: Budokai Tenkaichi 3"]]
 
-            // bayonetta
-            // other dbz theme
-            // mario 1-1
-            // flowey's theme
-            // skyloft
+
 
 var current_item = 0;
 var placehold = null;
