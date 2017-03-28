@@ -45,6 +45,7 @@ songlist = [["Main Theme", "mario_theme", "Super Mario Bros."],
             ["Open Your Heart", "perfect_chaos", "Sonic Adventure"],
             ["Escape from the City", "escape", "Sonic Adventure 2"],
             ["Live and Learn", "liveandlearn", "Sonic Adventure 2"],
+            // Metal Madness
             ["I am... All of Me", "i_am", "Shadow the Hedgehog"],
             ["Never Turn Back", "never_turn", "Shadow the Hedgehog"],
             ["Solaris Phase 2", "solaris", "Sonic the Hedgehog (2006)"],
