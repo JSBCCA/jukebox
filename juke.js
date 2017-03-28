@@ -27,6 +27,8 @@ songlist = [["Main Theme", "mario_theme", "Super Mario Bros."],
             ["Main Theme", "breath_wild", "Zelda: Breath of the Wild"],
             ["Brinstar", "brinstar", "Metroid"],
             ["Green Greens", "greens", "Kirby's Dream Land"],
+            // king dedede theme
+            // meta knight theme
             ["Zero Two", "zerotwo", "Kirby 64: The Crystal Shards"],
             ["C-R-O-W-N-E-D", "crowned", "Kirby's Return to Dreamland"],
             ["Magnus's Theme", "magnus", "Kid Icarus Uprising"],
@@ -35,8 +37,11 @@ songlist = [["Main Theme", "mario_theme", "Super Mario Bros."],
             ["Id (Purpose)", "purpose", "Fire Emblem Awakening"],
             ["Lost in Thoughts All Alone", "lost_thoughts", "Fire Emblem Fates"],
             ["Splattack!", "splattack", "Splatoon"],
+            // smash anything
             // pokemon anything
             ["Midday Majesty", "midday", "Chibi-Robo!"],
+            // drake redcrest theme
+            // teriyaki blues
             ["Gaur Plains", "gaur", "Xenoblade Chronicles"],
             ["Dr. Wily's Castle: Stage 1", "wily", "Mega Man 2"],
             ["Green Hill Zone", "green_hill", "Sonic the Hedgehog"],
@@ -47,6 +52,8 @@ songlist = [["Main Theme", "mario_theme", "Super Mario Bros."],
             ["Open Your Heart", "perfect_chaos", "Sonic Adventure"],
             ["Escape from the City", "escape", "Sonic Adventure 2"],
             ["Live and Learn", "liveandlearn", "Sonic Adventure 2"],
+            // sonic heroes
+            // what i'm made of
             ["I am... All of Me", "i_am", "Shadow the Hedgehog"],
             ["Never Turn Back", "never_turn", "Shadow the Hedgehog"],
             ["Solaris Phase 2", "solaris", "Sonic the Hedgehog (2006)"],
@@ -60,6 +67,7 @@ songlist = [["Main Theme", "mario_theme", "Super Mario Bros."],
             ["Traverse Town", "traverse", "Kingdom Hearts"],
             ["Guardando nel Buio", "ansem", "Kingdom Hearts"],
             ["Naminé", "namine", "Kingdom Hearts Re:CoM"],
+            // lord of the castle
             ["Dearly Beloved (KH2 Ver.)", "dearly_beloved2", "Kingdom Hearts 2"],
             ["Sanctuary", "sanctuary", "Kingdom Hearts 2"],
             ["Roxas's Theme", "roxas", "Kingdom Hearts 2"],
@@ -103,11 +111,14 @@ songlist = [["Main Theme", "mario_theme", "Super Mario Bros."],
             ["Battle Against a True Hero", "battle_against", "Undertale"],
             ["Megalovania", "megalovania", "Undertale"],
             ["Strike the Earth!", "strike_earth", "Shovel Knight"],
+            // vvvvvv
             ["Hot Damned", "meatboy", "Super Meat Boy"],
             ["Tower of Heaven", "tower_heaven", "Super Smash Land"],
             ["Last Battle", "cave_story", "Cave Story"],
+            // crypt of the necrodancer
             ["Hexagon", "hexagon", "Super Hexagon"],
             ["The End", "the_end", "Drawn to Life"],
+            // DtL TNC: Real Life
             ["Main Theme", "batman", "Batman Arkham City"],
             ["Opening", "budokai", "DBZ: Budokai 3"],
             ["Super Survivor (Instrumental)", "super_survivor", "DBZ: Budokai Tenkaichi 3"]]
