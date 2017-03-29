@@ -45,6 +45,7 @@ songlist = [["Main Theme", "mario_theme", "Super Mario Bros."],
             ["Drake Redcrest Theme", "drake_redcrest", "Chibi-Robo!"],
             // teriyaki blues
             ["Gaur Plains", "gaur", "Xenoblade Chronicles"],
+            // dmc anything
             ["Dr. Wily's Castle: Stage 1", "wily", "Mega Man 2"],
             ["Green Hill Zone", "green_hill", "Sonic the Hedgehog"],
             ["Emerald Hill Zone", "emerald", "Sonic the Hedgehog 2"],
@@ -64,6 +65,7 @@ songlist = [["Main Theme", "mario_theme", "Super Mario Bros."],
             ["Crisis City Remix (Modern)", "crisis", "Sonic Generations"],
             ["Rooftop Run Remix (Modern)", "rooftop", "Sonic Generations"],
             ["Concept of Love", "concept", "Jet Set Radio Future"],
+            // bayonetta
             ["Battle for Everyone's Souls", "persona3", "Persona 3"],
             // metal gear
             ["Simple and Clean", "simple", "Kingdom Hearts"],
