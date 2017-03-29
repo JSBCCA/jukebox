@@ -9,6 +9,8 @@ songlist = [["Main Theme", "mario_theme", "Super Mario Bros."],
             ["Come On!", "come_on", "M&L: Superstar Saga"],
             ["Grand Finale", "grand", "M&L: Bowser's Inside Story"],
             ["Adventure's End", "end", "M&L: Dream Team"],
+            // paper mario ttyd
+            // super paper mario
             ["Big Top Bop", "big_top", "DK Country: Tropical Freeze"],
             ["Main Theme", "zelda_intro", "The Legend of Zelda"],
             ["The Dark World", "dark_world", "Zelda: A Link to the Past"],
@@ -79,8 +81,11 @@ songlist = [["Main Theme", "mario_theme", "Super Mario Bros."],
             ["Riku Battle", "riku", "Kingdom Hearts 358/2 Days"],
             ["Dearly Beloved (BBS Ver.)", "dearly_beloved", "Kingdom Hearts Birth by Sleep"],
             ["Aqua's Theme", "aqua", "Kingdom Hearts Birth by Sleep"],
+            // dismiss
             ["L'Impeto Oscuro", "young_x", "Kingdom Hearts 3D"],
             ["Ray of Hope Mix", "rayofhope", "Kingdom Hearts 0.2"],
+            // mirror song 0.2
+            // final boss 0.2
             ["Opening", "ff7opening", "Final Fantasy VII"],
             ["Aerith's Theme", "aerith", "Final Fantasy VII"],
             ["One Winged Angel", "onewinged", "Final Fantasy VII"],
