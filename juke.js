@@ -63,6 +63,7 @@ songlist = [["Main Theme", "mario_theme", "Super Mario Bros."],
             ["Rooftop Run Remix (Modern)", "rooftop", "Sonic Generations"],
             ["Concept of Love", "concept", "Jet Set Radio Future"],
             // Persona
+            // metal gear
             ["Simple and Clean", "simple", "Kingdom Hearts"],
             ["Traverse Town", "traverse", "Kingdom Hearts"],
             ["Guardando nel Buio", "ansem", "Kingdom Hearts"],
