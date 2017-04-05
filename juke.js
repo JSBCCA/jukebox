@@ -70,12 +70,14 @@ songlist = [["Main Theme", "mario_theme", "Super Mario Bros."],
             ["Battle for Everyone's Souls", "persona3", "Persona 3"],
             // metal gear
             ["Simple and Clean", "simple", "Kingdom Hearts"],
+            // opening, SimpleandClean orchestrated
             ["Traverse Town", "traverse", "Kingdom Hearts"],
             ["Guardando nel Buio", "ansem", "Kingdom Hearts"],
             ["Naminé", "namine", "Kingdom Hearts Re:CoM"],
             ["Lord of the Castle", "lord_of_castle", "Kingdom Hearts Re:CoM"],
             ["Dearly Beloved (KH2 Ver.)", "dearly_beloved2", "Kingdom Hearts 2"],
             ["Sanctuary", "sanctuary", "Kingdom Hearts 2"],
+            // opening, Sanctuary orchestrated
             ["Roxas's Theme", "roxas", "Kingdom Hearts 2"],
             ["The 13th Struggle", "struggle", "Kingdom Hearts 2"],
             ["Sacred Moon", "sacred_moon", "Kingdom Hearts 2"],
