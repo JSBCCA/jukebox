@@ -2,6 +2,7 @@ songlist = [["Main Theme", "mario_theme", "Super Mario Bros."],
             ["Underground Theme", "underground", "Super Mario Bros."],
             ["Underwater Theme", "underwater", "Super Mario Bros."],
             ["Main Theme", "mario_64", "Super Mario 64"],
+            // mario sunshine
             ["Gusty Garden Galaxy", "gusty", "Super Mario Galaxy"],
             ["Luigi's Mansion Main Theme", "luigis_mansion", "Super Smash Bros. Brawl"],
             ["Rainbow Road", "rainbow", "Mario Kart 64"],
@@ -130,6 +131,7 @@ songlist = [["Main Theme", "mario_theme", "Super Mario Bros."],
             ["Hexagon", "hexagon", "Super Hexagon"],
             ["The End", "the_end", "Drawn to Life"],
             ["Real Life", "real_life", "DtL: The Next Chapter"],
+            // ducktales
             ["Main Theme", "batman", "Batman Arkham City"],
             ["Opening", "budokai", "DBZ: Budokai 3"],
             ["Super Survivor (Instrumental)", "super_survivor", "DBZ: Budokai Tenkaichi 3"]]
