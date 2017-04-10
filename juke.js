@@ -3,6 +3,7 @@ songlist = [["Main Theme", "mario_theme", "Super Mario Bros."],
             ["Underwater Theme", "underwater", "Super Mario Bros."],
             ["Main Theme", "mario_64", "Super Mario 64"],
             // mario sunshine
+            // cosmic observatory
             ["Gusty Garden Galaxy", "gusty", "Super Mario Galaxy"],
             // mario 3d world bowser carnival
             ["Luigi's Mansion Main Theme", "luigis_mansion", "Super Smash Bros. Brawl"],
