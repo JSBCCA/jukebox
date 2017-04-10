@@ -39,7 +39,10 @@ songlist = [["Main Theme", "mario_theme", "Super Mario Bros."],
             ["Dark Pit's Theme", "dark_pit", "Kid Icarus Uprising"],
             ["Lightning Battle", "lightning", "Kid Icarus Uprising"],
             ["Id (Purpose)", "purpose", "Fire Emblem Awakening"],
+            // thorn in you roar
             ["Lost in Thoughts All Alone", "lost_thoughts", "Fire Emblem Fates"],
+            // perplexing dreams
+            // dark fall
             ["Splattack!", "splattack", "Splatoon"],
             // smash anything
             // pokemon anything
