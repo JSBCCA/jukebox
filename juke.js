@@ -147,6 +147,7 @@ songlist = [["Main Theme", "mario_theme", "Super Mario Bros."],
             // ducktales the moon
             // ducktales the moon remastered
             ["Main Theme", "batman", "Batman Arkham City"],
+            // joker carnival
             ["Opening", "budokai", "DBZ: Budokai 3"],
             ["Super Survivor (Instrumental)", "super_survivor", "DBZ: Budokai Tenkaichi 3"]]
 
