@@ -38,6 +38,7 @@ songlist = [["Main Theme", "mario_theme", "Super Mario Bros."],
             ["Magnus's Theme", "magnus", "Kid Icarus Uprising"],
             ["Dark Pit's Theme", "dark_pit", "Kid Icarus Uprising"],
             ["Lightning Battle", "lightning", "Kid Icarus Uprising"],
+            // melee FE theme
             ["Id (Purpose)", "purpose", "Fire Emblem Awakening"],
             // thorn in you roar
             ["Lost in Thoughts All Alone", "lost_thoughts", "Fire Emblem Fates"],
@@ -108,6 +109,7 @@ songlist = [["Main Theme", "mario_theme", "Super Mario Bros."],
             ["Butcher Pete", "butcher_pete", "Fallout 3"],
             ["UN Owen Was Her?", "un_owen", "Touhou"],
             ["Necrofantasia", "necrof", "Touhou"],
+            // PvZ Zomboss
             ["Still Alive", "still_alive", "Portal"],
             ["Your Best Friend", "best_friend", "Undertale"],
             ["Undertale", "undertale", "Undertale"],
