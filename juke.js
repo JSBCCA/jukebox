@@ -5,7 +5,7 @@ songlist = [["Main Theme", "mario_theme", "Super Mario Bros."],
             // mario sunshine
             ["Gusty Garden Galaxy", "gusty", "Super Mario Galaxy"],
             ["Luigi's Mansion Main Theme", "luigis_mansion", "Super Smash Bros. Brawl"],
-            ["Rainbow Road", "rainbow", "Mario Kart 64"],
+            ["Rainbow Road", "rainbow", "Mario Kart 64"], // mk8 too
             ["Tick Tock Clock Remix", "tick_tock", "Mario Kart 8"],
             ["Beware the Forest Mushrooms", "forest", "Super Mario RPG"],
             ["Come On!", "come_on", "M&L: Superstar Saga"],
@@ -76,8 +76,8 @@ songlist = [["Main Theme", "mario_theme", "Super Mario Bros."],
             // metal gear
             ["Simple and Clean", "simple", "Kingdom Hearts"],
             // opening, SimpleandClean orchestrated
-            ["Traverse Town", "traverse", "Kingdom Hearts"],
-            ["Guardando nel Buio", "ansem", "Kingdom Hearts"],
+            ["Traverse Town", "traverse", "Kingdom Hearts"], // 1.5
+            ["Guardando nel Buio", "ansem", "Kingdom Hearts"], // 1.5
             ["Naminé", "namine", "Kingdom Hearts Re:CoM"],
             ["Lord of the Castle", "lord_of_castle", "Kingdom Hearts Re:CoM"],
             ["Dearly Beloved (KH2 Ver.)", "dearly_beloved2", "Kingdom Hearts 2"],
@@ -86,16 +86,19 @@ songlist = [["Main Theme", "mario_theme", "Super Mario Bros."],
             ["Roxas's Theme", "roxas", "Kingdom Hearts 2"],
             ["The 13th Struggle", "struggle", "Kingdom Hearts 2"],
             ["Sacred Moon", "sacred_moon", "Kingdom Hearts 2"],
-            ["Xion's Theme", "xion", "Kingdom Hearts 358/2 Days"],
-            ["Vector to the Heavens", "vector", "Kingdom Hearts 358/2 Days"],
+            // bbs secret movie theme
+            ["Xion's Theme", "xion", "Kingdom Hearts 358/2 Days"], // 1.5
+            ["Vector to the Heavens", "vector", "Kingdom Hearts 358/2 Days"], // 1.5
             ["Riku Battle", "riku", "Kingdom Hearts 358/2 Days"],
             ["Dearly Beloved (BBS Ver.)", "dearly_beloved", "Kingdom Hearts Birth by Sleep"],
             ["Aqua's Theme", "aqua", "Kingdom Hearts Birth by Sleep"],
+            // ventus
             // dismiss
             ["L'Impeto Oscuro", "young_x", "Kingdom Hearts 3D"],
             ["Ray of Hope Mix", "rayofhope", "Kingdom Hearts 0.2"],
             // mirror song 0.2
             // final boss 0.2
+            // union x dearly beloved
             ["Opening", "ff7opening", "Final Fantasy VII"],
             ["Aerith's Theme", "aerith", "Final Fantasy VII"],
             ["One Winged Angel", "onewinged", "Final Fantasy VII"],
@@ -117,11 +120,15 @@ songlist = [["Main Theme", "mario_theme", "Super Mario Bros."],
             ["sans.", "sans", "Undertale"],
             ["Snowdin Town", "snowdin", "Undertale"],
             ["Bonetrousle", "bonetrousle", "Undertale"],
+            // spear of justice
+            // alphys
+            // metal crusher
             ["Another Medium", "medium", "Undertale"],
             ["Spider Dance", "spider_dance", "Undertale"],
             ["The Core", "core", "Undertale"],
             ["Death by Glamour", "death_by_glamour", "Undertale"],
             ["Bergentrückung / ASGORE", "asgore", "Undertale"],
+            // finale
             ["Hopes and Dreams", "hopes_and_dreams", "Undertale"],
             ["SAVE the World", "save_world", "Undertale"],
             ["His Theme", "his_theme", "Undertale"],
@@ -136,7 +143,8 @@ songlist = [["Main Theme", "mario_theme", "Super Mario Bros."],
             ["Hexagon", "hexagon", "Super Hexagon"],
             ["The End", "the_end", "Drawn to Life"],
             ["Real Life", "real_life", "DtL: The Next Chapter"],
-            // ducktales
+            // ducktales the moon
+            // ducktales the moon remastered
             ["Main Theme", "batman", "Batman Arkham City"],
             ["Opening", "budokai", "DBZ: Budokai 3"],
             ["Super Survivor (Instrumental)", "super_survivor", "DBZ: Budokai Tenkaichi 3"]]
