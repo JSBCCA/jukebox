@@ -4,6 +4,7 @@ songlist = [["Main Theme", "mario_theme", "Super Mario Bros."],
             ["Main Theme", "mario_64", "Super Mario 64"],
             // mario sunshine
             ["Gusty Garden Galaxy", "gusty", "Super Mario Galaxy"],
+            // mario 3d world bowser carnival
             ["Luigi's Mansion Main Theme", "luigis_mansion", "Super Smash Bros. Brawl"],
             ["Rainbow Road", "rainbow", "Mario Kart 64"], // mk8 too
             ["Tick Tock Clock Remix", "tick_tock", "Mario Kart 8"],
