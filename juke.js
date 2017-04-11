@@ -49,6 +49,7 @@ songlist = [["Main Theme", "mario_theme", "Super Mario Bros."],
             ["Splattack!", "splattack", "Splatoon"],
             // smash anything
             // pokemon anything
+            // earthbound mother
             ["Midday Majesty", "midday", "Chibi-Robo!"],
             ["Drake Redcrest Theme", "drake_redcrest", "Chibi-Robo!"],
             // teriyaki blues
@@ -78,6 +79,7 @@ songlist = [["Main Theme", "mario_theme", "Super Mario Bros."],
             // metal gear
             ["Simple and Clean", "simple", "Kingdom Hearts"],
             // opening, SimpleandClean orchestrated
+            // night of fate
             ["Traverse Town", "traverse", "Kingdom Hearts"], // 1.5
             ["Guardando nel Buio", "ansem", "Kingdom Hearts"], // 1.5
             ["Naminé", "namine", "Kingdom Hearts Re:CoM"],
