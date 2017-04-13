@@ -143,7 +143,7 @@ songlist = [["Main Theme", "mario_theme", "Super Mario Bros."],
             ["Hot Damned", "meatboy", "Super Meat Boy"],
             ["Tower of Heaven", "tower_heaven", "Super Smash Land"],
             ["Last Battle", "cave_story", "Cave Story"],
-            // crypt of the necrodancer
+            ["Mausoleum Mash (Shopkeeper)", "crypt", "Crypt of the NecroDancer"],
             ["Hexagon", "hexagon", "Super Hexagon"],
             ["The End", "the_end", "Drawn to Life"],
             ["Real Life", "real_life", "DtL: The Next Chapter"],
