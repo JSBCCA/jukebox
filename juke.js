@@ -147,7 +147,7 @@ songlist = [["Main Theme", "mario_theme", "Super Mario Bros."],
             ["Hexagon", "hexagon", "Super Hexagon"],
             ["The End", "the_end", "Drawn to Life"],
             ["Real Life", "real_life", "DtL: The Next Chapter"],
-            // ducktales the moon
+            ["The Moon", "ducktales_moon", "DuckTales"],
             // ducktales the moon remastered
             ["Main Theme", "batman", "Batman Arkham City"],
             // joker carnival
