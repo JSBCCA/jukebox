@@ -116,7 +116,7 @@ songlist = [["Main Theme", "mario_theme", "Super Mario Bros."],
             ["Butcher Pete", "butcher_pete", "Fallout 3"],
             ["UN Owen Was Her?", "un_owen", "Touhou"],
             ["Necrofantasia", "necrof", "Touhou"],
-            // PvZ Zomboss
+            ["Dr. Zomboss", "pvz", "Plants vs Zombies"],
             ["Still Alive", "still_alive", "Portal"],
             ["Your Best Friend", "best_friend", "Undertale"],
             ["Undertale", "undertale", "Undertale"],
@@ -150,7 +150,6 @@ songlist = [["Main Theme", "mario_theme", "Super Mario Bros."],
             ["The Moon", "ducktales_moon", "DuckTales"],
             // ducktales the moon remastered
             ["Main Theme", "batman", "Batman Arkham City"],
-            // joker carnival
             ["Opening", "budokai", "DBZ: Budokai 3"],
             ["Super Survivor (Instrumental)", "super_survivor", "DBZ: Budokai Tenkaichi 3"]]
 
