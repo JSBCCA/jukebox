@@ -42,8 +42,8 @@ songlist = [["Main Theme", "mario_theme", "Super Mario Bros."],
             ["Lightning Battle", "lightning", "Kid Icarus Uprising"],
             // melee FE theme
             ["Id (Purpose)", "purpose", "Fire Emblem Awakening"],
-            // thorn in you roar
             ["Lost in Thoughts All Alone", "lost_thoughts", "Fire Emblem Fates"],
+            ["Thorn in You (Roar)", "thorn", "Fire Emblem Fates"],
             // perplexing dreams
             // dark fall
             ["Splattack!", "splattack", "Splatoon"],
@@ -102,7 +102,7 @@ songlist = [["Main Theme", "mario_theme", "Super Mario Bros."],
             ["Ray of Hope Mix", "rayofhope", "Kingdom Hearts 0.2"],
             // mirror song 0.2
             // final boss 0.2
-            // union x dearly beloved
+            ["Dearly Beloved (KHUX Ver.)", "khux", "Kingdom Hearts Union X"],
             ["Opening", "ff7opening", "Final Fantasy VII"],
             ["Aerith's Theme", "aerith", "Final Fantasy VII"],
             ["One Winged Angel", "onewinged", "Final Fantasy VII"],
