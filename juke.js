@@ -77,6 +77,12 @@ songlist = [["Main Theme", "mario_theme", "Super Mario Bros."],
             ["Let's Dance, Boys!", "bayonetta", "Bayonetta"],
             ["Battle for Everyone's Souls", "persona3", "Persona 3"],
             // metal gear
+            ["Long Dream", "long_dream", "The World Ends With You"],
+            ["Three Minutes Clapping", "three_minutes_clapping", "The World Ends With You"],
+            ["Detonation", "detonation", "The World Ends With You"],
+            ["Game Over", "game_over", "The World Ends With You"],
+            ["Emptiness and", "emptiness_and", "The World Ends With You"],
+            ["Lullaby for you", "lullaby_for_you", "The World Ends With You"],
             ["Simple and Clean", "simple", "Kingdom Hearts"],
             // opening, SimpleandClean orchestrated
             // night of fate
