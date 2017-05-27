@@ -77,6 +77,8 @@ songlist = [["Main Theme", "mario_theme", "Super Mario Bros."],
             ["Let's Dance, Boys!", "bayonetta", "Bayonetta"],
             ["Battle for Everyone's Souls", "persona3", "Persona 3"],
             // metal gear
+            ["The Weight of the World", "weight_of_the_world", "NieR: Automata"],
+            ["Calling", "calling", "The World Ends With You"],
             ["Long Dream", "long_dream", "The World Ends With You"],
             ["Three Minutes Clapping", "three_minutes_clapping", "The World Ends With You"],
             ["Detonation", "detonation", "The World Ends With You"],
