@@ -47,6 +47,7 @@ songlist = [["Main Theme", "mario_theme", "Super Mario Bros."],
             // perplexing dreams
             // dark fall
             ["Splattack!", "splattack", "Splatoon"],
+            // arms main theme
             // smash anything
             // pokemon anything
             // earthbound mother
@@ -78,6 +79,7 @@ songlist = [["Main Theme", "mario_theme", "Super Mario Bros."],
             // pumpkin hill
             ["Live and Learn", "liveandlearn", "Sonic Adventure 2"],
             ["Sonic Heroes", "sonic_heroes", "Sonic Heroes"],
+            // egg emperor
             ["What I'm Made Of", "made_of", "Sonic Heroes"],
             ["I am... All of Me", "i_am", "Shadow the Hedgehog"],
             ["Never Turn Back", "never_turn", "Shadow the Hedgehog"],
