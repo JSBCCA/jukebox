@@ -61,8 +61,19 @@ songlist = [["Main Theme", "mario_theme", "Super Mario Bros."],
             ["Chemical Plant Zone", "chemical", "Sonic the Hedgehog 2"],
             ["Casino Night Zone (1P)", "casino", "Sonic the Hedgehog 2"],
             ["Doomsday Zone", "doomsday", "Sonic 3 & Knuckles"],
+            // welcome to station square
+            // emerald coast
+            // casinopolis
+            // red mountain - red hot skull
+            // speed highway
+            // tornado (plane) theme
+            // sky deck
             ["Open Your Heart", "perfect_chaos", "Sonic Adventure"],
             ["Escape from the City", "escape", "Sonic Adventure 2"],
+            // green forest
+            // metal harbor
+            // radical highway
+            // pumpkin hill
             ["Live and Learn", "liveandlearn", "Sonic Adventure 2"],
             ["Sonic Heroes", "sonic_heroes", "Sonic Heroes"],
             ["What I'm Made Of", "made_of", "Sonic Heroes"],
@@ -71,8 +82,10 @@ songlist = [["Main Theme", "mario_theme", "Super Mario Bros."],
             ["Solaris Phase 2", "solaris", "Sonic the Hedgehog (2006)"],
             ["Perfect Dark Gaia Phase 2", "dark_gaia", "Sonic Unleashed"],
             ["Knight of the Wind", "wind", "Sonic and the Black Knight"],
+            // crisis city classic
             ["Crisis City Remix (Modern)", "crisis", "Sonic Generations"],
             ["Rooftop Run Remix (Modern)", "rooftop", "Sonic Generations"],
+            // sonic forces infinite
             ["Concept of Love", "concept", "Jet Set Radio Future"],
             ["Let's Dance, Boys!", "bayonetta", "Bayonetta"],
             ["Battle for Everyone's Souls", "persona3", "Persona 3"],
