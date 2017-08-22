@@ -60,6 +60,8 @@ songlist = [["Main Theme", "mario_theme", "Super Mario Bros."],
             ["Emerald Hill Zone", "emerald", "Sonic the Hedgehog 2"],
             ["Chemical Plant Zone", "chemical", "Sonic the Hedgehog 2"],
             ["Casino Night Zone (1P)", "casino", "Sonic the Hedgehog 2"],
+            // sonic boom
+            // mushroom hill
             ["Doomsday Zone", "doomsday", "Sonic 3 & Knuckles"],
             // welcome to station square
             // emerald coast
@@ -79,12 +81,19 @@ songlist = [["Main Theme", "mario_theme", "Super Mario Bros."],
             ["What I'm Made Of", "made_of", "Sonic Heroes"],
             ["I am... All of Me", "i_am", "Shadow the Hedgehog"],
             ["Never Turn Back", "never_turn", "Shadow the Hedgehog"],
+            // wave ocean waters edge
+            // white acropolis snowy peak
             ["Solaris Phase 2", "solaris", "Sonic the Hedgehog (2006)"],
             ["Perfect Dark Gaia Phase 2", "dark_gaia", "Sonic Unleashed"],
             ["Knight of the Wind", "wind", "Sonic and the Black Knight"],
+            // sonic colors planet wisp
+            // aquarium park
+            // sonic colors terminal velocity
+            // sonic colors final boss
             // crisis city classic
             ["Crisis City Remix (Modern)", "crisis", "Sonic Generations"],
             ["Rooftop Run Remix (Modern)", "rooftop", "Sonic Generations"],
+            // sonic mania studiopolis
             // sonic forces infinite
             ["Concept of Love", "concept", "Jet Set Radio Future"],
             ["Let's Dance, Boys!", "bayonetta", "Bayonetta"],
