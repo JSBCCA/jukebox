@@ -77,6 +77,7 @@ songlist = [["Main Theme", "mario_theme", "Super Mario Bros."],
             // metal harbor
             // radical highway
             // pumpkin hill
+            // supporting me
             ["Live and Learn", "liveandlearn", "Sonic Adventure 2"],
             ["Sonic Heroes", "sonic_heroes", "Sonic Heroes"],
             // egg emperor
@@ -140,6 +141,7 @@ songlist = [["Main Theme", "mario_theme", "Super Mario Bros."],
             ["One Winged Angel", "onewinged", "Final Fantasy VII"],
             ["Apocalypsis Aquarius", "aquarius", "Final Fantasy XV"],
             ["Somnus", "somnus", "Final Fantasy XV"],
+            // dissidia nt main theme
             ["Skyrim Main Theme", "skyrim", "Elder Scrolls V: Skyrim"],
             // CoD anything
             ["Halo Main Theme", "halo", "Halo"],
