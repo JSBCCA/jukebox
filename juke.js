@@ -6,6 +6,7 @@ songlist = [["Main Theme", "mario_theme", "Super Mario Bros."],
             // cosmic observatory
             ["Gusty Garden Galaxy", "gusty", "Super Mario Galaxy"],
             // mario 3d world bowser carnival
+            // mario odyssey jump up superstar
             ["Luigi's Mansion Main Theme", "luigis_mansion", "Super Smash Bros. Brawl"],
             ["Rainbow Road", "rainbow", "Mario Kart 64"], // mk8 too
             ["Tick Tock Clock Remix", "tick_tock", "Mario Kart 8"],
@@ -97,11 +98,13 @@ songlist = [["Main Theme", "mario_theme", "Super Mario Bros."],
             ["Crisis City Remix (Modern)", "crisis", "Sonic Generations"],
             ["Rooftop Run Remix (Modern)", "rooftop", "Sonic Generations"],
             // sonic mania studiopolis
+            // sonic forces fist bump
             // sonic forces infinite
             ["Concept of Love", "concept", "Jet Set Radio Future"],
             ["Let's Dance, Boys!", "bayonetta", "Bayonetta"],
             ["Battle for Everyone's Souls", "persona3", "Persona 3"],
             // metal gear
+            // nier automata this cannot continue
             // nier/automata song of the ancients
             // nier automata ammusement park
             // nier automata copied city
