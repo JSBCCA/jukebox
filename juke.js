@@ -102,6 +102,9 @@ songlist = [["Main Theme", "mario_theme", "Super Mario Bros."],
             ["Let's Dance, Boys!", "bayonetta", "Bayonetta"],
             ["Battle for Everyone's Souls", "persona3", "Persona 3"],
             // metal gear
+            // nier/automata song of the ancients
+            // nier automata ammusement park
+            // nier automata copied city
             ["The Weight of the World", "weight_of_the_world", "NieR: Automata"],
             ["Calling", "calling", "The World Ends With You"],
             ["Long Dream", "long_dream", "The World Ends With You"],
