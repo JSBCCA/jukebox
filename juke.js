@@ -104,7 +104,7 @@ songlist = [["Main Theme", "mario_theme", "Super Mario Bros."],
             ["Let's Dance, Boys!", "bayonetta", "Bayonetta"],
             ["Battle for Everyone's Souls", "persona3", "Persona 3"],
             // metal gear
-            ["Song of the Ancients - Fate", "nier", "Nier"],
+            ["Song of the Ancients - Fate", "song_ancients", "Nier"],
             // nier automata this cannot continue
             // nier automata ammusement park
             // nier automata copied city
