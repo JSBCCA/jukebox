@@ -198,6 +198,15 @@ songlist = [["Main Theme", "mario_theme", "Super Mario Bros."],
 var current_item = 0;
 var placehold = null;
 
+// testing double pause buttons
+if (current_item === placehold && audio.paused) {
+    $('#pause').css('display', 'none');
+    $('#play').css('display', 'inline-block');
+} else if (current_item === placehold && !audio.paused) {
+    $('#pause').css('display', 'inline-block');
+    $('#play').css('display', 'none');
+}
+
 // changing track
 function change_track(song_info) {
   $("#title").text(song_info[2]);
