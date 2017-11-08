@@ -202,7 +202,7 @@ var placehold = null;
 if (current_item === placehold && audio.paused) {
     $('#pause').css('display', 'none');
     $('#play').css('display', 'inline-block');
-} else if (current_item === placehold && !audio.paused) {
+} else if (audio.duration > 0 && current_item === placehold && !audio.paused) {
     $('#pause').css('display', 'inline-block');
     $('#play').css('display', 'none');
 }
