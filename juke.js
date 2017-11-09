@@ -16,7 +16,7 @@ songlist = [["Main Theme", "mario_theme", "Super Mario Bros."],
             ["Adventure's End", "end", "M&L: Dream Team"],
             // paper mario ttyd
             // super paper mario
-            ["Merlee's Mansion", "merlee", "Super Paper Mario],
+            ["Merlee's Mansion", "merlee", "Super Paper Mario"],
             ["Big Top Bop", "big_top", "DK Country: Tropical Freeze"],
             ["Main Theme", "zelda_intro", "The Legend of Zelda"],
             ["The Dark World", "dark_world", "Zelda: A Link to the Past"],
