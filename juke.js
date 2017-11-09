@@ -154,7 +154,7 @@ songlist = [["Main Theme", "mario_theme", "Super Mario Bros."],
             // CoD anything
             ["Halo Main Theme", "halo", "Halo"],
             ["Mad World (Instrumental)", "madworld", "Gears of War 3"],
-            ["e1m1", "doom_theme", "Doom"],
+            ["E1M1 - At Doom's Gate", "doom_theme", "Doom"],
             ["Jingle Jangle Jingle", "jingle", "Fallout New Vegas"],
             ["Butcher Pete", "butcher_pete", "Fallout 3"],
             ["UN Owen Was Her?", "un_owen", "Touhou"],
