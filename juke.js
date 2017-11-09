@@ -6,7 +6,7 @@ songlist = [["Main Theme", "mario_theme", "Super Mario Bros."],
             // cosmic observatory
             ["Gusty Garden Galaxy", "gusty", "Super Mario Galaxy"],
             // mario 3d world bowser carnival
-            // mario odyssey jump up superstar
+            ["Jump Up Superstar!", "jump_superstar", "Super Mario Odyssey"],
             ["Luigi's Mansion Main Theme", "luigis_mansion", "Super Smash Bros. Brawl"],
             ["Rainbow Road", "rainbow", "Mario Kart 64"], // mk8 too
             ["Tick Tock Clock Remix", "tick_tock", "Mario Kart 8"],
@@ -16,6 +16,7 @@ songlist = [["Main Theme", "mario_theme", "Super Mario Bros."],
             ["Adventure's End", "end", "M&L: Dream Team"],
             // paper mario ttyd
             // super paper mario
+            ["Merlee's Mansion", "merlee", "Super Paper Mario],
             ["Big Top Bop", "big_top", "DK Country: Tropical Freeze"],
             ["Main Theme", "zelda_intro", "The Legend of Zelda"],
             ["The Dark World", "dark_world", "Zelda: A Link to the Past"],
@@ -41,14 +42,14 @@ songlist = [["Main Theme", "mario_theme", "Super Mario Bros."],
             ["Magnus's Theme", "magnus", "Kid Icarus Uprising"],
             ["Dark Pit's Theme", "dark_pit", "Kid Icarus Uprising"],
             ["Lightning Battle", "lightning", "Kid Icarus Uprising"],
-            // melee FE theme
+            ["Fire Emblem", "melee_fe", "Super Smash Bros. Melee],
             ["Id (Purpose)", "purpose", "Fire Emblem Awakening"],
             ["Lost in Thoughts All Alone", "lost_thoughts", "Fire Emblem Fates"],
             ["Thorn in You (Roar)", "thorn", "Fire Emblem Fates"],
             // perplexing dreams
             // dark fall
             ["Splattack!", "splattack", "Splatoon"],
-            // arms main theme
+            ["Main Theme", "arms", "Arms"],
             // smash anything
             // pokemon anything
             // earthbound mother
@@ -56,7 +57,7 @@ songlist = [["Main Theme", "mario_theme", "Super Mario Bros."],
             ["Drake Redcrest Theme", "drake_redcrest", "Chibi-Robo!"],
             // teriyaki blues
             ["Gaur Plains", "gaur", "Xenoblade Chronicles"],
-            // dmc anything
+            ["Devil's Never Cry", "devilsnevercry", "Devil May Cry 3"],
             ["Dr. Wily's Castle: Stage 1", "wily", "Mega Man 2"],
             ["Green Hill Zone", "green_hill", "Sonic the Hedgehog"],
             ["Emerald Hill Zone", "emerald", "Sonic the Hedgehog 2"],
@@ -97,17 +98,18 @@ songlist = [["Main Theme", "mario_theme", "Super Mario Bros."],
             // crisis city classic
             ["Crisis City Remix (Modern)", "crisis", "Sonic Generations"],
             ["Rooftop Run Remix (Modern)", "rooftop", "Sonic Generations"],
-            // sonic mania studiopolis
+            ["Studiopolis Act 1", "studiopolis", "Sonic Mania"],
             // sonic forces fist bump
-            // sonic forces infinite
+            ["Infinite", "infinite", "Sonic Forces"],
             ["Concept of Love", "concept", "Jet Set Radio Future"],
             ["Let's Dance, Boys!", "bayonetta", "Bayonetta"],
+            ["Tomorrow is Mine", "tomorrow_mine", "Bayonetta 2"],
             ["Battle for Everyone's Souls", "persona3", "Persona 3"],
             // metal gear
             ["Song of the Ancients - Fate", "song_ancients", "NieR"],
             // nier automata this cannot continue
-            // nier automata ammusement park
-            // nier automata copied city
+            ["Amusement Park", "amusement", "NieR: Automata"],
+            ["Copied City", "copied_city", "NieR: Automata"],
             ["The Weight of the World", "weight_of_the_world", "NieR: Automata"],
             ["Calling", "calling", "The World Ends With You"],
             ["Long Dream", "long_dream", "The World Ends With You"],
@@ -117,7 +119,7 @@ songlist = [["Main Theme", "mario_theme", "Super Mario Bros."],
             ["Emptiness and", "emptiness_and", "The World Ends With You"],
             ["Lullaby for you", "lullaby_for_you", "The World Ends With You"],
             ["Simple and Clean", "simple", "Kingdom Hearts"],
-            // opening, SimpleandClean orchestrated
+            ["Hikari Orchestra", "kh1_open", "Kingdom Hearts"],
             // night of fate
             ["Traverse Town", "traverse", "Kingdom Hearts"], // 1.5
             ["Guardando nel Buio", "ansem", "Kingdom Hearts"], // 1.5
@@ -125,7 +127,7 @@ songlist = [["Main Theme", "mario_theme", "Super Mario Bros."],
             ["Lord of the Castle", "lord_of_castle", "Kingdom Hearts Re:CoM"],
             ["Dearly Beloved (KH2 Ver.)", "dearly_beloved2", "Kingdom Hearts 2"],
             ["Sanctuary", "sanctuary", "Kingdom Hearts 2"],
-            // opening, Sanctuary orchestrated
+            ["Passion Orchestra",  "kh2_open", "Kingdom Hearts 2"],
             ["Roxas's Theme", "roxas", "Kingdom Hearts 2"],
             ["The 13th Struggle", "struggle", "Kingdom Hearts 2"],
             ["Sacred Moon", "sacred_moon", "Kingdom Hearts 2"],
@@ -152,6 +154,7 @@ songlist = [["Main Theme", "mario_theme", "Super Mario Bros."],
             // CoD anything
             ["Halo Main Theme", "halo", "Halo"],
             ["Mad World (Instrumental)", "madworld", "Gears of War 3"],
+            ["e1m1", "doom_theme", "Doom"],
             ["Jingle Jangle Jingle", "jingle", "Fallout New Vegas"],
             ["Butcher Pete", "butcher_pete", "Fallout 3"],
             ["UN Owen Was Her?", "un_owen", "Touhou"],
@@ -179,7 +182,7 @@ songlist = [["Main Theme", "mario_theme", "Super Mario Bros."],
             ["Battle Against a True Hero", "battle_against", "Undertale"],
             ["Megalovania", "megalovania", "Undertale"],
             ["Strike the Earth!", "strike_earth", "Shovel Knight"],
-            // vvvvvv
+            ["Positive Force", "vvvvvv", "VVVVVV"],
             ["Hot Damned", "meatboy", "Super Meat Boy"],
             ["Tower of Heaven", "tower_heaven", "Super Smash Land"],
             ["Last Battle", "cave_story", "Cave Story"],
