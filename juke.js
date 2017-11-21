@@ -191,7 +191,6 @@ songlist = [["Main Theme", "mario_theme", "Super Mario Bros."],
             ["The End", "the_end", "Drawn to Life"],
             ["Real Life", "real_life", "DtL: The Next Chapter"],
             ["The Moon", "ducktales_moon", "DuckTales"],
-            // ducktales the moon remastered
             ["Main Theme", "batman", "Batman Arkham City"],
             ["Opening", "budokai", "DBZ: Budokai 3"],
             ["Super Survivor (Instrumental)", "super_survivor", "DBZ: Budokai Tenkaichi 3"]]
