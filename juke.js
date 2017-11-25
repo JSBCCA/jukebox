@@ -46,8 +46,8 @@ songlist = [["Main Theme", "mario_theme", "Super Mario Bros."],
             ["Id (Purpose)", "purpose", "Fire Emblem Awakening"],
             ["Lost in Thoughts All Alone", "lost_thoughts", "Fire Emblem Fates"],
             ["Thorn in You (Roar)", "thorn", "Fire Emblem Fates"],
-            // perplexing dreams
-            // dark fall
+            ["Perplexing Dreams", "perp_dream", "Fire Emblem Fates"],
+            ["A Dark Fall", "dark_fall", "Fire Emblem Fates"],
             ["Splattack!", "splattack", "Splatoon"],
             ["Main Theme", "arms", "Arms"],
             // smash anything
@@ -88,7 +88,9 @@ songlist = [["Main Theme", "mario_theme", "Super Mario Bros."],
             ["Never Turn Back", "never_turn", "Shadow the Hedgehog"],
             // wave ocean waters edge
             // white acropolis snowy peak
+            ["Crisis City - The Flame", "crisis", "Sonic the Hedgehog (2006)"],
             ["Solaris Phase 2", "solaris", "Sonic the Hedgehog (2006)"],
+            ["Rooftop Run", "rooftop", "Sonic Unleashed"],
             ["Perfect Dark Gaia Phase 2", "dark_gaia", "Sonic Unleashed"],
             ["Knight of the Wind", "wind", "Sonic and the Black Knight"],
             // sonic colors planet wisp
@@ -96,10 +98,8 @@ songlist = [["Main Theme", "mario_theme", "Super Mario Bros."],
             // sonic colors terminal velocity
             // sonic colors final boss
             // crisis city classic
-            ["Crisis City Remix (Modern)", "crisis", "Sonic Generations"],
-            ["Rooftop Run Remix (Modern)", "rooftop", "Sonic Generations"],
             ["Studiopolis Act 1", "studiopolis", "Sonic Mania"],
-            // sonic forces fist bump
+            ["Fist Bump", "fistbump", "Sonic Forces"],
             ["Infinite", "infinite", "Sonic Forces"],
             ["Concept of Love", "concept", "Jet Set Radio Future"],
             ["Let's Dance, Boys!", "bayonetta", "Bayonetta"],
@@ -107,7 +107,7 @@ songlist = [["Main Theme", "mario_theme", "Super Mario Bros."],
             ["Battle for Everyone's Souls", "persona3", "Persona 3"],
             // metal gear
             ["Song of the Ancients - Fate", "song_ancients", "NieR"],
-            // nier automata this cannot continue
+            ["Birth of a Wish", "birthwish", "NieR: Automata"],
             ["Amusement Park", "amusement", "NieR: Automata"],
             ["Copied City", "copied_city", "NieR: Automata"],
             ["The Weight of the World", "weight_of_the_world", "NieR: Automata"],
@@ -120,7 +120,7 @@ songlist = [["Main Theme", "mario_theme", "Super Mario Bros."],
             ["Lullaby for you", "lullaby_for_you", "The World Ends With You"],
             ["Simple and Clean", "simple", "Kingdom Hearts"],
             ["Hikari Orchestra", "kh1_open", "Kingdom Hearts"],
-            // night of fate
+            ["Night of Fate", "nightfate", "Kingdom Hearts"],
             ["Traverse Town", "traverse", "Kingdom Hearts"], // 1.5
             ["Guardando nel Buio", "ansem", "Kingdom Hearts"], // 1.5
             ["Naminé", "namine", "Kingdom Hearts Re:CoM"],
@@ -175,7 +175,7 @@ songlist = [["Main Theme", "mario_theme", "Super Mario Bros."],
             ["The Core", "core", "Undertale"],
             ["Death by Glamour", "death_by_glamour", "Undertale"],
             ["Bergentrückung / ASGORE", "asgore", "Undertale"],
-            // finale
+            ["Finale", "ut_finale", "Undertale"],
             ["Hopes and Dreams", "hopes_and_dreams", "Undertale"],
             ["SAVE the World", "save_world", "Undertale"],
             ["His Theme", "his_theme", "Undertale"],
