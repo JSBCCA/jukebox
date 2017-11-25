@@ -99,7 +99,7 @@ songlist = [["Main Theme", "mario_theme", "Super Mario Bros."],
             // sonic colors final boss
             // crisis city classic
             ["Studiopolis Act 1", "studiopolis", "Sonic Mania"],
-            ["Fist Bump", "fistbump", "Sonic Forces"],
+            ["Fist Bump", "fist_bump", "Sonic Forces"],
             ["Infinite", "infinite", "Sonic Forces"],
             ["Concept of Love", "concept", "Jet Set Radio Future"],
             ["Let's Dance, Boys!", "bayonetta", "Bayonetta"],
@@ -107,7 +107,7 @@ songlist = [["Main Theme", "mario_theme", "Super Mario Bros."],
             ["Battle for Everyone's Souls", "persona3", "Persona 3"],
             // metal gear
             ["Song of the Ancients - Fate", "song_ancients", "NieR"],
-            ["Birth of a Wish", "birthwish", "NieR: Automata"],
+            ["Birth of a Wish", "birth_wish", "NieR: Automata"],
             ["Amusement Park", "amusement", "NieR: Automata"],
             ["Copied City", "copied_city", "NieR: Automata"],
             ["The Weight of the World", "weight_of_the_world", "NieR: Automata"],
@@ -120,7 +120,7 @@ songlist = [["Main Theme", "mario_theme", "Super Mario Bros."],
             ["Lullaby for you", "lullaby_for_you", "The World Ends With You"],
             ["Simple and Clean", "simple", "Kingdom Hearts"],
             ["Hikari Orchestra", "kh1_open", "Kingdom Hearts"],
-            ["Night of Fate", "nightfate", "Kingdom Hearts"],
+            ["Night of Fate", "night_fate", "Kingdom Hearts"],
             ["Traverse Town", "traverse", "Kingdom Hearts"], // 1.5
             ["Guardando nel Buio", "ansem", "Kingdom Hearts"], // 1.5
             ["Naminé", "namine", "Kingdom Hearts Re:CoM"],
