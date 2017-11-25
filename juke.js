@@ -170,12 +170,15 @@ songlist = [["Main Theme", "mario_theme", "Super Mario Bros."],
             // spear of justice
             // alphys
             // metal crusher
+            ["Waterfall", "waterfall", "Undertale"],
+            ["Temmie Village", "tem", "Undertale"],
             ["Another Medium", "medium", "Undertale"],
             ["Spider Dance", "spider_dance", "Undertale"],
             ["The Core", "core", "Undertale"],
             ["Death by Glamour", "death_by_glamour", "Undertale"],
             ["Bergentrückung / ASGORE", "asgore", "Undertale"],
             ["Finale", "ut_finale", "Undertale"],
+            ["Amalgam", "amalgam", "Undertale"],
             ["Hopes and Dreams", "hopes_and_dreams", "Undertale"],
             ["SAVE the World", "save_world", "Undertale"],
             ["His Theme", "his_theme", "Undertale"],
