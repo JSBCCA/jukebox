@@ -70,7 +70,7 @@ songlist = [["Main Theme", "mario_theme", "Super Mario Bros."],
             ["Lumiose City", "lumiose", "Pokemon X/Y"],
             ["Battle Champion", "champxy", "Pokemon X/Y"],
             ["Battle Lorekeeper Zinnia", "zinnia", "Pokemon O. Ruby/A. Sapphire"],
-            ["Ultra Necrozma", "necrozma", "Pokemon U. Sun/ U. Moon"],
+            ["Ultra Necrozma", "necrozma", "Pokemon Ultra Sun/Ultra Moon"],
             // earthbound mother
             ["Midday Majesty", "midday", "Chibi-Robo!"],
             ["Drake Redcrest Theme", "drake_redcrest", "Chibi-Robo!"],
