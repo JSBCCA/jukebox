@@ -5,7 +5,7 @@ songlist = [["Main Theme", "mario_theme", "Super Mario Bros."],
             // mario sunshine
             ["Comet Observatory", "observ", "Super Mario Galaxy"],
             ["Gusty Garden Galaxy", "gusty", "Super Mario Galaxy"],
-            // mario 3d world bowser carnival
+            ["World Bowser", "world_bowser", "Super Mario 3D World"],
             ["Jump Up Superstar!", "jump_superstar", "Super Mario Odyssey"],
             ["Break Free", "break_free", "Super Mario Odyssey"],
             ["Gloomy Manor", "gloomy", "Luigi's Mansion: Dark Moon"],
@@ -74,7 +74,7 @@ songlist = [["Main Theme", "mario_theme", "Super Mario Bros."],
             // earthbound mother
             ["Midday Majesty", "midday", "Chibi-Robo!"],
             ["Drake Redcrest Theme", "drake_redcrest", "Chibi-Robo!"],
-            // teriyaki blues
+            ["UFO Visitation", "ufo_visit", "Chibi-Robo!"],
             ["Gaur Plains", "gaur", "Xenoblade Chronicles"],
             ["Fire Emblem", "melee_fe", "Super Smash Bros. Melee"],
             ["Luigi's Mansion Main Theme", "luigis_mansion", "Super Smash Bros. Brawl"],
@@ -103,7 +103,7 @@ songlist = [["Main Theme", "mario_theme", "Super Mario Bros."],
             ["Supporting Me", "biolizard", "Sonic Adventure 2"],
             ["Live and Learn", "liveandlearn", "Sonic Adventure 2"],
             ["Sonic Heroes", "sonic_heroes", "Sonic Heroes"],
-            // egg emperor
+            ["Egg Emperor", "egg_emp", "Sonic Heroes"],
             ["What I'm Made Of", "made_of", "Sonic Heroes"],
             ["I am... All of Me", "i_am", "Shadow the Hedgehog"],
             ["Final Haunt", "final_haunt", "Shadow the Hedgehog"],
@@ -174,7 +174,7 @@ songlist = [["Main Theme", "mario_theme", "Super Mario Bros."],
             ["One Winged Angel", "onewinged", "Final Fantasy VII"],
             ["Apocalypsis Aquarius", "aquarius", "Final Fantasy XV"],
             ["Somnus", "somnus", "Final Fantasy XV"],
-            // dissidia nt main theme
+            ["Massive Explosion", "dissidia", "DISSIDIA FINAL FANTASY -Arcade-"],
             ["Skyrim Main Theme", "skyrim", "Elder Scrolls V: Skyrim"],
             // CoD anything
             ["Halo Main Theme", "halo", "Halo"],
