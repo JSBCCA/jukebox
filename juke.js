@@ -121,7 +121,8 @@ songlist = [["Main Theme", "mario_theme", "Super Mario Bros."],
             // sonic colors terminal velocity
             // sonic colors final boss
             // crisis city classic
-            ["Studiopolis Act 1", "studiopolis", "Sonic Mania"],
+            ["Studiopolis Act Zone 1", "studiopolis", "Sonic Mania"],
+            ["Titanic Monarch Zone Act 2", "titanic_monarch", "Sonic Mania"],
             ["Fist Bump", "fist_bump", "Sonic Forces"],
             ["Avatar Menu", "avatar_menu", "Sonic Forces"],
             ["Battle with Metal Sonic", "metal_sonic", "Sonic Forces"],
@@ -225,7 +226,11 @@ songlist = [["Main Theme", "mario_theme", "Super Mario Bros."],
             ["The Moon", "ducktales_moon", "DuckTales"],
             ["Main Theme", "batman", "Batman Arkham City"],
             ["Opening", "budokai", "DBZ: Budokai 3"],
-            ["Super Survivor (Instrumental)", "super_survivor", "DBZ: Budokai Tenkaichi 3"]]
+            ["Super Survivor (Instrumental)", "super_survivor", "DBZ: Budokai Tenkaichi 3"],
+            ["Future Trunks's Theme", "dbfztrunks", "Dragon Ball FighterZ"],
+            ["Nappa's Theme", "nappa", "Dragon Ball FighterZ"],
+            ["Frieza's Theme", "frieza", "Dragon Ball FighterZ"],
+            ["Hit's Theme", "dbfzhit", "Dragon Ball FighterZ"]]
 
 
 
