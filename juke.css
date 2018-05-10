@@ -71,6 +71,13 @@ audio {
   padding: 1% 0% 1% 0%;
 }
 
+.text_bar {
+  margin-top: 138%;
+  width: 100%;
+  border-style: solid;
+  border-color: rgb(28, 173, 245);
+}
+
 @media screen and (max-device-width: 1060px) {
   #outerdiv {
     margin: 0% 22% 0% 22%;
