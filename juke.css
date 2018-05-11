@@ -16,7 +16,7 @@ div {
   border-style: solid;
   border-width: thin;
   border-color: black;
-  padding: 2%;
+/*   padding: 2%; */
   margin: 0% 30% 0% 30%;
   background-color: white;
 }
@@ -24,7 +24,7 @@ div {
 #music {
   font-size: 200%;
   padding: 0%;
-  margin-top: 0%;
+  margin-top: 2%;
   margin-bottom: 0%;
   background-color: white;
 }
@@ -36,7 +36,7 @@ div {
   font-size: 200%;
   padding: 0%;
   margin-top: 0%;
-  margin-bottom: 4%;
+  margin-bottom: 0%;
 }
 
 audio {
@@ -75,6 +75,14 @@ audio {
   width: 100%;
   border-style: solid;
   border-color: rgb(28, 173, 245);
+}
+
+#topdiv {
+  padding: 2% 2% 1% 2%;
+}
+
+#sform {
+  padding: 3%;
 }
 
 @media screen and (max-device-width: 1060px) {
