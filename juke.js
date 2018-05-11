@@ -366,3 +366,7 @@ $('audio').on("ended", function() {
 $('audio').on("playing", function() {
   pauseplay();
 });
+
+// $("#form1").submit(function () { return (on submit, bring pointer to location) });
+// contains
+// $("#chara1").autocomplete({ source: songlist[][] (search through game names, songlist[][2]) });
