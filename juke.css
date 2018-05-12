@@ -51,7 +51,7 @@ audio {
   display: none;
 }
 
-#innerdiv {
+/* #innerdiv {
   padding-top: 0%;
   padding-bottom: 0%;
   padding-left: 0%;
@@ -59,9 +59,9 @@ audio {
   margin: 0% 0% 0% 0%;
   border-style: hidden;
   background-color: rgba(255, 255, 255, 0);
-}
+} */
 
-#outerdiv {
+#buttonsdiv {
   margin: 0% 30% 0% 30%;
   padding: 1% 0% 1% 0%;
 }
