@@ -252,6 +252,7 @@ songlist = [["Main Theme", "mario_theme", "Super Mario Bros."],
             ["Nappa\'s Theme", "nappa", "Dragon Ball FighterZ"],
             ["Frieza\'s Theme", "frieza", "Dragon Ball FighterZ"],
             ["Hit\'s Theme", "dbfzhit", "Dragon Ball FighterZ"]]
+// Clean up and make into objects and keys
 
 
 
