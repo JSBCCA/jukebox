@@ -328,9 +328,11 @@ $("#play").on("click", function() {
     }
     placehold = current_item;
     audio.play();
-    $('#play').css('display', 'none');
-    $('#pause').css('display', 'inline-block');
+    pauseplay();
 });
+
+// if audio starts to play on current item at all, current item == placehold
+// pauseplay();
 
 // pausing
 $("#pause").on("click", function() {
