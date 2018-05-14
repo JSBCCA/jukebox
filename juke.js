@@ -386,6 +386,11 @@ $('audio').on("ended", function() {
   };
 });
 
+// should change big play to pause if second play was pressed
+$('audio').on("play", function() {
+  pauseplay();
+});
+
 // if loop is on and you're on the audio that is playing
 $('audio').on("playing", function() {
   pauseplay();
