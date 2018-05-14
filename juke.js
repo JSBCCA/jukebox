@@ -280,7 +280,6 @@ function change_track(song_info) {
     return false;
 };
 
-// clicking second pause button should change first pause to play
 // changing pause to play
 function pauseplay() {
   if (audio.duration > 0 && current_item === placehold && !audio.paused) {
@@ -356,8 +355,6 @@ $("#play").on("click", function() {
     pauseplay();        
 });
 
-// if audio starts to play on current item at all, current item == placehold
-
 // pausing
 $("#pause").on("click", function() {
     audio.pause();
@@ -395,3 +392,6 @@ $('audio').on("playing", function() {
 
 $("#songsearch_form").submit(function () { return change_track(songlist[findgame(song_searchbar.val_func(), songlist)]); });
 // $("#songsearch").autocomplete({ source: gamenames });
+
+// clicking second pause button should change first pause to play
+// if audio starts to play on current item at all, current item == placehold; pauseplay
