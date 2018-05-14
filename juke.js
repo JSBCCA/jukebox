@@ -294,11 +294,11 @@ function pauseplay() {
   };
 };
 
-function findgame(n) {
+function findgame(n, array) {
     var indexofgamename;
     var indexofgamearray = array.findIndex(function(sub) {
         indexofgamename = sub.indexOf(n);
-        return innerIndex !== -1;
+        return indexofgamename !== -1;
     });
     return indexofgamearray;
 };
@@ -392,6 +392,6 @@ $('audio').on("playing", function() {
 
 
 // on submit, bring pointer to location
-$("#songsearch_form").submit(function () { return change_track(songlist[findgame(song_searchbar.val_func())]); });
+$("#songsearch_form").submit(function () { return change_track(songlist[findgame(song_searchbar.val_func(), songlist)]); });
 // $("#songsearch").autocomplete({ source: gamenames });
 // issue with the search bar I can't study without stopping page refresh
