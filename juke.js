@@ -260,10 +260,8 @@ songlist = [["Main Theme", "mario_theme", "Super Mario Bros."],
 var song_searchbar = {
     searchitem: null,
     val_func: function() {
-        try {
-            searchitem = $('#songsearch').val();
-        }
-        finally { return false; }
+        searchitem = $('#songsearch').val();
+        return searchitem;
     },
 }
 
