@@ -272,11 +272,10 @@ var placehold = null;
 function change_track(song_info) {
     $("#title").text(song_info[2]);
     $("#music").text(song_info[0]);
-    // If loop is off and you're on a different song, the title and song name change, but not the position
+    current_item = songlist.indexOf(song_info);
     if (audio.duration === 0 || audio.paused) {
         $("#songsource").attr("src", "song/" + song_info[1] + ".mp3");
         audio.load();
-        // pauseplay
     };
     return false;
 };
@@ -393,11 +392,5 @@ $('audio').on("playing", function() {
 });
 
 
-// on submit, bring pointer to location
 $("#songsearch_form").submit(function () { return change_track(songlist[findgame(song_searchbar.val_func(), songlist)]); });
 // $("#songsearch").autocomplete({ source: gamenames });
-// issue with the search bar I can't study without stopping page refresh
-// $("#songsearch_form").submit(function() {
-//     search($("#searchText").get(0));
-//     return false;
-// });
