@@ -257,10 +257,18 @@ songlist = [["Main Theme", "mario_theme", "Super Mario Bros."],
 // 232 songs
 // Clean up and make into objects and keys
 
+var song_searchbar = {
+    searchitem = null,
+    val_func: function() {
+        try {
+            searchitem = $('#songsearch').val();
+        }
+        finally { return false; }
+    },
+}
 
 var current_item = 0;
 var placehold = null;
-var searchitem = null;
 
 // changing track
 function change_track(song_info) {
@@ -283,6 +291,15 @@ function pauseplay() {
     $('#pause').css('display', 'none');
     $('#play').css('display', 'inline-block');
   };
+};
+
+function findgame(n) {
+    var indexofgamename;
+    var indexofgamearray = array.findIndex(function(sub) {
+        indexofgamename = sub.indexOf(n);
+        return innerIndex !== -1;
+    });
+    return indexofgamearray;
 };
 
 // moving right
@@ -367,7 +384,6 @@ $('audio').on("playing", function() {
 });
 
 
-// searchitem = $('#songsearch').val();
 // on submit, bring pointer to location
-// $("#songsearch_form").submit(function () { return change_track(searchitem) });
-// $("#songsearch").autocomplete({ source: songlist[i][2] (search through game names, songlist[i][2]) });
+$("#songsearch_form").submit(function () { return change_track(songlist[find_game(song_searchbar.val_func())]); });
+// $("#songsearch").autocomplete({ source: gamenames });
