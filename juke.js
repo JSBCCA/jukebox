@@ -392,6 +392,6 @@ $('audio').on("playing", function() {
 
 
 // on submit, bring pointer to location
-// $("#songsearch_form").submit(function () { return change_track(songlist[find_game(song_searchbar.val_func())]); });
+$("#songsearch_form").submit(function () { return change_track(songlist[ find_game( song_searchbar.val_func(); ); ]); });
 // $("#songsearch").autocomplete({ source: gamenames });
-// issue with the search bar I cant study without stopping page refresh
+// issue with the search bar I can't study without stopping page refresh
