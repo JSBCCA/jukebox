@@ -1,6 +1,7 @@
 songlist = [["Main Theme", "mario_theme", "Super Mario Bros."],
             ["Underground Theme", "underground", "Super Mario Bros."],
             ["Underwater Theme", "underwater", "Super Mario Bros."],
+            // super mario world
             ["Main Theme", "mario_64", "Super Mario 64"],
             ["Ricco Harbor", "ricco_harbor", "Super Mario Sunshine"],
             ["Comet Observatory", "observ", "Super Mario Galaxy"],
@@ -75,6 +76,7 @@ songlist = [["Main Theme", "mario_theme", "Super Mario Bros."],
             ["Thorn in You (Roar)", "thorn", "Fire Emblem Fates"],
             ["Perplexing Dreams", "perp_dream", "Fire Emblem Fates"],
             ["A Dark Fall", "dark_fall", "Fire Emblem Fates"],
+            // animal crossing anything
             ["Splattack!", "splattack", "Splatoon"],
             ["Main Theme", "arms", "Arms"],
             ["Lumiose City", "lumiose", "Pokemon X & Y"],
@@ -163,8 +165,8 @@ songlist = [["Main Theme", "mario_theme", "Super Mario Bros."],
             ["Simple and Clean", "simple", "Kingdom Hearts"],
             ["Hikari Orchestra", "kh1_open", "Kingdom Hearts"],
             ["Night of Fate", "night_fate", "Kingdom Hearts"],
-            ["Traverse Town", "traverse", "Kingdom Hearts"], // 1.5
-            ["Guardando nel Buio", "ansem", "Kingdom Hearts"], // 1.5
+            ["Traverse Town", "traverse", "Kingdom Hearts"],
+            ["Guardando nel Buio", "ansem", "Kingdom Hearts"],
             ["Naminé", "namine", "Kingdom Hearts Re:Chain of Memories"],
             ["Hollow Bastion", "rcom_hollow_bastion", "Kingdom Hearts Re:Chain of Memories"],
             ["Lord of the Castle", "lord_of_castle", "Kingdom Hearts Re:Chain of Memories"],
@@ -175,8 +177,8 @@ songlist = [["Main Theme", "mario_theme", "Super Mario Bros."],
             ["The 13th Struggle", "struggle", "Kingdom Hearts 2"],
             ["Sacred Moon", "sacred_moon", "Kingdom Hearts 2"],
             ["Fate of the Unknown", "fate_unknown", "Kingdom Hearts 2"],
-            ["Xion\'s Theme", "xion", "Kingdom Hearts 358/2 Days"], // 1.5
-            ["Vector to the Heavens", "vector", "Kingdom Hearts 358/2 Days"], // 1.5
+            ["Xion\'s Theme", "xion", "Kingdom Hearts 358/2 Days"],
+            ["Vector to the Heavens", "vector", "Kingdom Hearts 358/2 Days"],
             ["Riku Battle", "riku", "Kingdom Hearts 358/2 Days"],
             ["Dearly Beloved (BBS Ver.)", "dearly_beloved", "Kingdom Hearts Birth by Sleep"],
             ["Aqua\'s Theme", "aqua", "Kingdom Hearts Birth by Sleep"],
@@ -198,7 +200,7 @@ songlist = [["Main Theme", "mario_theme", "Super Mario Bros."],
             ["Somnus", "somnus", "Final Fantasy XV"],
             ["Massive Explosion", "dissidia", "DISSIDIA FINAL FANTASY -Arcade-"],
             ["Skyrim Main Theme", "skyrim", "Elder Scrolls V: Skyrim"],
-            // CoD anything
+            // Call of Duty anything
             ["Halo Main Theme", "halo", "Halo"],
             ["Follow in Flight", "flight", "Halo 2: Anniversary Edition"],
             ["Breaking the Covenant", "covenant", "Halo 2: Anniversary Edition"],
