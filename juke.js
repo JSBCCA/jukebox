@@ -292,7 +292,7 @@ function pauseplay() {
   }
   else {
     $('#pause').css('display', 'none');
-    $('#play').css('display', 'inline-block
+    $('#play').css('display', 'inline-block');
   };
 };
 
