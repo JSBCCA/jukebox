@@ -257,15 +257,15 @@ songlist = [["Main Theme", "mario_theme", "Super Mario Bros."],
 // 232 songs
 // Clean up and make into objects and keys
 
-var song_searchbar = {
-    searchitem: null,
-    val_func: function() {
-        try {
-            searchitem = $('#songsearch').val();
-        }
-        finally { return false; }
-    },
-}
+// var song_searchbar = {
+//     searchitem: null,
+//     val_func: function() {
+//         try {
+//             searchitem = $('#songsearch').val();
+//         }
+//         finally { return false; }
+//     },
+// }
 
 var current_item = 0;
 var placehold = null;
@@ -293,14 +293,14 @@ function pauseplay() {
   };
 };
 
-function findgame(n) {
-    var indexofgamename;
-    var indexofgamearray = array.findIndex(function(sub) {
-        indexofgamename = sub.indexOf(n);
-        return innerIndex !== -1;
-    });
-    return indexofgamearray;
-};
+// function findgame(n) {
+//     var indexofgamename;
+//     var indexofgamearray = array.findIndex(function(sub) {
+//         indexofgamename = sub.indexOf(n);
+//         return innerIndex !== -1;
+//     });
+//     return indexofgamearray;
+// };
 
 // moving right
 $("#buttonright").on("click", function() {
@@ -385,10 +385,6 @@ $('audio').on("playing", function() {
 
 
 // on submit, bring pointer to location
-$("#songsearch_form").submit(function () { return change_track(songlist[find_game(song_searchbar.val_func())]); });
+// $("#songsearch_form").submit(function () { return change_track(songlist[find_game(song_searchbar.val_func())]); });
 // $("#songsearch").autocomplete({ source: gamenames });
-$(function () {
-    $('#songsearch_form').on('submit',function(e) {
-          e.preventDefault();
-        });
-});
+// issue with the search bar I cant study without stopping page refresh
