@@ -278,6 +278,7 @@ function change_track(song_info) {
   if (audio.duration === 0 || audio.paused) {
     $("#songsource").attr("src", "song/" + song_info[1] + ".mp3");
     audio.load();
+    // pauseplay
   };
 };
 
@@ -286,12 +287,10 @@ function pauseplay() {
   if (audio.duration > 0 && current_item === placehold && !audio.paused) {
     $('#pause').css('display', 'inline-block');
     $('#play').css('display', 'none');
-    console.log("Used Pauseplay");
   }
   else {
     $('#pause').css('display', 'none');
     $('#play').css('display', 'inline-block');
-    console.log("Used Pauseplay");
   };
 };
 
