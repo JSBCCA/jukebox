@@ -286,10 +286,12 @@ function pauseplay() {
   if (audio.duration > 0 && current_item === placehold && !audio.paused) {
     $('#pause').css('display', 'inline-block');
     $('#play').css('display', 'none');
+    console.log("Used Pauseplay");
   }
   else {
     $('#pause').css('display', 'none');
     $('#play').css('display', 'inline-block');
+    console.log("Used Pauseplay");
   };
 };
 
@@ -306,6 +308,7 @@ function pauseplay() {
 $("#buttonright").on("click", function() {
     current_item = (current_item + 1) % songlist.length;
     change_track(songlist[current_item]);
+    pauseplay();
 });
 
 // moving right between games
@@ -316,6 +319,7 @@ $("#buttonright2").on("click", function() {
       current_item = (current_item + 1) % songlist.length;
     };
     change_track(songlist[current_item]);
+    pauseplay();
 });
 
 // moving left
@@ -323,6 +327,7 @@ $("#buttonleft").on("click", function() {
     current_item = (current_item - 1);
     if (current_item < 0) {current_item = songlist.length - 1;};
     change_track(songlist[current_item]);
+    pauseplay();        
 });
 
 // moving left between games
@@ -335,6 +340,7 @@ $("#buttonleft2").on("click", function() {
       if (current_item < 0) {current_item = songlist.length - 1;};
     };
     change_track(songlist[current_item]);
+    pauseplay();        
 });
 
 // playing
@@ -346,6 +352,7 @@ $("#play").on("click", function() {
     }
     placehold = current_item;
     audio.play();
+    pauseplay();        
 });
 
 // if audio starts to play on current item at all, current item == placehold
@@ -353,6 +360,7 @@ $("#play").on("click", function() {
 // pausing
 $("#pause").on("click", function() {
     audio.pause();
+    pauseplay();        
 });
 
 // loop switch
