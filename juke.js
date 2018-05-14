@@ -280,6 +280,7 @@ function change_track(song_info) {
     return false;
 };
 
+// clicking second pause button should change first pause to play
 // changing pause to play
 function pauseplay() {
   if (audio.duration > 0 && current_item === placehold && !audio.paused) {
