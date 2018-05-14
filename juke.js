@@ -258,7 +258,7 @@ songlist = [["Main Theme", "mario_theme", "Super Mario Bros."],
 // Clean up and make into objects and keys
 
 var song_searchbar = {
-    searchitem = null,
+    searchitem: null,
     val_func: function() {
         try {
             searchitem = $('#songsearch').val();
