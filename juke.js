@@ -391,9 +391,13 @@ $('audio').on("playing", function() {
   pauseplay();
 });
 
+// clicking second pause button should change first pause to play
+$('audio').on("pause", function() {
+  pauseplay();
+});
 
+// searchbar submit
 $("#songsearch_form").submit(function () { return change_track(songlist[findgame(song_searchbar.val_func(), songlist)]); });
 // $("#songsearch").autocomplete({ source: gamenames });
 
-// clicking second pause button should change first pause to play
 // if audio starts to play on current item at all, current item == placehold; pauseplay
