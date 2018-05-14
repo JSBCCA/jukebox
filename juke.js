@@ -282,6 +282,8 @@ function change_track(song_info) {
     return false;
 };
 
+// background change track (if youre in a different location and loop ends for one song to switch)
+
 // changing pause to play
 function pauseplay() {
   if (audio.duration > 0 && current_item === placehold && !audio.paused) {
@@ -290,7 +292,7 @@ function pauseplay() {
   }
   else {
     $('#pause').css('display', 'none');
-    $('#play').css('display', 'inline-block');
+    $('#play').css('display', 'inline-block
   };
 };
 
@@ -388,6 +390,7 @@ $('audio').on("ended", function() {
 
 // should change big play to pause if second play was pressed
 $('audio').on("play", function() {
+  placehold = current_item;
   pauseplay();
 });
 
