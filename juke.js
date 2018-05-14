@@ -278,6 +278,7 @@ function change_track(song_info) {
     audio.load();
     // pauseplay
   };
+  return false;
 };
 
 // changing pause to play
@@ -396,3 +397,7 @@ $('audio').on("playing", function() {
 $("#songsearch_form").submit(function () { return change_track(songlist[findgame(song_searchbar.val_func(), songlist)]); });
 // $("#songsearch").autocomplete({ source: gamenames });
 // issue with the search bar I can't study without stopping page refresh
+// $("#songsearch_form").submit(function() {
+//     search($("#searchText").get(0));
+//     return false;
+// });
