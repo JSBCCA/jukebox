@@ -278,7 +278,7 @@ function change_track(song_info) {
   if (audio.duration === 0 || audio.paused) {
     $("#songsource").attr("src", "song/" + song_info[1] + ".mp3");
     audio.load();
-    pauseplay();
+//     pauseplay();
   };
 };
 
@@ -309,7 +309,7 @@ function pauseplay() {
 $("#buttonright").on("click", function() {
     current_item = (current_item + 1) % songlist.length;
     change_track(songlist[current_item]);
-    pauseplay();
+//     pauseplay();
 });
 
 // moving right between games
@@ -320,7 +320,7 @@ $("#buttonright2").on("click", function() {
       current_item = (current_item + 1) % songlist.length;
     };
     change_track(songlist[current_item]);
-    pauseplay();
+//     pauseplay();
 });
 
 // moving left
@@ -328,7 +328,7 @@ $("#buttonleft").on("click", function() {
     current_item = (current_item - 1);
     if (current_item < 0) {current_item = songlist.length - 1;};
     change_track(songlist[current_item]);
-    pauseplay();        
+//     pauseplay();        
 });
 
 // moving left between games
@@ -341,7 +341,7 @@ $("#buttonleft2").on("click", function() {
       if (current_item < 0) {current_item = songlist.length - 1;};
     };
     change_track(songlist[current_item]);
-    pauseplay();        
+//     pauseplay();        
 });
 
 // playing
