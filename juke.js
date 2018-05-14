@@ -260,6 +260,7 @@ songlist = [["Main Theme", "mario_theme", "Super Mario Bros."],
 
 var current_item = 0;
 var placehold = null;
+var searchitem = null;
 
 // changing track
 function change_track(song_info) {
@@ -365,5 +366,8 @@ $('audio').on("playing", function() {
   pauseplay();
 });
 
-// $("#songsearch_form").submit(function () { return (on submit, bring pointer to location) });
-// $("#songsearch").autocomplete({ source: songlist[][] (search through game names, songlist[][2]) });
+
+// searchitem = $('#songsearch').val();
+// on submit, bring pointer to location
+// $("#songsearch_form").submit(function () { return change_track(searchitem) });
+// $("#songsearch").autocomplete({ source: songlist[i][2] (search through game names, songlist[i][2]) });
