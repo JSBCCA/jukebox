@@ -387,6 +387,8 @@ $('audio').on("playing", function() {
 // on submit, bring pointer to location
 $("#songsearch_form").submit(function () { return change_track(songlist[find_game(song_searchbar.val_func())]); });
 // $("#songsearch").autocomplete({ source: gamenames });
-$("#songsearch_form").submit(function(e) {
-    e.preventDefault();
+$(function () {
+    $('#songsearch_form').on('submit',function(e) {
+          e.preventDefault();
+        });
 });
