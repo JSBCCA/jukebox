@@ -270,17 +270,15 @@ var placehold = null;
 
 // changing track
 function change_track(song_info) {
-    try {
-        $("#title").text(song_info[2]);
-        $("#music").text(song_info[0]);
-        // If loop is off and you're on a different song, the title and song name change, but not the position
-        if (audio.duration === 0 || audio.paused) {
-            $("#songsource").attr("src", "song/" + song_info[1] + ".mp3");
-            audio.load();
-            // pauseplay
-        };
-    }
-    finally { return false; }
+    $("#title").text(song_info[2]);
+    $("#music").text(song_info[0]);
+    // If loop is off and you're on a different song, the title and song name change, but not the position
+    if (audio.duration === 0 || audio.paused) {
+        $("#songsource").attr("src", "song/" + song_info[1] + ".mp3");
+        audio.load();
+        // pauseplay
+    };
+    return false;
 };
 
 // changing pause to play
