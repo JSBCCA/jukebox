@@ -300,6 +300,9 @@ function findgame(n, array) {
         indexofgamename = sub.indexOf(n);
         return indexofgamename !== -1;
     });
+    if (indexofgamearray === -1) {
+        return 0;
+    }
     return indexofgamearray;
 };
 
