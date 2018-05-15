@@ -408,6 +408,7 @@ $('audio').on("pause", function() {
 
 // searchbar submit
 $("#songsearch_form").submit(function () { return change_track(songlist[findgame(song_searchbar.val_func(), songlist)]); });
+// autocomplete
 $("#songsearch").autocomplete({ source: gamenames });
 
 // clicking second play on a different song while other song is currently playing shouldn't change button
