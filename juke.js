@@ -269,6 +269,7 @@ var song_searchbar = {
 
 var current_item = 0;
 var placehold = null;
+var gamenames = [for (i of songlist) i[2]]
 
 // changing track
 function change_track(song_info) {
@@ -407,6 +408,6 @@ $('audio').on("pause", function() {
 
 // searchbar submit
 $("#songsearch_form").submit(function () { return change_track(songlist[findgame(song_searchbar.val_func(), songlist)]); });
-// $("#songsearch").autocomplete({ source: gamenames });
+$("#songsearch").autocomplete({ source: gamenames });
 
 // clicking second play on a different song while other song is currently playing shouldn't change button
