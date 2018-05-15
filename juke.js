@@ -10,7 +10,7 @@ songlist = [["Main Theme", "mario_theme", "Super Mario Bros."],
             ["Jump Up Superstar!", "jump_superstar", "Super Mario Odyssey"],
             ["Break Free", "break_free", "Super Mario Odyssey"],
             ["Gloomy Manor", "gloomy", "Luigi\'s Mansion: Dark Moon"],
-            ["Rainbow Road", "rainbow", "Mario Kart 64"], // mk8 too
+            ["Rainbow Road", "rainbow", "Mario Kart 64"],
             ["Tick Tock Clock Remix", "tick_tock", "Mario Kart 8"],
             ["Beware the Forest Mushrooms", "forest", "Super Mario RPG"],
             ["Come On!", "come_on", "Mario & Luigi: Superstar Saga"],
@@ -390,6 +390,7 @@ $('audio').on("ended", function() {
 
 // should change big play to pause if second play was pressed
 $('audio').on("play", function() {
+  // if another song isn't already playing and was paused using second pause while on another song
   placehold = current_item;
   pauseplay();
 });
@@ -408,4 +409,4 @@ $('audio').on("pause", function() {
 $("#songsearch_form").submit(function () { return change_track(songlist[findgame(song_searchbar.val_func(), songlist)]); });
 // $("#songsearch").autocomplete({ source: gamenames });
 
-// if audio starts to play on current item at all, current item == placehold; pauseplay
+// clicking second play on a different song while other song is currently playing shouldn't change button
