@@ -269,7 +269,7 @@ var song_searchbar = {
 
 var current_item = 0;
 var placehold = null;
-var gamenames = songlist.map(songinfo => songinfo[2]);
+var songnames = songlist.map(songinfo => songinfo[0]);
 
 // changing track
 function change_track(song_info) {
@@ -297,16 +297,16 @@ function pauseplay() {
   };
 };
 
-function findgame(n, array) {
-    var indexofgamename;
-    var indexofgamearray = array.findIndex(function(sub) {
-        indexofgamename = sub.indexOf(n);
-        return indexofgamename !== -1;
+function findsearch(n, array) {
+    var indexofsearch;
+    var indexofsearcharray = array.findIndex(function(sub) {
+        indexofsearch = sub.indexOf(n);
+        return indexofsearch !== -1;
     });
-    if (indexofgamearray === -1) {
+    if (indexofsearcharray === -1) {
         return 0;
     }
-    return indexofgamearray;
+    return indexofsearcharray;
 };
 
 // moving right
@@ -407,8 +407,8 @@ $('audio').on("pause", function() {
 });
 
 // searchbar submit
-$("#songsearch_form").submit(function () { return change_track(songlist[findgame(song_searchbar.val_func(), songlist)]); });
+$("#songsearch_form").submit(function () { return change_track(songlist[findsearch(song_searchbar.val_func(), songlist)]); });
 // autocomplete
-$("#songsearch").autocomplete({ source: gamenames });
+$("#songsearch").autocomplete({ source: songnames });
 
 // clicking second play on a different song while other song is currently playing shouldn't change button
