@@ -75,9 +75,9 @@ audio {
   padding: 3%;
 }
 
-/* .ui-autocomplete {
+.ui-autocomplete {
   max-height: 200px; overflow-y: auto; overflow-x: hidden;
-} */
+}
 
 @media screen and (max-device-width: 1060px) {
   #outerdiv {
