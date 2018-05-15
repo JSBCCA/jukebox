@@ -269,7 +269,7 @@ var song_searchbar = {
 
 var current_item = 0;
 var placehold = null;
-var gamenames = [for (i of songlist) i[2]];
+var gamenames = [for (s of songlist) for (i of s) if (s.indexOf(i) === 2) i];
 
 // changing track
 function change_track(song_info) {
