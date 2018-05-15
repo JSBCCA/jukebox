@@ -79,6 +79,10 @@ audio {
   max-height: 200px; overflow-y: auto; overflow-x: hidden;
 }
 
+.ui-helper-hidden-accessible { 
+  display:none; 
+}
+
 @media screen and (max-device-width: 1060px) {
   #outerdiv {
     margin: 0% 22% 0% 22%;
