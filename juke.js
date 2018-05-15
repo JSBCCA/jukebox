@@ -280,6 +280,7 @@ function change_track(song_info) {
         $("#songsource").attr("src", "song/" + song_info[1] + ".mp3");
         audio.load();
     };
+    pauseplay();
     return false;
 };
 
