@@ -1,7 +1,7 @@
 songlist = [["Main Theme (Super Mario Bros.)", "mario_theme", "Super Mario Bros."],
             ["Underground Theme", "underground", "Super Mario Bros."],
             ["Underwater Theme", "underwater", "Super Mario Bros."],
-            // super mario world
+            ["Overworld", "smw_ow", "Super Mario World"],
             ["Main Theme (Super Mario 64)", "mario_64", "Super Mario 64"],
             ["Ricco Harbor", "ricco_harbor", "Super Mario Sunshine"],
             ["Comet Observatory", "observ", "Super Mario Galaxy"],
@@ -200,7 +200,7 @@ songlist = [["Main Theme (Super Mario Bros.)", "mario_theme", "Super Mario Bros.
             ["Somnus", "somnus", "Final Fantasy XV"],
             ["Massive Explosion", "dissidia", "DISSIDIA FINAL FANTASY -Arcade-"],
             ["Main Theme (Skyrim)", "skyrim", "Elder Scrolls V: Skyrim"],
-            // Call of Duty anything
+            ["A Brotherhood of Heroes", "cod_boh", "Call of Duty: WWII"],
             ["Main Theme (Halo)", "halo", "Halo"],
             ["Follow in Flight", "flight", "Halo 2: Anniversary Edition"],
             ["Breaking the Covenant", "covenant", "Halo 2: Anniversary Edition"],
@@ -237,17 +237,23 @@ songlist = [["Main Theme (Super Mario Bros.)", "mario_theme", "Super Mario Bros.
             ["His Theme", "his_theme", "Undertale"],
             ["Battle Against a True Hero", "battle_against", "Undertale"],
             ["Megalovania", "megalovania", "Undertale"],
-            // minit
+            ["Minit\'s Awakening", "minit_awaken", "Minit"],
+            ["Sabasaba Desert", "saba_des", "Minit"],
+            ["Sword Factory", "minit_swordfac", "Minit"],
             ["Your Contract Has Expired", "contract", "A Hat in Time"],
             ["Strike the Earth!", "strike_earth", "Shovel Knight"],
             ["Positive Force", "vvvvvv", "VVVVVV"],
             ["Hot Damned", "meatboy", "Super Meat Boy"],
+            ["Compass", "fez_compass", "FEZ"],
             ["Last Battle", "cave_story", "Cave Story"],
             ["Mausoleum Mash (Shopkeeper)", "crypt", "Crypt of the NecroDancer"],
             ["Hexagon", "hexagon", "Super Hexagon"],
             ["Tower of Heaven", "tower_heaven", "Super Smash Land"],
             ["The End", "the_end", "Drawn to Life"],
             ["Real Life", "real_life", "Drawn to Life: The Next Chapter"],
+            ["Ancient\'s Peak", "nbfvi_ancientpeak", "Nicktoons: Battle for Volcano Island"],
+            ["Final Boss Theme", "nbfvi_finalboss", "Nicktoons: Battle for Volcano Island"],
+            ["Zim\'s Town (1)", "ngod_zim", "Nicktoons: Globs of Doom"],
             ["The Moon", "ducktales_moon", "DuckTales"],
             ["Main Theme (Batman: Arkham City)", "batman", "Batman: Arkham City"],
             ["Opening", "budokai", "Dragon Ball Z: Budokai 3"],
@@ -256,7 +262,7 @@ songlist = [["Main Theme (Super Mario Bros.)", "mario_theme", "Super Mario Bros.
             ["Nappa\'s Theme", "nappa", "Dragon Ball FighterZ"],
             ["Frieza\'s Theme", "frieza", "Dragon Ball FighterZ"],
             ["Hit\'s Theme", "dbfzhit", "Dragon Ball FighterZ"]]
-// 232 songs
+// 252 songs
 // Clean up and make into objects and keys
 
 var song_searchbar = {
