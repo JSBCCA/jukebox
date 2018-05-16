@@ -79,6 +79,7 @@ audio {
   max-height: 200px;
   overflow-y: auto;
   overflow-x: hidden;
+  list-style: none;
   position:absolute;
 }
 
