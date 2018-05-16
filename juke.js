@@ -305,6 +305,7 @@ function findsearch(n, array) {
         return indexofsearch !== -1;
     });
     if (indexofsearcharray === -1) {
+        console.log("Search not found.");
         return 0;
     }
     return indexofsearcharray;
