@@ -92,6 +92,13 @@ ul.ui-autocomplete {
   margin: 0px;
   border-style: none;
   font-weight: 500;
+  cursor: pointer;
+}
+
+.ui-menu-item-wrapper:hover {
+  border-style: solid;
+  border-width: thin;
+  border-color: rgb(192, 192, 192);
 }
 
 .ui-helper-hidden-accessible { 
