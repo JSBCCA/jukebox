@@ -83,6 +83,9 @@ ul.ui-autocomplete {
   list-style-type: none;
   padding: 0px;
   position:absolute;
+  border-style: solid;
+  border-width: thin;
+  border-color: rgb(28, 173, 245);
 }
 
 .ui-menu-item-wrapper {
@@ -92,6 +95,7 @@ ul.ui-autocomplete {
 
 .ui-helper-hidden-accessible { 
   display:none; 
+  font-weight: 500;
 }
 
 @media screen and (max-device-width: 1060px) {
