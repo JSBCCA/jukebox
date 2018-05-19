@@ -76,7 +76,7 @@ songlist = [["Main Theme (Super Mario Bros.)", "mario_theme", "Super Mario Bros.
             ["Thorn in You (Roar)", "thorn", "Fire Emblem Fates"],
             ["Perplexing Dreams", "perp_dream", "Fire Emblem Fates"],
             ["A Dark Fall", "dark_fall", "Fire Emblem Fates"],
-            // animal crossing anything
+            ["Title (Animal Crossing)", "an_cross", "Animal Crossing"],
             ["Splattack!", "splattack", "Splatoon"],
             ["Main Theme (Arms)", "arms", "Arms"],
             ["Lumiose City", "lumiose", "Pokemon X & Y"],
@@ -90,7 +90,7 @@ songlist = [["Main Theme (Super Mario Bros.)", "mario_theme", "Super Mario Bros.
             ["Drake Redcrest Theme", "drake_redcrest", "Chibi-Robo!"],
             ["UFO Visitation", "ufo_visit", "Chibi-Robo!"],
             ["Gaur Plains", "gaur", "Xenoblade Chronicles"],
-            // Super Smash Bros. 64 metal cavern
+            ["Meta Crystal", "metal_ssb", "Super Smash Bros."],
             ["Fountain of Dreams", "fountain_dreams_ssbm", "Super Smash Bros. Melee"],
             ["Fire Emblem", "melee_fe", "Super Smash Bros. Melee"],
             ["Main Theme (Luigi\'s Mansion)", "luigis_mansion", "Super Smash Bros. Brawl"],
@@ -248,7 +248,7 @@ songlist = [["Main Theme (Super Mario Bros.)", "mario_theme", "Super Mario Bros.
             ["Minit\'s Awakening", "minit_awaken", "Minit"],
             ["Sabasaba Desert", "saba_des", "Minit"],
             ["Sword Factory", "minit_swordfac", "Minit"],
-            ["Title", "nitw_title", "Night in the Woods"],
+            ["Title (Night in the Woods)", "nitw_title", "Night in the Woods"],
             ["Weird Autumn", "nitw_wa", "Night in the Woods"],
             ["Fireflies on the Porch", "nitw_fotp", "Night in the Woods"],
             ["Your Contract Has Expired", "contract", "A Hat in Time"],
@@ -273,7 +273,7 @@ songlist = [["Main Theme (Super Mario Bros.)", "mario_theme", "Super Mario Bros.
             ["Nappa\'s Theme", "nappa", "Dragon Ball FighterZ"],
             ["Frieza\'s Theme", "frieza", "Dragon Ball FighterZ"],
             ["Hit\'s Theme", "dbfzhit", "Dragon Ball FighterZ"]]
-// 252 songs
+// 254 songs
 // Clean up and make into objects and keys
 
 var song_searchbar = {
