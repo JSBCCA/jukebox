@@ -410,7 +410,6 @@ $('audio').on("ended", function() {
 
 // should change big play to pause if second play was pressed
 $('audio').on("play", function() {
-  // if another song isn't already playing and was paused using second pause while on another song
   placehold = current_item;
   pauseplay();
 });
@@ -431,4 +430,3 @@ $("#songsearch_form").submit(function () { return change_track(songlist[findsear
 $("#songsearch").autocomplete({ source: songnames });
 
 // clicking second play on a different song while other song is currently playing shouldn't change button
-// change cursor to hand on suggestion hover. suggestion should be highlighted
