@@ -257,7 +257,7 @@ songlist = [["Main Theme (Super Mario Bros.)", "mario_theme", "Super Mario Bros.
             ["Positive Force", "vvvvvv", "VVVVVV"],
             ["Hot Damned", "meatboy", "Super Meat Boy"],
             ["Compass", "fez_compass", "FEZ"],
-            ["Last Battle", "cave_story", "Cave Story"],
+            ["Last Battle", "cave_story", "Cave Story+"],
             ["Mausoleum Mash (Shopkeeper)", "crypt", "Crypt of the NecroDancer"],
             ["Hexagon", "hexagon", "Super Hexagon"],
             ["Tower of Heaven", "tower_heaven", "Super Smash Land"],
