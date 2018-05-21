@@ -248,6 +248,7 @@ songlist = [["Main Theme (Super Mario Bros.)", "mario_theme", "Super Mario Bros.
             ["Minit\'s Awakening", "minit_awaken", "Minit"],
             ["Sabasaba Desert", "saba_des", "Minit"],
             ["Sword Factory", "minit_swordfac", "Minit"],
+            ["Your Reality", "ddlc_reality", "Doki Doki Literature Club!"],
             ["Title (Night in the Woods)", "nitw_title", "Night in the Woods"],
             ["Weird Autumn", "nitw_wa", "Night in the Woods"],
             ["Fireflies on the Porch", "nitw_fotp", "Night in the Woods"],
@@ -273,7 +274,7 @@ songlist = [["Main Theme (Super Mario Bros.)", "mario_theme", "Super Mario Bros.
             ["Nappa\'s Theme", "nappa", "Dragon Ball FighterZ"],
             ["Frieza\'s Theme", "frieza", "Dragon Ball FighterZ"],
             ["Hit\'s Theme", "dbfzhit", "Dragon Ball FighterZ"]]
-// 254 songs
+// 255 songs
 // Clean up and make into objects and keys
 
 var song_searchbar = {
