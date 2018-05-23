@@ -711,6 +711,8 @@ var jukebox = {
   ]
 }
 
+// no change necessary
+// searchbar
 var song_searchbar = {
     searchitem: null,
     val_func: function() {
@@ -719,17 +721,20 @@ var song_searchbar = {
     },
 }
 
+// change needed
+// keep track of song currently playing and song currently located on
 var current_item = 0;
 var placehold = null;
-var songnames = songlist.map(songinfo => songinfo[0]);
+var songnames = songlist.map(songinfo => songinfo[0]); // get songnames from properties of keys of jukebox object
 
+// change needed
 // changing track
-function change_track(song_info) {
-    $("#title").text(song_info[2]);
-    $("#music").text(song_info[0]);
-    current_item = songlist.indexOf(song_info);
+function change_track(song_info) { // song_info rework
+    $("#title").text(song_info[2]); // song_info
+    $("#music").text(song_info[0]);// song_info
+    current_item = songlist.indexOf(song_info); // current_item, songlist, song_info
     if (audio.duration === 0 || audio.paused) {
-        $("#songsource").attr("src", "song/" + song_info[1] + ".mp3");
+        $("#songsource").attr("src", "song/" + song_info[1] + ".mp3"); // song_info
         audio.load();
     };
     pauseplay();
@@ -738,9 +743,10 @@ function change_track(song_info) {
 
 // background change track (if youre in a different location and loop ends for one song to switch)
 
+// change needed
 // changing pause to play
 function pauseplay() {
-  if (audio.duration > 0 && current_item === placehold && !audio.paused) {
+  if (audio.duration > 0 && current_item === placehold && !audio.paused) { // current_item, placehold
     $('#pause').css('display', 'inline-block');
     $('#play').css('display', 'none');
   }
@@ -750,76 +756,85 @@ function pauseplay() {
   };
 };
 
-function findsearch(n, array) {
+// change needed
+// find searched song in list
+function findsearch(n, array) { // no longer an array
     var indexofsearch;
-    var indexofsearcharray = array.findIndex(function(sub) {
+    var indexofsearcharray = array.findIndex(function(sub) { // no longer an array
         indexofsearch = sub.indexOf(n);
         return indexofsearch !== -1;
     });
-    if (indexofsearcharray === -1) {
+    if (indexofsearcharray === -1) { // no longer an array
         console.log("Search not found.");
         return 0;
     }
-    return indexofsearcharray;
+    return indexofsearcharray; // no longer an array
 };
 
+// change needed
 // moving right
 $("#buttonright").on("click", function() {
-    current_item = (current_item + 1) % songlist.length;
+    current_item = (current_item + 1) % songlist.length; // songlist
     change_track(songlist[current_item]);
     pauseplay();
 });
 
+// change needed
 // moving right between games
 $("#buttonright2").on("click", function() {
-    game = songlist[current_item][2];
+    game = songlist[current_item][2]; // songlist
     current_item = (current_item + 1) % songlist.length;
     while (songlist[current_item][2] === game) {
       current_item = (current_item + 1) % songlist.length;
     };
-    change_track(songlist[current_item]);
+    change_track(songlist[current_item]); // songlist
     pauseplay();
 });
 
+// change needed
 // moving left
 $("#buttonleft").on("click", function() {
-    current_item = (current_item - 1);
+    current_item = (current_item - 1);  // songlist
     if (current_item < 0) {current_item = songlist.length - 1;};
     change_track(songlist[current_item]);
     pauseplay();        
 });
 
+// change needed
 // moving left between games
 $("#buttonleft2").on("click", function() {
-    game = songlist[current_item][2];
+    game = songlist[current_item][2];  // songlist
     current_item = (current_item - 1);
     if (current_item < 0) {current_item = songlist.length - 1;};
     while (songlist[current_item][2] === game) {
       current_item = (current_item - 1);
       if (current_item < 0) {current_item = songlist.length - 1;};
     };
-    change_track(songlist[current_item]);
+    change_track(songlist[current_item]);  // songlist
     pauseplay();        
 });
 
+// change needed
 // playing
 $("#play").on("click", function() {
     if (audio.duration > 0 && !audio.paused) {
       audio.pause();
-      $("#songsource").attr("src", "song/" + songlist[current_item][1] + ".mp3");
+      $("#songsource").attr("src", "song/" + songlist[current_item][1] + ".mp3"); // current_item
       audio.load();
     }
-    placehold = current_item;
+    placehold = current_item; // placehold
     audio.play();
     pauseplay();        
 });
 
+// no change necessary
 // pausing
 $("#pause").on("click", function() {
     audio.pause();
     pauseplay();        
 });
 
+// no change necessary
 // loop switch
 $('#loop_switch').on("click", function() {
   if (audio.loop === true) {
@@ -832,36 +847,43 @@ $('#loop_switch').on("click", function() {
   }
 });
 
+// change needed
 // if loop is off and audio just ended
 $('audio').on("ended", function() {
   if (audio.loop === false) {
     audio.duration = 0;
-    placehold = (placehold + 1) % songlist.length;
+    placehold = (placehold + 1) % songlist.length; // placehold, songlist.length
     change_track(songlist[placehold]);
     audio.play();
     pauseplay();
   };
 });
 
+// change needed
 // should change big play to pause if second play was pressed
 $('audio').on("play", function() {
-  placehold = current_item;
+  placehold = current_item; // placehold, current_item
   pauseplay();
 });
 
+// no change necessary
 // if loop is on and you're on the audio that is playing
 $('audio').on("playing", function() {
   pauseplay();
 });
 
+// no change necessary
 // clicking second pause button should change first pause to play
 $('audio').on("pause", function() {
   pauseplay();
 });
 
+// change needed
 // searchbar submit
 $("#songsearch_form").submit(function () { return change_track(songlist[findsearch(song_searchbar.val_func(), songlist)]); });
+// change needed
 // autocomplete
 $("#songsearch").autocomplete({ source: songnames });
+// source: Object.keys(jukebox) + for key in jukebox, for property in key, property[0]
 
 // clicking second play on a different song while other song is currently playing shouldn't change button
