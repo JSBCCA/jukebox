@@ -100,22 +100,9 @@ songlist = [["Main Theme (Super Mario Bros.)", "mario_theme", "Super Mario Bros.
             ["Emerald Hill Zone", "emerald", "Sonic the Hedgehog 2"],
             ["Chemical Plant Zone", "chemical", "Sonic the Hedgehog 2"],
             ["Casino Night Zone (1P)", "casino", "Sonic the Hedgehog 2"],
-            // sonic boom
-            // mushroom hill
             ["Doomsday Zone", "doomsday", "Sonic 3 & Knuckles"],
-            // welcome to station square
-            // emerald coast
-            // casinopolis
-            // red mountain - red hot skull
-            // speed highway
-            // tornado (plane) theme
-            // sky deck
             ["Open Your Heart", "perfect_chaos", "Sonic Adventure"],
             ["Escape from the City", "escape", "Sonic Adventure 2"],
-            // green forest
-            // metal harbor
-            // radical highway
-            // pumpkin hill
             ["Supporting Me", "biolizard", "Sonic Adventure 2"],
             ["Live and Learn", "liveandlearn", "Sonic Adventure 2"],
             ["Sonic Heroes", "sonic_heroes", "Sonic Heroes"],
@@ -125,18 +112,11 @@ songlist = [["Main Theme (Super Mario Bros.)", "mario_theme", "Super Mario Bros.
             ["Final Haunt", "final_haunt", "Shadow the Hedgehog"],
             ["Chosen One", "chosen_one", "Shadow the Hedgehog"],
             ["Never Turn Back", "never_turn", "Shadow the Hedgehog"],
-            // wave ocean waters edge
-            // white acropolis snowy peak
             ["Crisis City - The Flame", "crisis", "Sonic the Hedgehog (2006)"],
             ["Solaris Phase 2", "solaris", "Sonic the Hedgehog (2006)"],
             ["Rooftop Run", "rooftop", "Sonic Unleashed"],
             ["Perfect Dark Gaia Phase 2", "dark_gaia", "Sonic Unleashed"],
             ["Knight of the Wind", "wind", "Sonic and the Black Knight"],
-            // sonic colors planet wisp
-            // aquarium park
-            // sonic colors terminal velocity
-            // sonic colors final boss
-            // crisis city classic
             ["Studiopolis Act Zone 1", "studiopolis", "Sonic Mania"],
             ["Titanic Monarch Zone Act 2", "titanic_monarch", "Sonic Mania"],
             ["Fist Bump", "fist_bump", "Sonic Forces"],
@@ -147,7 +127,6 @@ songlist = [["Main Theme (Super Mario Bros.)", "mario_theme", "Super Mario Bros.
             ["Let\'s Dance, Boys!", "bayonetta", "Bayonetta"],
             ["Tomorrow is Mine", "tomorrow_mine", "Bayonetta 2"],
             ["Battle for Everyone\'s Souls", "persona3", "Persona 3"],
-            // metal gear
             ["Click Clock Wood (Spring)", "ccspring_bk", "Banjo-Kazooie"],
             ["Treasure Trove Cove", "ttcove_bk", "Banjo-Kazooie"],
             ["Mad Monster Mansion", "mmm_bk", "Banjo-Kazooie"],
@@ -275,7 +254,7 @@ songlist = [["Main Theme (Super Mario Bros.)", "mario_theme", "Super Mario Bros.
             ["Frieza\'s Theme", "frieza", "Dragon Ball FighterZ"],
             ["Hit\'s Theme", "dbfzhit", "Dragon Ball FighterZ"]]
 
-// new version of song list, 124 games, 255 songs
+// new version of song list, 124 games, 255 songs, 24 notes
 var jukebox = {
   "Animal Crossing": [
     ["Title (Animal Crossing)", "an_cross"]
@@ -641,7 +620,6 @@ var jukebox = {
     ["Main Theme (Breath of the Wild)", "breath_wild"],
     ["Hyrule Castle (Outside w/ enemies)", "botw_castle"],
     ["The Divine Trial (Final Battle)", "botw_divine"]
-
   ],
   "The Legend of Zelda: Majora\'s Mask": [
     ["Song of Healing", "healing"]
@@ -901,3 +879,28 @@ $("#songsearch_form").submit(function () { return change_track(songlist[findsear
 $("#songsearch").autocomplete({ source: songnames });
 
 // clicking second play on a different song while other song is currently playing shouldn't change button
+
+// stickerbrush symphony
+// kirby 64 popstar
+// sonic boom
+// mushroom hill
+// welcome to station square
+// emerald coast
+// casinopolis
+// red mountain - red hot skull
+// speed highway
+// tornado (plane) theme
+// sky deck
+// green forest
+// metal harbor
+// radical highway
+// pumpkin hill
+// wave ocean waters edge
+// white acropolis snowy peak
+// sonic colors planet wisp
+// aquarium park
+// sonic colors terminal velocity
+// sonic colors final boss
+// crisis city classic
+// metal gear
+// more doki doki, a background theme
