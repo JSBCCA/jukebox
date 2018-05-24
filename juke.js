@@ -727,6 +727,20 @@ var current_item = 0;
 var placehold = null;
 var songnames = songlist.map(songinfo => songinfo[0]); // get songnames from properties of keys of jukebox object
 
+// no change necessary
+// returns array of all song names and game names
+function list_of_search_suggestions(jbx) {
+  var gameindex;
+  var gamename;
+  var songs = [];
+  for (gameindex in Object.keys(jbx)) { 
+    gamename = Object.keys(jbx)[gameindex];
+    songs = songs.concat(jbx[gamename].map(songinfo => songinfo[0]));
+  };
+  songs = songs.concat(Object.keys(jukebox));
+  return songs;
+};
+
 // change needed
 // changing track
 function change_track(song_info) { // song_info rework
@@ -881,9 +895,9 @@ $('audio').on("pause", function() {
 // change needed
 // searchbar submit
 $("#songsearch_form").submit(function () { return change_track(songlist[findsearch(song_searchbar.val_func(), songlist)]); });
+
 // change needed
 // autocomplete
 $("#songsearch").autocomplete({ source: songnames });
-// source: Object.keys(jukebox) + for key in jukebox, for property in key, property[0]
 
 // clicking second play on a different song while other song is currently playing shouldn't change button
