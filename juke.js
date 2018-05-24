@@ -356,9 +356,6 @@ var jukebox = {
     ["Snowman", "snowman_eb"],
     ["Smiles and Tears", "smiles_tears"]
   ],
-  "Elder Scrolls V: Skyrim": [
-    ["Main Theme (Skyrim)", "skyrim"]
-  ],
   "Fallout 3": [
     ["Butcher Pete", "butcher_pete"]
   ],
@@ -630,6 +627,9 @@ var jukebox = {
   ],
   "Super Smash Land": [
     ["Tower of Heaven", "tower_heaven"]
+  ],
+  "The Elder Scrolls V: Skyrim": [
+    ["Main Theme (Skyrim)", "skyrim"]
   ],
   "The Legend of Zelda": [
     ["Main Theme (The Legend of Zelda)", "zelda_intro"]
