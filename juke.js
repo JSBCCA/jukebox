@@ -169,7 +169,7 @@ songlist = [["Main Theme (Super Mario Bros.)", "mario_theme", "Super Mario Bros.
             ["Ventus", "ventus_bbs", "Kingdom Hearts Birth by Sleep"],
             ["Dismiss", "dismiss_kh", "Kingdom Hearts Birth by Sleep"],
             ["L\'Impeto Oscuro", "young_x", "Kingdom Hearts Dream Drop Distance"],
-            ["Ray of Hope Mix", "rayofhope", "Kingdom Hearts 0.2"],
+            ["Simple and Clean -Ray of Hope MIX-", "rayofhope", "Kingdom Hearts 0.2"],
             ["The Secret Whispers", "secret_whispers", "Kingdom Hearts 0.2"],
             ["Wave of Darkness 1", "dark_wave_kh", "Kingdom Hearts 0.2"],
             ["Dearly Beloved (KHUX Ver.)", "khux", "Kingdom Hearts Union X"],
@@ -256,8 +256,14 @@ songlist = [["Main Theme (Super Mario Bros.)", "mario_theme", "Super Mario Bros.
 
 // new version of song list, 124 games, 255 songs, 24 notes
 var jukebox = {
+  "A Hat in Time": [
+    ["Your Contract Has Expired", "contract"]
+  ],
   "Animal Crossing": [
     ["Title (Animal Crossing)", "an_cross"]
+  ],
+  "Arms": [
+    ["Main Theme (Arms)", "arms"]
   ],
   "Assassin\'s Creed 2": [
     ["Venice Rooftops", "ac2_vr"],
@@ -556,6 +562,69 @@ var jukebox = {
   "Portal": [
     ["Still Alive", "still_alive"]
   ],
+  "Shadow the Hedgehog": [
+    ["I am... All of Me", "i_am", "Shadow the Hedgehog"],
+    ["Final Haunt", "final_haunt", "Shadow the Hedgehog"],
+    ["Chosen One", "chosen_one", "Shadow the Hedgehog"],
+    ["Never Turn Back", "never_turn", "Shadow the Hedgehog"]
+  ],
+  "Shovel Knight": [
+    ["Strike the Earth!", "strike_earth"]
+  ],
+  "Sonic 3 & Knuckles": [
+    ["Doomsday Zone", "doomsday"]
+  ],
+  "Sonic Adventure": [
+    ["Open Your Heart", "perfect_chaos"]
+  ],
+  "Sonic Adventure 2": [
+    ["Escape from the City", "escape", "Sonic Adventure 2"],
+    ["Supporting Me", "biolizard", "Sonic Adventure 2"],
+    ["Live and Learn", "liveandlearn"]
+  ],
+  "Sonic and the Black Knight": [
+    ["Knight of the Wind", "wind"]
+  ],
+  "Sonic Forces": [
+    ["Fist Bump", "fist_bump"],
+    ["Avatar Menu", "avatar_menu"],
+    ["Battle with Metal Sonic", "metal_sonic"],
+    ["Infinite", "infinite"]
+  ],
+  "Sonic Heroes": [
+    ["Sonic Heroes", "sonic_heroes"],
+    ["Egg Emperor", "egg_emp"],
+    ["What I\'m Made Of", "made_of"]
+  ],
+  "Sonic Mania": [
+    ["Studiopolis Act Zone 1", "studiopolis"], 
+    ["Titanic Monarch Zone Act 2", "titanic_monarch"]
+  ],
+  "Sonic the Hedgehog": [
+    ["Green Hill Zone", "green_hill"]
+  ],
+  "Sonic the Hedgehog (2006)": [
+    ["Crisis City - The Flame", "crisis"], 
+    ["Solaris Phase 2", "solaris"]
+  ],
+  "Sonic the Hedgehog 2": [
+    ["Emerald Hill Zone", "emerald"],
+    ["Chemical Plant Zone", "chemical"],
+    ["Casino Night Zone (1P)", "casino"]
+  ],
+  "Sonic Unleashed": [
+    ["Rooftop Run", "rooftop"],
+    ["Perfect Dark Gaia Phase 2", "dark_gaia"]
+  ],
+  "Splatoon": [
+    ["Splattack!", "splattack"]
+  ],
+  "Spyro the Dragon": [
+    ["Title Screen", "spyro_title"]
+  ],
+  "Super Hexagon": [
+    ["Hexagon", "hexagon"]
+  ],
   "Super Mario 3D World": [
     ["World Bowser", "world_bowser"]
   ],
@@ -583,6 +652,9 @@ var jukebox = {
   ],
   "Super Mario World": [
     ["Overworld", "smw_ow"]
+  ],
+  "Super Meat Boy": [
+    ["Hot Damned", "meatboy"]
   ],
   "Super Paper Mario": [
     ["Flipside", "flipside"],
@@ -879,7 +951,6 @@ $("#songsearch_form").submit(function () { return change_track(songlist[findsear
 $("#songsearch").autocomplete({ source: songnames });
 
 // clicking second play on a different song while other song is currently playing shouldn't change button
-// 34 songs missing
 
 // stickerbrush symphony
 // kirby 64 popstar
