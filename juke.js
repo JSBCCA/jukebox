@@ -680,7 +680,6 @@ $('audio').on("ended", function() {
 
 // should change big play to pause if second play was pressed
 $('audio').on("play", function() {
-  placehold = current_item;
   pauseplay();
 });
 
