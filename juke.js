@@ -638,7 +638,6 @@ $("#play").on("click", function() {
       audio.load();
     }
     placehold = current_item;
-    console.log("placehold changed");
     audio.play();
     pauseplay();        
 });
@@ -686,6 +685,7 @@ $('audio').on("play", function() {
 
 // if loop is on and you're on the audio that is playing
 $('audio').on("playing", function() {
+  if (placehold !== [0, 0]) {console.log("placehold changed");};
   pauseplay();
 });
 
