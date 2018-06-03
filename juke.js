@@ -533,7 +533,7 @@ function list_of_search_suggestions(jbx) {
 
 // changing track
 function change_track(jbx, gameindex, songindex) { 
-  $("#title").text(jbx[Object.keys(jbx)[gameindex]]);
+  $("#title").text(Object.keys(jbx)[gameindex]);
   $("#music").text(jbx[Object.keys(jbx)[gameindex]][songindex][0]);
   current_item = [gameindex, songindex];
   if (audio.duration === 0 || audio.paused) {
