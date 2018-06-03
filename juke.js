@@ -685,7 +685,6 @@ $('audio').on("play", function() {
 
 // if loop is on and you're on the audio that is playing
 $('audio').on("playing", function() {
-  if (placehold !== [0, 0]) {console.log("placehold changed");};
   pauseplay();
 });
 
@@ -707,6 +706,7 @@ $("#songsearch").autocomplete({source: list_of_search_suggestions(jukebox)});
 
 // notes & suggestions:
 
+// placehold[0] changes once for seemingly no reason
 // changing song src won't work if you switch songs while first song isn't paused, then pause, then play (change_track: audio.paused)
 // clicking second play on a second song while first song is playing shouldn't change button (change_track: audio.paused)
 
