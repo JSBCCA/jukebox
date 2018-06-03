@@ -307,10 +307,10 @@ var jukebox = {
     ["Still Alive", "still_alive"]
   ],
   "Shadow the Hedgehog": [
-    ["I am... All of Me", "i_am", "Shadow the Hedgehog"],
-    ["Final Haunt", "final_haunt", "Shadow the Hedgehog"],
-    ["Chosen One", "chosen_one", "Shadow the Hedgehog"],
-    ["Never Turn Back", "never_turn", "Shadow the Hedgehog"]
+    ["I am... All of Me", "i_am"],
+    ["Final Haunt", "final_haunt"],
+    ["Chosen One", "chosen_one"],
+    ["Never Turn Back", "never_turn"]
   ],
   "Shovel Knight": [
     ["Strike the Earth!", "strike_earth"]
@@ -322,8 +322,8 @@ var jukebox = {
     ["Open Your Heart", "perfect_chaos"]
   ],
   "Sonic Adventure 2": [
-    ["Escape from the City", "escape", "Sonic Adventure 2"],
-    ["Supporting Me", "biolizard", "Sonic Adventure 2"],
+    ["Escape from the City", "escape"],
+    ["Supporting Me", "biolizard"],
     ["Live and Learn", "liveandlearn"]
   ],
   "Sonic and the Black Knight": [
@@ -586,7 +586,7 @@ function findsearch(searched, jbx, curr_loc) {
 // moving right
 $("#buttonright").on("click", function() {
   current_item[1] = (current_item[1] + 1);
-  if (current_item[1] > (Object.keys(jukebox)[current_item[0]].length - 1)) {
+  if (current_item[1] > (jukebox[Object.keys(jukebox)[current_item[0]]].length - 1)) {
     current_item[0] = (current_item[0] + 1);
     if (current_item[0] > (Object.keys(jukebox).length - 1)) {
       current_item[0] = 0;
@@ -613,7 +613,7 @@ $("#buttonleft").on("click", function() {
     if (current_item[0] < 0) {
       current_item[0] = (Object.keys(jukebox).length - 1);
     }
-    current_item[1] = Object.keys(jukebox)[current_item[0]].length - 1;
+    current_item[1] = jukebox[Object.keys(jukebox)[current_item[0]]].length - 1;
   };
   change_track(jukebox, current_item[0], current_item[1]);
   pauseplay();        
@@ -625,7 +625,7 @@ $("#buttonleft2").on("click", function() {
   if (current_item[0] < 0) {
     current_item[0] = Object.keys(jukebox).length - 1;
   };
-  current_item[1] = Object.keys(jukebox)[current_item[0]].length - 1;
+  current_item[1] = jukebox[Object.keys(jukebox)[current_item[0]]].length - 1;
   change_track(jukebox, current_item[0], current_item[1]);
   pauseplay();        
 });
@@ -634,7 +634,7 @@ $("#buttonleft2").on("click", function() {
 $("#play").on("click", function() {
     if (audio.duration > 0 && !audio.paused) {
       audio.pause();
-      $("#songsource").attr("src", "song/" + Object.keys(jukebox)[current_item[0]][current_item[1]][1] + ".mp3");
+      $("#songsource").attr("src", "song/" + jukebox[Object.keys(jukebox)[current_item[0]]][current_item[1]][1] + ".mp3");
       audio.load();
     }
     placehold = current_item;
@@ -665,7 +665,7 @@ $('audio').on("ended", function() {
   if (audio.loop === false) {
     audio.duration = 0;
     placehold[1] = (placehold[1] + 1);
-    if (placehold[1] > (Object.keys(jukebox)[current_item[0]].length - 1)) {
+    if (placehold[1] > (jukebox[Object.keys(jukebox)[current_item[0]]].length - 1)) {
       placehold[0] = (placehold[0] + 1);
       if (placehold[0] > (Object.keys(jukebox).length - 1)) {
         placehold[0] = 0;
