@@ -581,7 +581,8 @@ function findsearch(searched, jbx, curr_loc) {
 //         return [gameindex, $.inArray(searched, jbx[gamename])]
 //       }
 //     };
-  } else { return curr_loc; }
+//   } 
+    else { return curr_loc; }
 };
 
 // moving right
