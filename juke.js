@@ -573,8 +573,7 @@ function findsearch(searched, jbx, curr_loc) {
   if ($.inArray(searched, Object.keys(jbx)) !== -1) {
     // if game in jukebox, return [game index, 0]
     return [$.inArray(searched, Object.keys(jbx)), 0];
-  } 
-  else if ($.inArray(searched, list_of_search_suggestions(jbx)) !== -1) {
+  } else if ($.inArray(searched, list_of_search_suggestions(jbx)) !== -1) {
       // if song in jukebox, return [game index, song index]
       for (gameindex in Object.keys(jbx)) { 
         gamename = Object.keys(jbx)[gameindex];
