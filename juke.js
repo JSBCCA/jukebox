@@ -638,6 +638,7 @@ $("#play").on("click", function() {
       audio.load();
     }
     placehold = current_item;
+    console.log("placehold changed");
     audio.play();
     pauseplay();        
 });
