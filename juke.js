@@ -533,11 +533,11 @@ function list_of_search_suggestions(jbx) {
 
 // changing track
 function change_track(jbx, gameindex, songindex) { 
-  $("#title").text(Object.keys(jbx)[gameindex]);
-  $("#music").text(Object.keys(jbx)[gameindex][songindex][0]);
+  $("#title").text(jbx[Object.keys(jbx)[gameindex]]);
+  $("#music").text(jbx[Object.keys(jbx)[gameindex]][songindex][0]);
   current_item = [gameindex, songindex];
   if (audio.duration === 0 || audio.paused) {
-      $("#songsource").attr("src", "song/" + Object.keys(jbx)[gameindex][songindex][1] + ".mp3");
+      $("#songsource").attr("src", "song/" + jbx[Object.keys(jbx)[gameindex]][songindex][1] + ".mp3");
       audio.load();
   };
   pauseplay();
@@ -547,7 +547,7 @@ function change_track(jbx, gameindex, songindex) {
 // changing track in background
 function change_track_in_background(jbx, gameindex, songindex) {
   if (audio.duration === 0 || audio.paused) {
-      $("#songsource").attr("src", "song/" + Object.keys(jbx)[gameindex][songindex][1] + ".mp3");
+      $("#songsource").attr("src", "song/" + jbx[Object.keys(jbx)[gameindex]][songindex][1] + ".mp3");
       audio.load();
   };
   pauseplay();
@@ -600,7 +600,8 @@ $("#buttonright").on("click", function() {
 // moving right between games
 $("#buttonright2").on("click", function() {
   current_item[0] = (current_item[0] + 1) % Object.keys(jukebox).length;
-  change_track(jukebox, current_item[0], 0);
+  current_item[1] = 0;
+  change_track(jukebox, current_item[0], current_item[1]);
   pauseplay();
 });
 
