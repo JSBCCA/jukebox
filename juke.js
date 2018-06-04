@@ -580,7 +580,7 @@ function findsearch(searched, jbx, curr_loc) {
         game = jbx[Object.keys(jbx)[gameindex]];
         for (trackindex in game) {
           if ($.inArray(searched, jbx[Object.keys(jbx)[gameindex]][trackindex]) !== -1) {
-            return [gameindex, $.inArray(searched, jbx[Object.keys(jbx)[gameindex]][trackindex])]
+            return [gameindex, trackindex];
           }; 
         };
       };
