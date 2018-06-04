@@ -569,19 +569,20 @@ function pauseplay() {
 // findsearch(searched item, jukebox, current location) finds [game, song] indices in jukebox
 function findsearch(searched, jbx, curr_loc) {
   var gameindex;
-  var gamename;
+  var game;
+  var trackindex;
   if ($.inArray(searched, Object.keys(jbx)) !== -1) {
     // if game in jukebox, return [game index, 0]
     return [$.inArray(searched, Object.keys(jbx)), 0];
   } else if ($.inArray(searched, list_of_search_suggestions(jbx)) !== -1) {
       // if song in jukebox, return [game index, song index]
-      for (gameindex in Object.keys(jbx)) { 
-        gamename = Object.keys(jbx)[gameindex];
-        if ($.inArray(searched, jbx[gamename]) !== -1) {
-          console.log("good");
-          return [gameindex, $.inArray(searched, jbx[gamename])]
-        }; 
-        console.log("wut");
+      for (gameindex in Object.keys(jbx)) {
+        game = jbx[Object.keys(jbx)[gameindex]];
+        for (trackindex in game) {
+          if ($.inArray(searched, jbx[game][trackindex]) !== -1) {
+            return [gameindex, $.inArray(searched, jbx[game][trackindex])]
+          }; 
+        };
       };
   } else { return curr_loc; }
 };
