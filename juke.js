@@ -1,4 +1,4 @@
-// new version of song list, 124 games, 255 songs
+// new version of song list, 130 games, 270 songs
 var jukebox = {
   "A Hat in Time": [
     ["Your Contract Has Expired", "contract"]
@@ -51,7 +51,11 @@ var jukebox = {
     ["Massive Explosion", "dissidia"]
   ],
   "Doki Doki Literature Club!": [
+    ["Okay, Everyone!", "ok_evone"],
     ["Your Reality", "ddlc_reality"]
+  ],
+  "Donkey Kong Country 2: Diddy\'s Kong Quest": [
+    ["Stickerbush Symphony", "stickerbush"]
   ],
   "Donkey Kong Country: Tropical Freeze": [
     ["Big Top Bop", "big_top"]
@@ -182,6 +186,7 @@ var jukebox = {
     ["Dearly Beloved (KHUX Ver.)", "khux"]
   ],
   "Kirby 64: The Crystal Shards": [
+    ["Pop Star", "popstar64"],
     ["Miracle Matter", "mira_matt"],
     ["Zero Two", "zerotwo"]
   ],
@@ -274,6 +279,12 @@ var jukebox = {
     ["Weird Autumn", "nitw_wa"],
     ["Fireflies on the Porch", "nitw_fotp"]
   ],
+  "OneShot": [
+    ["My Burden Is Light", "oneshot_burden"],
+    ["Some Place I Know", "oneshot_placeiknow"],
+    ["Phosphor", "oneshot_phosphor"],
+    ["Geothermal", "oneshot_geo"]
+  ],
   "Paper Mario: The Thousand Year Door": [
     ["Rogueport", "rogueport"],
     ["Battle Theme", "ttydbattle"],
@@ -307,27 +318,30 @@ var jukebox = {
     ["Still Alive", "still_alive"]
   ],
   "Shadow the Hedgehog": [
-    ["I am... All of Me", "i_am"],
-    ["Final Haunt", "final_haunt"],
-    ["Chosen One", "chosen_one"],
-    ["Never Turn Back", "never_turn"]
+    ["I am... All of Me", "i_am", "Shadow the Hedgehog"],
+    ["Final Haunt", "final_haunt", "Shadow the Hedgehog"],
+    ["Chosen One", "chosen_one", "Shadow the Hedgehog"],
+    ["Never Turn Back", "never_turn", "Shadow the Hedgehog"]
   ],
   "Shovel Knight": [
     ["Strike the Earth!", "strike_earth"]
   ],
-  "Sonic 3 & Knuckles": [
-    ["Doomsday Zone", "doomsday"]
+  "Sonic & Knuckles": [
+    ["Mushroom Hill Zone Act 1", "mushroom_andknuckles"]
   ],
   "Sonic Adventure": [
     ["Open Your Heart", "perfect_chaos"]
   ],
   "Sonic Adventure 2": [
-    ["Escape from the City", "escape"],
-    ["Supporting Me", "biolizard"],
+    ["Escape from the City", "escape", "Sonic Adventure 2"],
+    ["Supporting Me", "biolizard", "Sonic Adventure 2"],
     ["Live and Learn", "liveandlearn"]
   ],
   "Sonic and the Black Knight": [
     ["Knight of the Wind", "wind"]
+  ],
+  "Sonic CD": [
+    ["Sonic Boom", "sonicboomcd"]
   ],
   "Sonic Forces": [
     ["Fist Bump", "fist_bump"],
@@ -355,6 +369,9 @@ var jukebox = {
     ["Emerald Hill Zone", "emerald"],
     ["Chemical Plant Zone", "chemical"],
     ["Casino Night Zone (1P)", "casino"]
+  ],
+  "Sonic the Hedgehog 3 & Knuckles": [
+    ["Doomsday Zone", "doomsday"]
   ],
   "Sonic Unleashed": [
     ["Rooftop Run", "rooftop"],
@@ -414,9 +431,11 @@ var jukebox = {
     ["Meta Crystal", "metal_ssb"]
   ],
   "Super Smash Bros. Brawl": [
-    ["Main Theme (Luigi\'s Mansion)", "luigis_mansion"]
+    ["Main Theme (Luigi\'s Mansion)", "luigis_mansion"],
+    ["Bramble Blast", "bramble_brawl"]
   ],
   "Super Smash Bros. Melee": [
+    ["Brinstar (Melee)", "brinstar_melee"],
     ["Fountain of Dreams", "fountain_dreams_ssbm"],
     ["Fire Emblem", "melee_fe"]
   ],
@@ -428,6 +447,9 @@ var jukebox = {
   ],
   "The Legend of Zelda": [
     ["Main Theme (The Legend of Zelda)", "zelda_intro"]
+  ],
+  "The Legend of Zelda: A Link Between Worlds": [
+    ["Forest of Mystery", "mys_forest_albw"]
   ],
   "The Legend of Zelda: A Link to the Past": [
     ["The Dark World", "dark_world"]
@@ -453,6 +475,7 @@ var jukebox = {
   ],
   "The Legend of Zelda: Twilight Princess": [
     ["Hyrule Field", "hyrule_field"],
+    ["Hyrule Field Night", "night_hyrule_field"],
     ["Midna\'s Lament", "midna_lament"]
   ],
   "The Legend of Zelda: The Wind Waker": [
@@ -471,6 +494,10 @@ var jukebox = {
   "Touhou": [
     ["UN Owen Was Her?", "un_owen"],
     ["Necrofantasia", "necrof"]
+  ],
+  "Transistor": [
+    ["The Spine", "trans_spine"],
+    ["Coasting", "trans_coast"]
   ],
   "Undertale": [
     ["Your Best Friend", "best_friend"],
