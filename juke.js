@@ -501,7 +501,7 @@ var jukebox = {
   ],
   "Undertale": [
     ["Your Best Friend", "best_friend"],
-    ["Undertale", "undertale"],
+    ["Undertale (OST)", "undertale"],
     ["Heartache", "heartache"],
     ["sans.", "sans"],
     ["Snowdin Town", "snowdin"],
