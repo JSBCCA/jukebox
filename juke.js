@@ -245,7 +245,7 @@ var jukebox = {
   ],
   "Metal Gear Rising: Revengeance": [
     ["Rules of Nature (Platinum Mix)", "mgsr_rules"],
-    ["The Only Thing I Know for Real (Maniac Agenda Mix)", "mgsr_thingiknow"],
+    ["The Only Thing I Know for Real (M.A. Mix)", "mgsr_thingiknow"],
     ["The Stains of Time (Maniac Agenda Mix)", "mgsr_stains"],
     ["It Has to Be This Way (Platinum Mix)", "mgsr_hastobe"]
   ],
