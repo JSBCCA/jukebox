@@ -359,7 +359,7 @@ var jukebox = {
     ["Dilapidated Way", "sa1_undercasino"],
     ["Tornado Scramble", "sa1_skychase"],
     ["Sky Deck a Go Go", "sa1_skydeck"],
-    ["Mt. Red A Symbol of Thrill", "sa1_redmount"],
+    ["Mt. Red, A Symbol of Thrill", "sa1_redmount"],
     ["Red Hot Skull", "sa1_underredmount"],
     ["Mechanical Resonance", "sa1_egglevel"],
     ["Open Your Heart", "perfect_chaos"]
