@@ -406,13 +406,13 @@ var jukebox = {
     ["Green Hill Zone", "green_hill"]
   ],
   "Sonic the Hedgehog (2006)": [
-    ["Wave Ocean (The Waters Edge)", "s06_waveedge"],
-    ["Wave Ocean (The Inlet)", "s06_waveinlet"],
+    ["Wave Ocean - The Waters Edge", "s06_waveedge"],
+    ["Wave Ocean - The Inlet", "s06_waveinlet"],
     ["Crisis City - The Flame", "crisis"],
-    ["Crisis City (Skyscraper)", "s06_crisis_skyscraper"],
-    ["Aquatic Base (Level 1)", "s06_aquabase"],
-    ["Kingdom Valley (The Wind)", "s06_kvwind"],
-    ["Kingdom Valley (Water)", "s06_kvwater"],
+    ["Crisis City - Skyscraper", "s06_crisis_skyscraper"],
+    ["Aquatic Base - Level 1", "s06_aquabase"],
+    ["Kingdom Valley - The Wind", "s06_kvwind"],
+    ["Kingdom Valley - Water", "s06_kvwater"],
     ["Mephiles", "s06_mephiles"],
     ["Solaris Phase 2", "solaris"]
   ],
