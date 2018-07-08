@@ -367,9 +367,9 @@ var jukebox = {
   "Sonic Adventure 2": [
     ["Escape from the City", "escape", "Sonic Adventure 2"],
     ["Vengeance is Mine", "sa2_radhigh"],
-    ["That'\s the Way I Like It", "sa2_metalharbor"],
-    ["Won'\t Stop, Just Go", "sa2_greenforest"],
-    ["A Ghost'\s Pumpkin Soup", "sa2_pumpkin"],
+    ["That\'s the Way I Like It", "sa2_metalharbor"],
+    ["Won\'t Stop, Just Go", "sa2_greenforest"],
+    ["A Ghost\'s Pumpkin Soup", "sa2_pumpkin"],
     ["Masters of the Desert", "sa2_desert"],
     ["Supporting Me", "biolizard", "Sonic Adventure 2"],
     ["Live and Learn", "liveandlearn"]
@@ -796,3 +796,5 @@ $("#songsearch").autocomplete({source: list_of_search_suggestions(jukebox)});
 // audio title box shouldn't change size or shape, keep buttons in place (on mobile)
 
 // searching song then going right instead of left resets position
+
+// play button no longer remains pause when shifting through songs
