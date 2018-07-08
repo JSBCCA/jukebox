@@ -1,4 +1,4 @@
-// new version of song list, 130 games, 270 songs
+// new version of song list, 136 games, 311 songs
 var jukebox = {
   "A Hat in Time": [
     ["Your Contract Has Expired", "contract"]
@@ -46,6 +46,9 @@ var jukebox = {
   ],
   "Devil May Cry 3": [
     ["Devils Never Cry", "devilsnevercry"]
+  ],
+  "Devil May Cry 4": [
+    ["Shall Never Surrender", "dmc4_surrender"],
   ],
   "DISSIDIA FINAL FANTASY -Arcade-": [
     ["Massive Explosion", "dissidia"]
@@ -240,6 +243,21 @@ var jukebox = {
   "Mega Man 2": [
     ["Dr. Wily\'s Castle: Stage 1", "wily"]
   ],
+  "Metal Gear Rising: Revengeance": [
+    ["Rules of Nature (Platinum Mix)", "mgsr_rules"],
+    ["The Only Thing I Know for Real (Maniac Agenda Mix)", "mgsr_thingiknow"],
+    ["The Stains of Time (Maniac Agenda Mix)", "mgsr_stains"],
+    ["It Has to Be This Way (Platinum Mix)", "mgsr_hastobe"]
+  ],
+  "Metal Gear Solid 3: Snake Eater": [
+    ["Snake Eater", "mgs3_se"]
+  ],
+  "Metal Gear Solid: Portable Ops": [
+    ["Calling to the Night", "mgspo_calling"]
+  ],
+  "Metal Gear Solid V: The Phantom Pain": [
+    ["Sins of the Father", "mgsv_sins"]
+  ],
   "Metroid": [
     ["Brinstar", "brinstar"]
   ],
@@ -319,6 +337,7 @@ var jukebox = {
   ],
   "Shadow the Hedgehog": [
     ["I am... All of Me", "i_am", "Shadow the Hedgehog"],
+    ["Westopolis", "shadow_westopolis"],
     ["Final Haunt", "final_haunt", "Shadow the Hedgehog"],
     ["Chosen One", "chosen_one", "Shadow the Hedgehog"],
     ["Never Turn Back", "never_turn", "Shadow the Hedgehog"]
@@ -330,10 +349,28 @@ var jukebox = {
     ["Mushroom Hill Zone Act 1", "mushroom_andknuckles"]
   ],
   "Sonic Adventure": [
+    ["It Doesn\'t Matter (SA1)", "sa1_sonictheme"],
+    ["Believe in Myself", "sa1_tailstheme"],
+    ["My Sweet Passion", "sa1_amytheme"],
+    ["Welcome to Station Square", "sa1_stasquare"],
+    ["Azure Blue World", "sa1_emcoast"],
+    ["Run Through the Speed Highway", "sa1_speedhigh"],
+    ["The Dreamy Stage", "sa1_casino"],
+    ["Dilapidated Way", "sa1_undercasino"],
+    ["Tornado Scramble", "sa1_skychase"],
+    ["Sky Deck a Go Go", "sa1_skydeck"],
+    ["Mt. Red A Symbol of Thrill", "sa1_redmount"],
+    ["Red Hot Skull", "sa1_underredmount"],
+    ["Mechanical Resonance", "sa1_egglevel"],
     ["Open Your Heart", "perfect_chaos"]
   ],
   "Sonic Adventure 2": [
     ["Escape from the City", "escape", "Sonic Adventure 2"],
+    ["Vengeance is Mine", "sa2_radhigh"],
+    ["That'\s the Way I Like It", "sa2_metalharbor"],
+    ["Won'\t Stop, Just Go", "sa2_greenforest"],
+    ["A Ghost'\s Pumpkin Soup", "sa2_pumpkin"],
+    ["Masters of the Desert", "sa2_desert"],
     ["Supporting Me", "biolizard", "Sonic Adventure 2"],
     ["Live and Learn", "liveandlearn"]
   ],
@@ -342,6 +379,13 @@ var jukebox = {
   ],
   "Sonic CD": [
     ["Sonic Boom", "sonicboomcd"]
+  ],
+  "Sonic Colors": [
+    ["Reach for the Stars", "colors_stars"],
+    ["Planet Wisp (Act 1)", "colors_wisp"],
+    ["Aquarium Park (Act 1)", "colors_aqua"],
+    ["Terminal Velocity (Act 1)", "colors_termvelo"],
+    ["Vs. Nega-Wisp Armor (Phase 2)", "colors_nega2"]
   ],
   "Sonic Forces": [
     ["Fist Bump", "fist_bump"],
@@ -362,7 +406,14 @@ var jukebox = {
     ["Green Hill Zone", "green_hill"]
   ],
   "Sonic the Hedgehog (2006)": [
-    ["Crisis City - The Flame", "crisis"], 
+    ["Wave Ocean (The Waters Edge)", "s06_waveedge"],
+    ["Wave Ocean (The Inlet)", "s06_waveinlet"],
+    ["Crisis City - The Flame", "crisis"],
+    ["Crisis City (Skyscraper)", "s06_crisis_skyscraper"],
+    ["Aquatic Base (Level 1)", "s06_aquabase"],
+    ["Kingdom Valley (The Wind)", "s06_kvwind"],
+    ["Kingdom Valley (Water)", "s06_kvwater"],
+    ["Mephiles", "s06_mephiles"],
     ["Solaris Phase 2", "solaris"]
   ],
   "Sonic the Hedgehog 2": [
@@ -432,7 +483,9 @@ var jukebox = {
   ],
   "Super Smash Bros. Brawl": [
     ["Main Theme (Luigi\'s Mansion)", "luigis_mansion"],
-    ["Bramble Blast", "bramble_brawl"]
+    ["Bramble Blast", "bramble_brawl"],
+    ["Encounter", "ssbb_mgencounter"],
+    ["Theme of Tara", "ssbb_mgtara"]
   ],
   "Super Smash Bros. Melee": [
     ["Brinstar (Melee)", "brinstar_melee"],
@@ -501,7 +554,7 @@ var jukebox = {
   ],
   "Undertale": [
     ["Your Best Friend", "best_friend"],
-    ["Undertale (OST)", "undertale"],
+    ["Undertale", "undertale"],
     ["Heartache", "heartache"],
     ["sans.", "sans"],
     ["Snowdin Town", "snowdin"],
@@ -737,34 +790,9 @@ $("#songsearch").autocomplete({source: list_of_search_suggestions(jukebox)});
 
 // notes & suggestions:
 
-// placehold[0] changes once for seemingly no reason
 // changing song src won't work if you switch songs while first song isn't paused, then pause, then play (change_track: audio.paused)
 // clicking second play on a second song while first song is playing shouldn't change button (change_track: audio.paused)
 
 // audio title box shouldn't change size or shape, keep buttons in place (on mobile)
 
-// songs to add:
-// stickerbrush symphony
-// kirby 64 popstar
-// sonic boom
-// mushroom hill
-// welcome to station square
-// emerald coast
-// casinopolis
-// red mountain - red hot skull
-// speed highway
-// tornado (plane) theme
-// sky deck
-// green forest
-// metal harbor
-// radical highway
-// pumpkin hill
-// wave ocean waters edge
-// white acropolis snowy peak
-// sonic colors planet wisp
-// aquarium park
-// sonic colors terminal velocity
-// sonic colors final boss
-// crisis city classic
-// metal gear
-// more doki doki, a background theme
+// searching song then going right instead of left resets position
