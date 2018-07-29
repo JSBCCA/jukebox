@@ -1,4 +1,4 @@
-// new version of song list, 136 games, 311 songs
+// new version of song list, 138 games, 316 songs
 var jukebox = {
   "A Hat in Time": [
     ["Your Contract Has Expired", "contract"]
@@ -190,6 +190,8 @@ var jukebox = {
   ],
   "Kirby 64: The Crystal Shards": [
     ["Pop Star", "popstar64"],
+    ["Rock Star", "kcs_rock"],
+    ["Factory Inspection", "kcs_fi"],
     ["Miracle Matter", "mira_matt"],
     ["Zero Two", "zerotwo"]
   ],
@@ -197,6 +199,9 @@ var jukebox = {
     ["VS Star Dream", "stardream"],
     ["Virtual Space Manipulator", "star_dream_vsp"],
     ["P-R-O-G-R-A-M", "program"]
+  ],
+  "Kirby Star Allies": [
+    ["Planet Popstar", "ksa_pop"]
   ],
   "Kirby Super Star": [
     ["King Dedede\'s Theme", "king_dedede"],
@@ -314,6 +319,9 @@ var jukebox = {
   ],
   "Persona 3": [
     ["Battle for Everyone\'s Souls", "persona3"]
+  ],
+  "Persona 5": [
+    ["Last Suprise", "p5_ls"]
   ],
   "Plants vs Zombies": [
     ["Dr. Zomboss", "pvz"],
@@ -509,6 +517,7 @@ var jukebox = {
   ],
   "The Legend of Zelda: Breath of the Wild": [
     ["Main Theme (Breath of the Wild)", "breath_wild"],
+    ["Rito Village (Day)", "botw_rvd"],
     ["Hyrule Castle (Outside w/ enemies)", "botw_castle"],
     ["The Divine Trial (Final Battle)", "botw_divine"]
   ],
