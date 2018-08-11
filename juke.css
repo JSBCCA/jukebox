@@ -125,7 +125,7 @@ ul.ui-autocomplete {
   }
 }
 
-@media only screen and (max-device-width: 800px) {
+@media screen and (max-device-width: 800px) {
     body { 
         background-size: cover; 
     }
