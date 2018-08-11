@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <link href="juke.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <link rel='shortcut icon' href='note.png'/>
     <title>Video Game Jukebox</title>
   </head>
@@ -16,12 +17,24 @@
         <source id="songsource" src="song/contract.mp3" type="audio/mpeg"/>
       </audio>
       <div id="buttonsdiv">
-        <button id="buttonleft2"><<</button>
-        <button id="buttonleft">< Back</button>
-        <button id="play">Play</button>
-        <button id="pause">Pause</button>
-        <button id="buttonright">Next ></button>
-        <button id="buttonright2">>></button>
+        <button id="buttonleft2">
+            <i class="fa fa-fast-backward" aria-hidden="true"></i>
+        </button>
+        <button id="buttonleft">
+            <i class="fa fa-step-backward" aria-hidden="true"></i>
+        </button>
+        <button id="play">
+            <i class="fa fa-play" aria-hidden="true"></i>
+        </button>
+        <button id="pause">
+            <i class="fa fa-pause" aria-hidden="true"></i>
+        </button>
+        <button id="buttonright">
+            <i class="fa fa-step-forward" aria-hidden="true"></i>
+            </button>
+        <button id="buttonright2">
+            <i class="fa fa-fast-forward" aria-hidden="true"></i>
+        </button>
       </div>
       <div id="loop_div">
         <button id="loop_switch">Loop Song: On</button>
@@ -29,6 +42,7 @@
       <div id"songsearch_div">
         <form id="songsearch_form">
           <input type="text" id="songsearch" placeholder="Search for a Game or Song..."/>
+          <button type="submit" id="songsearchsubmit"><i class="fa fa-search"></i></button>
         </form>
       </div>
     </center>
