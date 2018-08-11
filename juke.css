@@ -61,11 +61,15 @@ audio {
 }
 
 #songsearch {
-  width: 99%;
+  width: 80%;
   border-style: solid;
   border-color: rgb(28, 173, 245);
   border-width: 1px;
   padding-left: 1%;
+}
+
+#songsearchsubmit {
+  width: 20%
 }
 
 #topdiv {
@@ -74,6 +78,10 @@ audio {
 
 #songsearch_form {
   padding: 3%;
+}
+
+.button {
+  cursor: pointer;
 }
 
 ul.ui-autocomplete {
