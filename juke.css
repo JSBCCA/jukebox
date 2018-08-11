@@ -119,13 +119,13 @@ ul.ui-autocomplete {
   display:none; 
 }
 
-@media screen and (max-device-width: 1060px) {
+@media screen and (max-width: 1060px) {
   #outerdiv {
     margin: 0% 22% 0% 22%;
   }
 }
 
-@media screen and (max-device-width: 800px) {
+@media screen and (max-width: 800px) {
     body { 
         background-size: cover; 
     }
