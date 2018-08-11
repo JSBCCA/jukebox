@@ -61,10 +61,6 @@ audio {
   content: "\f021";
 }
 
-#noloop::before {
-  content: "\f178";
-}
-
 #songsearch {
   width: 85%;
   border-style: solid;
