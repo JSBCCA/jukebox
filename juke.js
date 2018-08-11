@@ -746,10 +746,12 @@ $('#loop_switch').on("click", function() {
   if (audio.loop === true) {
     audio.loop = false;
     $('#loop_switch').html('<i id="noloop" class="fa fa-long-arrow-right" aria-hidden="true"></i>');
+    $("noloop::before").css("content", "\f178");
   }
   else if (audio.loop === false) {
     audio.loop = true;
     $('#loop_switch').html('<i id="loopbutton" class="fa fa-refresh" aria-hidden="true"></i>');
+    $("loopbutton::before").css("content", "\f021");
   }
 });
 
