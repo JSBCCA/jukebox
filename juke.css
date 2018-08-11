@@ -125,7 +125,7 @@ ul.ui-autocomplete {
   }
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 1000px) {
     body { 
         background-size: contain; 
     }
