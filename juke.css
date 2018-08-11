@@ -10,6 +10,7 @@ body {
 
 button {
   font-size: 200%;
+  cursor: pointer;
 }
 
 div {
@@ -56,6 +57,14 @@ audio {
   padding: 1% 0% 1% 0%;
 }
 
+#loopbutton::before {
+  content: "\f021";
+}
+
+#noloop::before {
+  content: "\f178";
+}
+
 #songsearch {
   width: 85%;
   border-style: solid;
@@ -75,10 +84,6 @@ audio {
 
 #songsearch_form {
   padding: 2%;
-}
-
-.button {
-  cursor: pointer;
 }
 
 ul.ui-autocomplete {
