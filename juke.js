@@ -745,11 +745,11 @@ $("#pause").on("click", function() {
 $('#loop_switch').on("click", function() {
   if (audio.loop === true) {
     audio.loop = false;
-    $('#loop_switch').html('<i class="fa fa-long-arrow-right" aria-hidden="true"></i>');
+    $('#loop_switch').html('<i id="noloop" class="fa fa-long-arrow-right" aria-hidden="true"></i>');
   }
   else if (audio.loop === false) {
     audio.loop = true;
-    $('#loop_switch').html('<i class="fa fa-refresh" aria-hidden="true"></i>');
+    $('#loop_switch').html('<i id="loopbutton" class="fa fa-refresh" aria-hidden="true"></i>');
   }
 });
 
