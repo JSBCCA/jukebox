@@ -745,8 +745,8 @@ $("#pause").on("click", function() {
 $('#loop_switch').on("click", function() {
   if (audio.loop === true) {
     audio.loop = false;
-    $('#loop_switch').html('<i id="noloop" class="fa fa-long-arrow-right" aria-hidden="true"></i>');
-    $("noloop::before").css("content", "\f178");
+    $('#loop_switch').html('<i id="noloop" class="fas fa-redo"></i>');
+    $("noloop::before").css("content", "\f01e");
   }
   else if (audio.loop === false) {
     audio.loop = true;
