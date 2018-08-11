@@ -4,7 +4,7 @@ body {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-color: black;
 }
@@ -125,8 +125,8 @@ ul.ui-autocomplete {
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (min-width: 800px) {
     body { 
-        background-size: cover; 
+        background-size: contain; 
     }
 }
