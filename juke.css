@@ -1,132 +1,133 @@
 body {
-  margin-top: 1%;
-  background: url("mario_bg.jpg") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-color: black;
-}
-
-button {
-  font-size: 200%;
-  cursor: pointer;
-}
-
-div {
-  border-style: solid;
-  border-width: thin;
-  border-color: black;
-  margin: 0% 30% 0% 30%;
-  background-color: white;
-}
-
-#music {
-  font-size: 200%;
-  padding: 0%;
-  margin-top: 2%;
-  margin-bottom: 0%;
-  background-color: white;
-}
-
-#title {
-  border-style: solid;
-  border-width: thin;
-  border-color: black;
-  font-size: 150%;
-  padding: 0%;
-  margin-top: 0%;
-  margin-bottom: 0%;
-}
-
-audio {
-  display: block;
-  width: 40%;
-  background-color: white;
-}
-
-#play {
-  display: inline-block;
-}
-
-#pause {
-  display: none;
-}
-
-#buttonsdiv {
-  margin: 0% 30% 0% 30%;
-  padding: 1% 0% 1% 0%;
-}
-
-#loopbutton::before {
-  content: "\f021";
-}
-
-#noloop::before {
-  content: "\f01e";
-}
-
-#songsearch {
-  width: 85%;
-  border-style: solid;
-  border-color: rgb(28, 173, 245);
-  border-width: 1px;
-  padding-left: 1%;
-}
-
-#songsearchsubmit {
-  font-size: 100%;
-  width: 10%
-}
-
-#topdiv {
-  padding: 2% 2% 1% 2%;
-}
-
-#songsearch_form {
-  padding: 2%;
-}
-
-ul.ui-autocomplete {
-  max-height: 200px;
-  overflow-y: auto;
-  overflow-x: hidden;
-  list-style: none;
-  list-style-type: none;
-  padding: 0px;
-  position:absolute;
-  border-style: solid;
-  border-width: thin;
-  border-color: rgb(28, 173, 245);
-}
-
-.ui-menu-item-wrapper {
-  margin: 0px;
-  border-style: none;
-  font-weight: 500;
-  cursor: pointer;
-  padding-left: 5px;
-}
-
-.ui-menu-item-wrapper:hover {
-  border-style: solid;
-  border-width: thin;
-  border-color: rgb(192, 192, 192);
-}
-
-.ui-helper-hidden-accessible { 
-  display:none; 
-}
-
-@media screen and (max-width: 1060px) {
-  #outerdiv {
-    margin: 0% 22% 0% 22%;
+    margin-top: 1%;
+    background: no-repeat center center fixed;
+    background-image: url("mario_bg.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
   }
-}
-
-@media screen and (min-width: 1000px) {
-    body { 
-        background-size: contain; 
+  
+  button {
+    font-size: 200%;
+    cursor: pointer;
+  }
+  
+  div {
+    border-style: solid;
+    border-width: thin;
+    border-color: black;
+    margin: 0% 30% 0% 30%;
+    background-color: white;
+  }
+  
+  #music {
+    font-size: 200%;
+    padding: 0%;
+    margin-top: 2%;
+    margin-bottom: 0%;
+    background-color: white;
+  }
+  
+  #title {
+    border-style: solid;
+    border-width: thin;
+    border-color: black;
+    font-size: 150%;
+    padding: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+  }
+  
+  audio {
+    display: block;
+    width: 40%;
+    background-color: white;
+  }
+  
+  #play {
+    display: inline-block;
+  }
+  
+  #pause {
+    display: none;
+  }
+  
+  #buttonsdiv {
+    margin: 0% 30% 0% 30%;
+    padding: 1% 0% 1% 0%;
+  }
+  
+  #loopbutton::before {
+    content: "\f021";
+  }
+  
+  #noloop::before {
+    content: "\f01e";
+  }
+  
+  #songsearch {
+    width: 85%;
+    border-style: solid;
+    border-color: rgb(28, 173, 245);
+    border-width: 1px;
+    padding-left: 1%;
+  }
+  
+  #songsearchsubmit {
+    font-size: 100%;
+    width: 10%
+  }
+  
+  #topdiv {
+    padding: 2% 2% 1% 2%;
+  }
+  
+  #songsearch_form {
+    padding: 2%;
+  }
+  
+  ul.ui-autocomplete {
+    max-height: 200px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    list-style: none;
+    list-style-type: none;
+    padding: 0px;
+    position:absolute;
+    border-style: solid;
+    border-width: thin;
+    border-color: rgb(28, 173, 245);
+  }
+  
+  .ui-menu-item-wrapper {
+    margin: 0px;
+    border-style: none;
+    font-weight: 500;
+    cursor: pointer;
+    padding-left: 5px;
+  }
+  
+  .ui-menu-item-wrapper:hover {
+    border-style: solid;
+    border-width: thin;
+    border-color: rgb(192, 192, 192);
+  }
+  
+  .ui-helper-hidden-accessible { 
+    display:none; 
+  }
+  
+  @media screen and (max-width: 1060px) {
+    #outerdiv {
+      margin: 0% 22% 0% 22%;
     }
-}
+  }
+  
+  @media screen and (min-width: 1000px) {
+      body { 
+          background-size: contain; 
+      }
+  }
