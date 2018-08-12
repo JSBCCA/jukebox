@@ -668,12 +668,10 @@ function pauseplay() {
   if (audio.duration > 0 && current_item === placehold && !audio.paused) {
     $('#pause').css('display', 'inline-block');
     $('#play').css('display', 'none');
-    console.log("playing");
   }
   else {
     $('#pause').css('display', 'none');
     $('#play').css('display', 'inline-block');
-    console.log("paused");
   };
 };
 
@@ -754,13 +752,13 @@ $("#play").on("click", function() {
     }
     placehold = current_item;
     audio.play();
-    pauseplay();        
+    pauseplay();
 });
 
 // pausing
 $("#pause").on("click", function() {
     audio.pause();
-    pauseplay();        
+    pauseplay();
 });
 
 // loop switch
@@ -798,6 +796,7 @@ $('audio').on("ended", function() {
 // should change big play to pause if second play was pressed
 $('audio').on("play", function() {
   pauseplay();
+  console.log("playing");
 });
 
 // if loop is on and you're on the audio that is playing
@@ -808,6 +807,7 @@ $('audio').on("playing", function() {
 // clicking second pause button should change first pause to play
 $('audio').on("pause", function() {
   pauseplay();
+  console.log("paused");
 });
 
 // searchbar submit
