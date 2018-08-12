@@ -818,7 +818,7 @@ $('audio').on("pause", function() {
 var rand_bg;
 $("#bg_changer").click(function(){
   rand_bg = bg_choices[Math.floor(Math.random() * bg_choices.length)];
-  $("body").css("background", "url(" + rand_bg + ") no-repeat center center fixed");
+  $("body").css("background-image", "url(" + rand_bg + ")");
 });
 
 // searchbar submit
@@ -830,7 +830,6 @@ return change_track(jukebox, jbx_indices[0], jbx_indices[1]);
 
 // autocomplete
 $("#songsearch").autocomplete({source: list_of_search_suggestions(jukebox)});
-
 
 // notes & suggestions:
 
