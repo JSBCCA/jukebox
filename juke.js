@@ -665,7 +665,7 @@ function change_track_in_background(jbx, gameindex, songindex) {
 
 // changing pause to play
 function pauseplay() {
-  if (current_item === placehold && !audio.paused) {
+  if (audio.duration > 0 && current_item === placehold && !audio.paused) {
     $('#pause').css('display', 'inline-block');
     $('#play').css('display', 'none');
   }
