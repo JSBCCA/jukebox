@@ -38,17 +38,17 @@ var jukebox = {
       ["A Brotherhood of Heroes", "cod_boh"]
     ],
     "Castlevania": [
-      ["cv_vk", "Vampire Killer (Stage 1)"],
-      ["cv_ot", "Out of Time (Stage 6)"]
+      ["Vampire Killer (Stage 1)", "cv_vk"],
+      ["Out of Time (Stage 6)", "cv_ot"]
     ],
     "Castlevania 2: Simon\'s Quest": [
-      ["cv2_bt", "Bloody Tears"]
+      ["Bloody Tears", "cv2_bt"]
     ],
     "Castlevania: Harmony of Despair": [
-      ["cvhd_vkr", "Vampire Killer (Remix)"]
+      ["Vampire Killer (Remix)", "cvhd_vkr"]
     ],
     "Castlevania: Judgement": [
-      ["cvj_bt", "Bloody Tears (Carmilla\'s Theme)"]
+      ["Bloody Tears (Carmilla\'s Theme)", "cvj_bt"]
     ],
     "Cave Story+": [
       ["Last Battle", "cave_story"]
