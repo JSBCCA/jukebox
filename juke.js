@@ -668,10 +668,12 @@ function pauseplay() {
   if (audio.duration > 0 && current_item === placehold && !audio.paused) {
     $('#pause').css('display', 'inline-block');
     $('#play').css('display', 'none');
+    console.log("playing");
   }
   else {
     $('#pause').css('display', 'none');
     $('#play').css('display', 'inline-block');
+    console.log("paused");
   };
 };
 
