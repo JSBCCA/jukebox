@@ -818,7 +818,7 @@ $('audio').on("pause", function() {
 var rand_bg;
 $("#bg_changer").click(function(){
   rand_bg = bg_choices[Math.floor(Math.random() * bg_choices.length)];
-  $("body").css("background-image", "url(/bgs/" + rand_bg + ")");
+  $("body").css("background-image", "url(bgs/" + rand_bg + ")");
 });
 
 // searchbar submit
