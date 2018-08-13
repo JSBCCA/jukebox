@@ -620,7 +620,9 @@ var bg_choices = [
   "p5_bg.jpg",
   "kh2_bg.jpg",
   "dmc4_bg.jpg",
-  "botw_bg.jpg"
+  "botw_bg.jpg",
+  "ac2_bg.jpg",
+  "ut_bg.jpg"
 ];
 
 // searchbar
