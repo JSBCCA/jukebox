@@ -1,4 +1,4 @@
-// new version of song list, 144 games, 324 songs
+// new version of song list, 147 games, 331 songs
 var jukebox = {
   "A Hat in Time": [
     ["Your Contract Has Expired", "contract"]
@@ -49,6 +49,9 @@ var jukebox = {
   ],
   "Castlevania: Judgement": [
     ["Bloody Tears (Carmilla\'s Theme)", "cvj_bt"]
+  ],
+  "Castlevania: Portrait of Ruin": [
+    ["Hail from the Past", "cvpr_hftp"]
   ],
   "Cave Story+": [
     ["Last Battle", "cave_story"]
@@ -457,7 +460,11 @@ var jukebox = {
     ["Perfect Dark Gaia Phase 2", "dark_gaia"]
   ],
   "Splatoon": [
-    ["Splattack!", "splattack"]
+    ["Splattack!", "splattack"],
+    ["Ink or Sink", "splatoon_ios"]
+  ],
+  "Splatoon 2": [
+    ["Spicy Calamari Inkantation", "splatoon2_sci"]
   ],
   "Spyro the Dragon": [
     ["Title Screen", "spyro_title"]
@@ -491,7 +498,9 @@ var jukebox = {
     ["Ricco Harbor", "ricco_harbor"]
   ],
   "Super Mario World": [
-    ["Overworld", "smw_ow"]
+    ["Overworld", "smw_ow"],
+    ["Athletic Theme", "smw_at"],
+    ["Castle", "smw_castle"]
   ],
   "Super Meat Boy": [
     ["Hot Damned", "meatboy"]
@@ -554,6 +563,10 @@ var jukebox = {
     ["Ballad of the Goddess", "ballad"],
     ["Skyloft", "skyloft"],
     ["Fi\'s Theme", "fi"]
+  ],
+  "The Legend of Zelda: Spirit Tracks": [
+    ["Realm Overworld", "lozst_ro"],
+    ["Link & Zelda\'s Duet", "lozst_duet"]
   ],
   "The Legend of Zelda: Twilight Princess": [
     ["Hyrule Field", "hyrule_field"],
