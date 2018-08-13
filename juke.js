@@ -616,7 +616,11 @@ var jukebox = {
 
 var bg_choices = [
   "mario_bg.jpg",
-  "sonic_bg.jpg"
+  "sonic_bg.jpg",
+  "p5_bg.jpg",
+  "kh2_bg.jpg",
+  "dmc4_bg.jpg",
+  "botw_bg.jpg"
 ];
 
 // searchbar
