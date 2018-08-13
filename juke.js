@@ -637,7 +637,17 @@ var bg_choices = [
   "ac2_bg.jpg",
   "nier_bg.jpg",
   "ut_bg.png",
-  "kirby_bg.jpg"
+  "kirby_bg.jpg",
+  "fea_bg.jpg",
+  "gow_bg.jpg",
+  "h2_bg.jpg",
+  "hit_bg.png",
+  "mc_bg.jpg",
+  "msr_bg.jpg",
+  "nitw_bg.png",
+  "pm_bg.png",
+  "psm_bg.png",
+  "ssbm_bg.jpg"
 ];
 
 // searchbar
