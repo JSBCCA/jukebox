@@ -872,3 +872,5 @@ $("#songsearch").autocomplete({source: list_of_search_suggestions(jukebox)});
 // searching song then going right instead of left resets position
 
 // play button no longer remains pause when shifting through songs
+
+// searchbar slowdown after playing multiple songs
