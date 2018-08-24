@@ -1,4 +1,4 @@
-// new version of song list, 147 games, 331 songs
+// new version of song list, 147 games, 332 songs
 var jukebox = {
   "A Hat in Time": [
     ["Your Contract Has Expired", "contract"]
@@ -388,6 +388,7 @@ var jukebox = {
     ["Run Through the Speed Highway", "sa1_speedhigh"],
     ["The Dreamy Stage", "sa1_casino"],
     ["Dilapidated Way", "sa1_undercasino"],
+    ["Be Cool, Be Wild and Be Groovy", "sa1_ice"],
     ["Tornado Scramble", "sa1_skychase"],
     ["Sky Deck a Go Go", "sa1_skydeck"],
     ["Mt. Red, A Symbol of Thrill", "sa1_redmount"],
