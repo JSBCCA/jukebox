@@ -3,6 +3,9 @@ var jukebox = {
   "A Hat in Time": [
     ["Your Contract Has Expired", "contract"]
   ],
+  "Adventure Time: Hey Ice King! WYSOG?!!": [
+    ["Title (Adventure Time)", "adv_time_main"]
+  ],
   "Animal Crossing": [
     ["Title (Animal Crossing)", "an_cross"]
   ],
